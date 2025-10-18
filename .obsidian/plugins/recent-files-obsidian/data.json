@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Identifier",
+      "path": "06 - Stuff/Identifier.md"
+    },
+    {
       "basename": "20251018",
       "path": "01 - Daily/20251018.md"
+    },
+    {
+      "basename": "🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD",
+      "path": "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md"
+    },
+    {
+      "basename": "📦DSW 📝NOT 03 Principios SOLID",
+      "path": "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md"
+    },
+    {
+      "basename": "🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico",
+      "path": "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md"
     },
     {
       "basename": "💾 Estructuras de Datos",
@@ -11,10 +27,6 @@
     {
       "basename": "🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual",
       "path": "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md"
-    },
-    {
-      "basename": "Identifier",
-      "path": "06 - Stuff/Identifier.md"
     },
     {
       "basename": "🎨IHC 📝TAR 02 Métodos de Investigación de Usuario",
@@ -65,14 +77,6 @@
       "path": "05 - Resources/📊EST 🏫MPR 01 Estadística Descriptiva.pdf"
     },
     {
-      "basename": "🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico",
-      "path": "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md"
-    },
-    {
-      "basename": "📦DSW 📝NOT 03 Principios SOLID",
-      "path": "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md"
-    },
-    {
       "basename": "📦DSW 📝NOT 02 Paradigmas de Diseño",
       "path": "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "🎨IHC 📝NOT 02 Diseño Centrado en las Personas",
       "path": "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md"
-    },
-    {
-      "basename": "🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD",
-      "path": "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md"
     },
     {
       "basename": "🎨IHC 📚LIB 01 Interaction Design Beyond Human-Computer Interaction",

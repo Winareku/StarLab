@@ -1,5 +1,207 @@
 {
-  "main": {},
-  "active": "",
-  "lastOpenFiles": []
+  "main": {
+    "id": "d674f75559c0dfcc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cab76801a268c38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a5317cec2734f43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 - Stuff/Identifier.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Identifier"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3dfcb8b7579d7649",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "bebee893cb95ab2d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "cdf2d6222c44e374",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "de761de6e023f2ab",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "ac49010b033bc968",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "a8e096a22609f89b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "937179be023b1de1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "82e08e34d9c0a5cf",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "06 - Stuff/Identifier.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "3f3efca80fd27f8d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "06 - Stuff/Identifier.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "c064e9b22c173ca7",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "06 - Stuff/Identifier.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "018b6204e8e42c51",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      },
+      {
+        "id": "561474897e3e8e54",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      }
+    ],
+    "currentTab": 4
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "bases:Create new base": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false
+    }
+  },
+  "active": "6a5317cec2734f43",
+  "lastOpenFiles": [
+    "01 - Daily/20251018.md",
+    "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
+    "06 - Stuff/Identifier.md",
+    "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
+    "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md"
+  ]
 }

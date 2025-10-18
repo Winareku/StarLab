@@ -1,13 +1,13 @@
 # SISTEMA DE IDENTIFICACIÓN DE ARCHIVOS
 ## MATERIAS
 
-| **Nombre**                    | **Tag**                                                          | **Copy** |
-| ----------------------------- | ---------------------------------------------------------------- | -------- |
-| Estadística                   | #📊EST           | 📊EST    |
-| Interacción Humano Computador | #🎨IHC           | 🎨IHC    |
-| Sistema de Bases de Datos     | #🗃️SBD           | 🗃️SBD    |
-| Estructuras de Datos          | #💾EDD           | 💾EDD    |
-| Diseño de Software            | #📦DSW           | 📦DSW    |
+| **Nombre**           | **Tag** | **Copy** |
+| -------------------- | ------- | -------- |
+| Estadística          | #📊EST  | 📊EST    |
+| Interacción H-C      | #🎨IHC  | 🎨IHC    |
+| Bases de Datos       | #🗃️SBD | 🗃️SBD   |
+| Estructuras de Datos | #💾EDD  | 💾EDD    |
+| Diseño de Software   | #📦DSW  | 📦DSW    |
 ## TIPOS DE ARCHIVO
 
 | **Nombre**        | **Tag**                                                | **Copy** |
