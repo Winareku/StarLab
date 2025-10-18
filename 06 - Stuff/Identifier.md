@@ -26,7 +26,7 @@
 | ---------------- | ------------- |
 | #❎TODO         | #✅DONE      |
 ## PLANTILLA PARA NOMBRAR ARCHIVOS
-> 📊EST5 👨‍🏫MPR 01 "Estadística"
+> 📊EST5 👨‍🏫MPR 01 "Estadística Descriptiva"
 
 ## PLANTILLA PARA CALLOUTS
 
