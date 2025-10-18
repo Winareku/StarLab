@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9959f55758943bbf",
+        "id": "fde7181d9fc60556",
         "type": "tabs",
         "children": [
           {
-            "id": "614ffd09e8450797",
+            "id": "2563661d265b5a9d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20251018.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "20251018"
             }
           }
         ]
@@ -84,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.51103591918945
+    "width": 293.50520849227905
   },
   "right": {
     "id": "0810d8a464ec16c5",
@@ -111,12 +115,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01 - Daily/20251018.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 20251018"
             }
           }
         ]
@@ -140,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,12 +167,13 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "7891667b6e390b6d",
+  "active": "2563661d265b5a9d",
   "lastOpenFiles": [
+    "Untitled.md",
+    "06 - Stuff/Identifier.md",
     "01 - Daily/20251018.md",
     "04 - Course/💾 Estructuras de Datos.md",
     "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md",
-    "06 - Stuff/Identifier.md",
     "03 - Homework/🎨IHC 📝TAR 02 Métodos de Investigación de Usuario.md",
     "03 - Homework/🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas.md",
     "01 - Daily/20251016.md",
@@ -190,7 +196,6 @@
     "02 - Notes/🎨IHC 📝NOT 03 Notas de la Entrevista.md",
     "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
     "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
-    "01 - Daily/Daily.md",
     "01 - Daily/crear_notas.py",
     "05 - Resources/🎨IHC 📚LIB 01 Interaction Design Beyond Human-Computer Interaction.pdf",
     "05 - Resources/🎨IHC 📚LIB 02 Principios de Diseño.pdf",
