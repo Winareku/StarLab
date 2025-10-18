@@ -4,5 +4,9 @@
   "underwater-theme@@table": "table-minimal",
   "fancy-a-story@@theme-variant-dark": "fas-silver-dark",
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-blue"
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-blue",
+  "cupertino@@hide-frontmatter-off": false,
+  "cupertino@@empty-state-off": false,
+  "cupertino@@compact-actions-off": false,
+  "cupertino@@hide-status-off": false
 }

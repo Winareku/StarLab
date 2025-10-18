@@ -13,6 +13,6 @@
   "readableLineLength": true,
   "spellcheck": true,
   "defaultViewMode": "preview",
-  "livePreview": true,
+  "livePreview": false,
   "tabSize": 4
 }

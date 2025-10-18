@@ -4,6 +4,7 @@ fecha: 2025-10-10
 tags:
   - 🎨IHC
   - 📝NOT
+cssclasses:
 ---
 ---
 # Usabilidad, Experiencia de Usuario (UX), Interfaz de Usuario (UI) y Diseño de Interacción (IxD)
