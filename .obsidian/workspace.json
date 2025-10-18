@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Stuff/Identifier.md",
+                "file": "01 - Daily/20251018.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identifier"
+              "title": "20251018"
             }
           }
         ]
@@ -73,16 +73,6 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
-          },
-          {
-            "id": "40a47f6842de1032",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ]
       }
@@ -97,7 +87,7 @@
       {
         "id": "f52bb98a01f69666",
         "type": "tabs",
-        "dimension": 40.02057613168724,
+        "dimension": 35.44444444444444,
         "children": [
           {
             "id": "8d3ced883be6ede7",
@@ -115,13 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - Stuff/Identifier.md",
+                "file": "01 - Daily/20251018.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Identifier"
+              "title": "Outline of 20251018"
             }
           }
         ]
@@ -129,7 +119,7 @@
       {
         "id": "b06250c4c9f097e6",
         "type": "tabs",
-        "dimension": 59.97942386831275,
+        "dimension": 64.55555555555556,
         "children": [
           {
             "id": "7891667b6e390b6d",
@@ -139,6 +129,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "067067ddcd3cf388",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ]
@@ -164,14 +164,15 @@
       "homepage:Open homepage": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-git:Open Git source control": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "2563661d265b5a9d",
+  "active": "7891667b6e390b6d",
   "lastOpenFiles": [
+    "06 - Stuff/Identifier.md",
     "01 - Daily/20251018.md",
     "Untitled.md",
-    "06 - Stuff/Identifier.md",
     "04 - Course/💾 Estructuras de Datos.md",
     "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md",
     "03 - Homework/🎨IHC 📝TAR 02 Métodos de Investigación de Usuario.md",

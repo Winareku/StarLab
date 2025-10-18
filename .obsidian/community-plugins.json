@@ -1,20 +1,16 @@
 [
-  "obsidian-spaced-repetition",
   "obsidian-smart-typography",
-  "obsidian-importer",
   "settings-search",
   "obsidian-completr",
   "obsidian-icon-folder",
   "url-into-selection",
   "obsidian-excalidraw-plugin",
-  "tag-wrangler",
-  "recent-files-obsidian",
   "obsidian-text-format",
   "templater-obsidian",
   "calendar",
   "homepage",
-  "obsidian-advanced-slides",
   "obsidian-git",
   "pexels-banner",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "copilot"
 ]
