@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "01 - Daily/20251018.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:#📊EST",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -129,7 +129,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "937179be023b1de1",
@@ -208,6 +208,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -216,15 +218,13 @@
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "bases:Create new base": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-importer:Open Importer": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "ee7bccf52c6c8a15",
+  "active": "cdf2d6222c44e374",
   "lastOpenFiles": [
     "06 - Stuff/Identifier.md",
     "01 - Daily/20251018.md",
