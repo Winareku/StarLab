@@ -1,7 +1,134 @@
 {
   "recentFiles": [
+    {
+      "basename": "🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual",
+      "path": "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md"
+    },
+    {
+      "basename": "20251018",
+      "path": "01 - Daily/20251018.md"
+    },
+    {
+      "basename": "Identifier",
+      "path": "06 - Stuff/Identifier.md"
+    },
+    {
+      "basename": "💾 Estructuras de Datos",
+      "path": "04 - Course/💾 Estructuras de Datos.md"
+    },
+    {
+      "basename": "🎨IHC 📝TAR 02 Métodos de Investigación de Usuario",
+      "path": "03 - Homework/🎨IHC 📝TAR 02 Métodos de Investigación de Usuario.md"
+    },
+    {
+      "basename": "🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas",
+      "path": "03 - Homework/🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas.md"
+    },
+    {
+      "basename": "20251016",
+      "path": "01 - Daily/20251016.md"
+    },
+    {
+      "basename": "(TEMPLATE) Daily",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
+    },
+    {
+      "basename": "🎨 Interacción Humano Computador",
+      "path": "04 - Course/🎨 Interacción Humano Computador.md"
+    },
+    {
+      "basename": "📊 Estadística",
+      "path": "04 - Course/📊 Estadística.md"
+    },
+    {
+      "basename": "📦 Diseño de Software",
+      "path": "04 - Course/📦 Diseño de Software.md"
+    },
+    {
+      "basename": "🗃️ Sistema de Bases de Datos",
+      "path": "04 - Course/🗃️ Sistema de Bases de Datos.md"
+    },
+    {
+      "basename": "20251014",
+      "path": "01 - Daily/20251014.md"
+    },
+    {
+      "basename": "20251013",
+      "path": "01 - Daily/20251013.md"
+    },
+    {
+      "basename": "20251015",
+      "path": "01 - Daily/20251015.md"
+    },
+    {
+      "basename": "📊EST 🏫MPR 01 Estadística Descriptiva",
+      "path": "05 - Resources/📊EST 🏫MPR 01 Estadística Descriptiva.pdf"
+    },
+    {
+      "basename": "🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico",
+      "path": "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md"
+    },
+    {
+      "basename": "📦DSW 📝NOT 03 Principios SOLID",
+      "path": "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md"
+    },
+    {
+      "basename": "📦DSW 📝NOT 02 Paradigmas de Diseño",
+      "path": "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md"
+    },
+    {
+      "basename": "📦DSW 📝NOT 01 Diseño de Software",
+      "path": "02 - Notes/📦DSW 📝NOT 01 Diseño de Software.md"
+    },
+    {
+      "basename": "📊EST 📝NOT 00 Estadística Descriptiva 1",
+      "path": "02 - Notes/📊EST 📝NOT 00 Estadística Descriptiva 1.md"
+    },
+    {
+      "basename": "📊EST 📝NOT 00 Estadística Descriptiva",
+      "path": "02 - Notes/📊EST 📝NOT 00 Estadística Descriptiva.md"
+    },
+    {
+      "basename": "💾EDD 📝NOT 03 Recursividad",
+      "path": "02 - Notes/💾EDD 📝NOT 03 Recursividad.md"
+    },
+    {
+      "basename": "🎨IHC 📝NOT 03 Notas de la Entrevista",
+      "path": "02 - Notes/🎨IHC 📝NOT 03 Notas de la Entrevista.md"
+    },
+    {
+      "basename": "🎨IHC 📝NOT 02 Diseño Centrado en las Personas",
+      "path": "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md"
+    },
+    {
+      "basename": "🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD",
+      "path": "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md"
+    },
+    {
+      "basename": "🎨IHC 📚LIB 01 Interaction Design Beyond Human-Computer Interaction",
+      "path": "05 - Resources/🎨IHC 📚LIB 01 Interaction Design Beyond Human-Computer Interaction.pdf"
+    },
+    {
+      "basename": "(TEMPLATE) Unique",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md"
+    },
+    {
+      "basename": "(TEMPLATE) Daily (Vanilla)",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md"
+    },
+    {
+      "basename": "202403091325 General Tweaks CSS Classes",
+      "path": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
+    },
+    {
+      "basename": "202401211512 Notebook CSS Classes",
+      "path": "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md"
+    }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
   "maxLength": null,
   "openType": "tab"
 }

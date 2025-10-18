@@ -3,8 +3,8 @@
 ------------------------------------------------------------------------------*/
 
 :root {
-  --minecraft-green-primary: #52a535;
-  --minecraft-green-highlight: #86d562;
+  --minecraft-green-primary: #4a9430;
+  --minecraft-green-highlight: #78bf58;
   --minecraft-light-gray: #d0c5c0;
   --minecraft-bg: #171615;
 }
@@ -31,17 +31,17 @@
   --text-muted: var(--minecraft-green-primary);
   --checklist-done-color: var(--minecraft-green-primary);
   --metadata-label-text-color: var(--minecraft-green-primary);
-  --tag-color: var(--minecraft-green-primary);
+  /* --tag-color: var(--minecraft-green-primary); */
   --link-color: var(--minecraft-green-primary);
   --link-external-color: var(--minecraft-green-primary);
   --link-unresolved-color: #e14a49;
   --link-color-hover: var(--minecraft-green-highlight);
   --metadata-input-text-color: var(--minecraft-green-primary);
-  --tag-background: color-mix(
+  /* --tag-background: color-mix(
     in srgb,
     var(--minecraft-green-primary) 20%,
     transparent
-  );
+  ); */
 
   --text-faint: color-mix(
     in srgb,

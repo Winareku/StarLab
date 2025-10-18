@@ -3,8 +3,8 @@
 ------------------------------------------------------------------------------*/
 
 :root {
-  --osrs-orange: #ff9b20;
-  --osrs-yellow: #ffee00;
+  --osrs-orange: #e68b1d;
+  --osrs-yellow: #d6d600;
   --osrs-pen-orange-trans: #ff9b2022;
   --osrs-pen-orange-accent: #ff9b2066;
   --osrs-page-brown: #383027;
@@ -31,14 +31,14 @@
   --text-muted: var(--accent-color);
   --checklist-done-color: var(--accent-color);
   --metadata-label-text-color: var(--accent-color);
-  --tag-color: var(--accent-color);
+  /* --tag-color: var(--accent-color); */
   --link-color: var(--osrs-yellow);
   --link-color-hover: color-mix(in srgb, var(--osrs-yellow) 50%, white);
   --link-external-color: var(--osrs-yellow);
   --link-unresolved-color: #ff0000;
 
   --metadata-input-text-color: var(--accent-color);
-  --tag-background: var(--accent-color-trans);
+  /* --tag-background: var(--accent-color-trans); */
 
   --code-normal: var(--accent-color);
   --code-background: color-mix(in srgb,var(--page-color) 80%,black) !important;

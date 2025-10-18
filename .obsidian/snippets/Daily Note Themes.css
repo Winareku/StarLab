@@ -12,9 +12,9 @@ change or remove those font-family lines from this snippet.
                 
 ------------------------------------------------------------------------------*/
 :root {
-  --highlight: #ffffff;
-  --primary: #aaaaaa;
-  --dark: #333333;
+  --highlight: #e0e0e0;
+  --primary: #999999;
+  --dark: #2b2b2b;
 }
 
 .daily {
@@ -27,8 +27,10 @@ change or remove those font-family lines from this snippet.
   --checklist-done-color: var(--highlight);
   --metadata-label-text-color: var(--highlight);
   --metadata-input-text-color: var(--highlight);
+  /*
   --tag-color: var(--dark);
   --tag-background: var(--primary);
+  */
   --hr-color: var(--primary);
   --blockquote-border-color: var(--primary);
   --interactive-accent: var(--primary);
@@ -48,39 +50,39 @@ change or remove those font-family lines from this snippet.
 }
 
 .sunday, .Sunday {
-  --highlight: #f39caa;
-  --primary: #f6466f;
-  --dark: #2d0916;
+  --highlight: #d98a97;
+  --primary: #de3e63;
+  --dark: #260813;
 }
 .monday, .Monday {
-  --highlight: #fcadaa;
-  --primary: #f65848;
-  --dark: #3c0e0b;
+  --highlight: #e39a97;
+  --primary: #de4f40;
+  --dark: #350c0a;
 }
 .tuesday, .Tuesday {
-  --highlight: #aedbfa;
-  --primary: #3b87f0;
-  --dark: #070615;
+  --highlight: #9cc4e1;
+  --primary: #3579d8;
+  --dark: #060512;
 }
 .wednesday, .Wednesday {
-  --highlight: #fff3c4;
-  --primary: #ffd63d;
-  --dark: #2c1404;
+  --highlight: #e6dcb1;
+  --primary: #e6c037;
+  --dark: #251103;
 }
 .thursday, .Thursday {
-  --highlight: #f7b79b;
-  --primary: #ed6022;
-  --dark: #210b04;
+  --highlight: #dea38b;
+  --primary: #d5561e;
+  --dark: #1d0a03;
 }
 .friday, .Friday {
-  --highlight: #e9f9b7;
-  --primary: #92e649;
-  --dark: #192108;
+  --highlight: #d1e0a3;
+  --primary: #83cf41;
+  --dark: #161d07;
 }
 .saturday, .Saturday{
-  --highlight: #f39caa;
-  --primary: #e22c3c;
-  --dark: #100305;
+  --highlight: #d98a97;
+  --primary: #c92836;
+  --dark: #0e0304;
 }
 
 .daily :is(h1, .HyperMD-header.HyperMD-header-1) {

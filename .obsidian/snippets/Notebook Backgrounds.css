@@ -15,14 +15,14 @@ https://angel-rs.github.io/css-color-filter-generator
 /* Global Variables */
 :root {
   /* Base Pen Colors */
-  --pen-white: #edf1fc;
-  --pen-gray: #5f5d58;
-  --pen-black: #26241f;
-  --pen-red: #e14a49;
-  --pen-green: #15b64f;
-  --pen-blue: #3f76ed;
-  --pen-light-blue: #54b6f8;
-  --pen-purple: #9b4ff0;
+  --pen-white: #d5d9e3;
+  --pen-gray: #565450;
+  --pen-black: #22201b;
+  --pen-red: #c94241;
+  --pen-green: #12a247;
+  --pen-blue: #386ad5;
+  --pen-light-blue: #4da3e0;
+  --pen-purple: #8c47d8;
 
   --neutral-pen-black: #272727;
   --neutral-pen-black-trans: #27272722;
@@ -72,8 +72,8 @@ https://angel-rs.github.io/css-color-filter-generator
   --interactive-accent: var(--accent-color);
   --metadata-label-text-color: var(--accent-color);
   --metadata-input-text-color: var(--accent-color);
-  --tag-color: var(--accent-color);
-  --tag-background: var(--accent-color-trans);
+  /* --tag-color: var(--accent-color); */
+  /* --tag-background: var(--accent-color-trans); */
   --pill-cover-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
   --background-modifier-border-focus: var(--accent-color);
   --background-modifier-border: var(--accent-color-trans);

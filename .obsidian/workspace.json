@@ -1,22 +1,238 @@
 {
-  "main": {},
+  "main": {
+    "id": "3fffac56a098f598",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e05b43587ce86c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18949dd8c951476b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Course/💾 Estructuras de Datos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "💾 Estructuras de Datos"
+            }
+          },
+          {
+            "id": "b60c8ffe92e440a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual"
+            }
+          },
+          {
+            "id": "65305e93470e55f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20251018.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20251018"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "28c4ffaaaf379343",
+    "type": "split",
+    "children": [
+      {
+        "id": "28b7c5b2263daf48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d13d33e1407f126",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7d76b4c63fa52b78",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#🎨IHC",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "ec4852c9db58f63c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "40a47f6842de1032",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 347.51103591918945
+  },
+  "right": {
+    "id": "0810d8a464ec16c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f52bb98a01f69666",
+        "type": "tabs",
+        "dimension": 40.02057613168724,
+        "children": [
+          {
+            "id": "8d3ced883be6ede7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "090e79fa77433be4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b06250c4c9f097e6",
+        "type": "tabs",
+        "dimension": 59.97942386831275,
+        "children": [
+          {
+            "id": "7891667b6e390b6d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 390.5
+  },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
-      "switcher:Open quick switcher": true,
-      "command-palette:Open command palette": true,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "zk-prefixer:Create new unique note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "canvas:Create new canvas": false,
-      "templates:Insert template": true,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "bases:Create new base": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-importer:Open Importer": true,
-      "templater-obsidian:Templater": true,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-git:Open Git source control": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "",
-  "lastOpenFiles": []
+  "active": "b60c8ffe92e440a9",
+  "lastOpenFiles": [
+    "01 - Daily/20251018.md",
+    "06 - Stuff/Identifier.md",
+    "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md",
+    "04 - Course/💾 Estructuras de Datos.md",
+    "03 - Homework/🎨IHC 📝TAR 02 Métodos de Investigación de Usuario.md",
+    "03 - Homework/🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas.md",
+    "01 - Daily/20251016.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "04 - Course/🎨 Interacción Humano Computador.md",
+    "04 - Course/📊 Estadística.md",
+    "04 - Course/📦 Diseño de Software.md",
+    "04 - Course/🗃️ Sistema de Bases de Datos.md",
+    "01 - Daily/20251014.md",
+    "01 - Daily/20251013.md",
+    "01 - Daily/20251015.md",
+    "05 - Resources/📊EST 🏫MPR 01 Estadística Descriptiva.pdf",
+    "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md",
+    "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
+    "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md",
+    "02 - Notes/📦DSW 📝NOT 01 Diseño de Software.md",
+    "02 - Notes/📊EST 📝NOT 00 Estadística Descriptiva 1.md",
+    "02 - Notes/📊EST 📝NOT 00 Estadística Descriptiva.md",
+    "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
+    "02 - Notes/🎨IHC 📝NOT 03 Notas de la Entrevista.md",
+    "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
+    "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
+    "01 - Daily/Daily.md",
+    "01 - Daily/crear_notas.py",
+    "05 - Resources/🎨IHC 📚LIB 01 Interaction Design Beyond Human-Computer Interaction.pdf",
+    "05 - Resources/🎨IHC 📚LIB 02 Principios de Diseño.pdf",
+    "05 - Resources/🎨IHC 📚LIB 03 Universal Methods of Design.pdf",
+    "05 - Resources/📦DSW 🏫MPR 02 Paradigmas de Diseño.pdf",
+    "05 - Resources/📦DSW 🏫MPR 01 Políticas de Curso.pdf",
+    "05 - Resources/SOLID.pdf",
+    "05 - Resources/📦DSW 🏫MPR 01 Diseño de Software.pdf",
+    "05 - Resources/📦DSW 📚LIB 01 Clean Architecture.pdf"
+  ]
 }

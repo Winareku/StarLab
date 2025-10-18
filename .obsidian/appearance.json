@@ -1,9 +1,9 @@
 {
-  "accentColor": "#43cfea",
-  "cssTheme": "Vanilla AMOLED",
-  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
-  "textFontFamily": "JetBrainsMono Nerd Font Mono",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "accentColor": "#3e6b79",
+  "cssTheme": "Fancy-a-Story",
+  "interfaceFontFamily": "Iosevka Nerd Font Mono",
+  "textFontFamily": "Iosevka Nerd Font Mono",
+  "monospaceFontFamily": "Iosevka Nerd Font Mono",
   "enabledCssSnippets": [
     "retro-notebook-bg",
     "Daily Note",
@@ -17,6 +17,6 @@
     "Daily Note Themes"
   ],
   "translucency": false,
-  "theme": "obsidian",
-  "baseFontSize": 17
+  "theme": "system",
+  "baseFontSize": 16
 }

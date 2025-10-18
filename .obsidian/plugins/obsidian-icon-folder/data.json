@@ -1,11 +1,17 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiIdCard",
+      "LiBoomBox",
+      "LiArchive",
+      "BoBxArchive",
+      "BoBxsArchive"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
@@ -57,16 +63,16 @@
         "order": 7
       },
       {
-        "rule": "- Archives",
-        "icon": "BoBxsArchive",
-        "for": "folders",
-        "order": 9
-      },
-      {
         "rule": "- Permanent",
         "icon": "BoBxsFile",
         "for": "everything",
         "order": 8
+      },
+      {
+        "rule": "- Archives",
+        "icon": "BoBxsArchive",
+        "for": "folders",
+        "order": 9
       }
     ],
     "extraMargin": {
@@ -79,6 +85,20 @@
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
-    "iconsInNotesEnabled": true
-  }
+    "iconsInNotesEnabled": true,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "02 - Notes": "LiPen",
+  "03 - Homework": "LiPenTool",
+  "04 - Course": "LiBookMarked",
+  "06 - Stuff": "LiBoomBox",
+  "05 - Resources": "LiArchive",
+  "06 - Stuff/Identifier.md": "LiIdCard"
 }
