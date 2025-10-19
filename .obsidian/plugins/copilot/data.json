@@ -254,19 +254,17 @@
       "isBuiltIn": true
     },
     {
-      "name": "deepseek-chat",
-      "provider": "deepseek",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
       "name": "deepseek-reasoner",
       "provider": "deepseek",
       "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
-        "reasoning"
-      ]
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "apiKey": "sk-28f47f1c1bb349a28d7bd70971591c02",
+      "displayName": "DSeek"
     }
   ],
   "activeEmbeddingModels": [

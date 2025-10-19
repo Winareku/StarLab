@@ -1,4 +1,5 @@
 # SISTEMA DE IDENTIFICACIÓN DE ARCHIVOS
+---
 ## MATERIAS
 
 | **Nombre**           | **Tag** | **Copy** |
@@ -8,6 +9,7 @@
 | Bases de Datos       | #🗃️SBD | 🗃️SBD   |
 | Estructuras de Datos | #💾EDD  | 💾EDD    |
 | Diseño de Software   | #📦DSW  | 📦DSW    |
+
 ## TIPOS DE ARCHIVO
 
 | **Nombre**        | **Tag**                                                | **Copy** |
@@ -25,7 +27,8 @@
 | **Sin Terminar** | **Terminado** |
 | ---------------- | ------------- |
 | #❎TODO         | #✅DONE      |
-## PLANTILLA PARA NOMBRAR ARCHIVOS
+
+> [!bug] PLANTILLA PARA NOMBRAR ARCHIVOS
 > 📊EST5 👨‍🏫MPR 01 "Estadística Descriptiva"
 
 ## PLANTILLA PARA CALLOUTS

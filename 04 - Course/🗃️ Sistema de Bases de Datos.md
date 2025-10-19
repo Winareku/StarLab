@@ -1,5 +1,4 @@
 ---
-banner: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
 tags:
   - 🗃️SBD
 Código: TICG1018
@@ -20,10 +19,9 @@ Este curso introduce los conceptos fundamentales requeridos para diseñar e impl
 
 ---
 
-### Contenidos
-#### Primera Evaluación
-
-| **Semana** | **Tema**                                |
+## Contenidos
+> [!success] Primera Evaluación
+>| **Semana** | **Tema**                                |
 | ---------- | --------------------------------------- |
 | Semana 1   | U1. INTRO / U1. MC (Modelo Conceptual)  |
 | Semana 2   | U1. MC (Modelo Conceptual)              |
@@ -34,9 +32,8 @@ Este curso introduce los conceptos fundamentales requeridos para diseñar e impl
 | Semana 7   | U4. DML / Lección y Taller              |
 | Semana 8   | **Examen Parcial**                      |
 
-#### Segunda Evaluación
-
-| **Semana** | **Tema**                                                |
+> [!info] Segunda Evaluación
+>| **Semana** | **Tema**                                                |
 | ---------- | ------------------------------------------------------- |
 | Semana 1   | Revisión 1E / U4. DML                                   |
 | Semana 2   | U4. DML, Views / U5. SP y FUN (Procedimientos y Funciones) |
@@ -48,21 +45,22 @@ Este curso introduce los conceptos fundamentales requeridos para diseñar e impl
 | Semana 8   | **Examen Final**                                        |
 | Semana 9   | **Mejoramiento**                                        |
 
-## Herramientas
-*   MySQL
-*   Postgres (Opcional)
-*   MongoDB
-*   Java o Python (Para el proyecto)
+---
+> [!tips] Herramientas
+> * MySQL
+> * Postgres (Opcional)
+> * MongoDB
+> * Java o Python (Para el proyecto)
 
-## Canales de Comunicación
-*   **Primario:** Página Web de la Materia
-*   **Secundario:** Oficina del Profesor (O113, L-V 11-12 am)
+> [!quote] Canales de Comunicación
+> * **Primario:** Página Web de la Materia
+> * **Secundario:** Oficina del Profesor (O113, L-V 11-12 am)
 
+---
 ## Evaluación
 
-### Componentes Teóricos y Prácticos
-
-| **Componente**              | **Porcentaje** |
+> [!success] Componentes Teóricos y Prácticos
+>| **Componente**              | **Porcentaje** |
 | --------------------------- | -------------- |
 | **Teórico (35%)**           |                |
 | Examen Parcial              | 50 pts         |
@@ -76,24 +74,26 @@ Este curso introduce los conceptos fundamentales requeridos para diseñar e impl
 | Talleres                    | 70 pts         |
 | Participación               | 30 pts         |
 
-## Proyecto
-*   **Grupos:** 4 estudiantes (Los grupos no podrán ser disueltos).
-*   **Lenguaje:** Java o Python (con puntos extras).
-*   **Entregables:**
-    *   Modelo Conceptual (Parte 1)
-    *   Modelo Lógico Normalizado (Parte 2)
-    *   Implementación con Transacciones SQL (Parte 3)
-*   **Sustentación:** Obligatoria, individual y en horario de clase.
+---
+## Extra
+> [!bug] Proyecto
+> *   **Grupos:** 4 estudiantes (Los grupos no podrán ser disueltos).
+> *   **Lenguaje:** Java o Python (con puntos extras).
+> *   **Entregables:**
+> 	*   Modelo Conceptual (Parte 1)
+> 	*   Modelo Lógico Normalizado (Parte 2)
+> 	*   Implementación con Transacciones SQL (Parte 3)
+> *   **Sustentación:** Obligatoria, individual y en horario de clase.
 
-## Asistencia
-*   La asistencia a clases se controlará a través de lista. Mínimo 60%.
-*   **Reglas en clase:**
-    *   El horario de clase es el establecido, salvo acuerdo para recuperación.
-    *   Las consultas se realizarán en la oficina del profesor en el horario establecido.
+> [!question] Asistencia
+> *   La asistencia a clases se controlará a través de lista. Mínimo 60%.
+> *   **Reglas en clase:**
+>     *   El horario de clase es el establecido, salvo acuerdo para recuperación.
+>     *   Las consultas se realizarán en la oficina del profesor en el horario establecido.
 
-## Políticas Importantes
-*   **Evaluaciones:** No podrán ser recuperadas, excepto por calamidad doméstica debidamente probada.
-*   **Tareas/Proyectos:**
-    *   Se publican y reciben en la página web de la materia. No se aceptan por email.
-    *   La fecha de entrega es impostergable.
-    *   Prohibidas las copias. Cualquier acto de deshonestidad académica resultará en calificación CERO para todos los involucrados y puede conllevar a la reprobación automática de la materia.
+> [!warning] Políticas Importantes
+> *   **Evaluaciones:** No podrán ser recuperadas, excepto por calamidad doméstica debidamente probada.
+> *   **Tareas/Proyectos:**
+> 	*   Se publican y reciben en la página web de la materia. No se aceptan por email.
+> 	*   La fecha de entrega es impostergable.
+> 	*   Prohibidas las copias. Cualquier acto de deshonestidad académica resultará en calificación CERO para todos los involucrados y puede conllevar a la reprobación automática de la materia.

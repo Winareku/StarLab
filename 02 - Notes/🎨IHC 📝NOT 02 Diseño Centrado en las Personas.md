@@ -1,15 +1,14 @@
 ---
-banner: https://images.unsplash.com/photo-1520076794559-6a1229412a42?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800
 fecha: 2025-10-10
 tags:
   - 🎨IHC
   - 📝NOT
 ---
----
 # Diseño Centrado en las Personas (HCD) y su Aplicación en Apps Móviles
+---
 ## 1. ¿Qué es el Proceso de Diseño Centrado en las Personas (HCD)?
 
-El **Diseño Centrado en las Personas** (_Human-Centered Design_ o HCD) es un enfoque que busca romper con la mentalidad industrial obsoleta de "idea, desarrollo y lanzamiento" para colocar al usuario final en el corazón de todo el proyecto.
+> [!info] El **Diseño Centrado en las Personas** (_Human-Centered Design_ o HCD) es un enfoque que busca romper con la mentalidad industrial obsoleta de "idea, desarrollo y lanzamiento" para colocar al usuario final en el corazón de todo el proyecto.
 
 | Principio                   | Descripción                                                                                                                                                                               |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -22,9 +21,9 @@ El **Diseño Centrado en las Personas** (_Human-Centered Design_ o HCD) es un en
 
 ## 2. El Proceso HCD en el Diseño de Experiencias para Apps Móviles
 
-En el diseño de experiencias, especialmente para apps móviles, el HCD se traduce y estructura a menudo mediante el **Modelo del Doble Diamante**, que consiste en cuatro fases: dos fases de divergencia (abrirse) y dos de convergencia (cerrarse).
+> [!info] En el diseño de experiencias, especialmente para apps móviles, el HCD se traduce y estructura a menudo mediante el **Modelo del Doble Diamante**, que consiste en cuatro fases: dos fases de divergencia (abrirse) y dos de convergencia (cerrarse).
 
-El ejemplo se aplica a la rediseño de una página de detalles de un producto en una aplicación de comercio electrónico.
+> [!example] El ejemplo se aplica al Rediseño de una página de detalles de un producto en una aplicación de comercio electrónico.
 
 ### Primer Diamante: Descubrir y Definir el Problema
 
@@ -40,4 +39,4 @@ El ejemplo se aplica a la rediseño de una página de detalles de un producto en
 |**3. Develop (Desarrollar)**|**Ir amplio** y explorar las posibles soluciones de diseño dentro del alcance definido.|• **Lluvia de ideas y _sketches_** rápidos en papel antes de pasar a herramientas digitales, para explorar múltiples ideas sin perfeccionar la primera. • Exploraciones de soluciones, como probar un _scroll_ vertical de productos recomendados en lugar del horizontal tradicional.|
 |**4. Deliver (Entregar)**|**Ir estrecho** y refinar la solución que será implementada.|• **Pruebas de usabilidad** (2 a 3 rondas) para asegurar que la solución realmente resuelva el problema definido inicialmente. • **Iteración** constante de los diseños basándose en el _feedback_ del equipo y la investigación. • Compartir los diseños finales con socios funcionales (ej. Legal, Comunicaciones) para su revisión antes del lanzamiento.|
 
-> Revisar las siguientes lectura de apoyo a los contenidos. [[🎨IHC 📚LIB 01 Interaction Design Beyond Human-Computer Interaction.pdf#page=289|Libro guía]] Cap. 8 en especial Pg. 268-276. [[🎨IHC 📚LIB 03 Universal Methods of Design.pdf#page=100|Libro complementario Martin, Hannington]] Pg. 100-111.
+> [!warning] Revisar las siguientes lectura de apoyo a los contenidos. [[🎨IHC 📚LIB 01 Interaction Design Beyond Human-Computer Interaction.pdf#page=289|Libro guía]] Cap. 8 en especial Pg. 268-276. [[🎨IHC 📚LIB 03 Universal Methods of Design.pdf#page=100|Libro complementario Martin, Hannington]] Pg. 100-111.

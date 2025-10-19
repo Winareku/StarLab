@@ -1,5 +1,4 @@
 ---
-banner: "https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
 tags:
   - 💾EDD
 Código: CCPG1034
@@ -19,75 +18,70 @@ Curso que utiliza conocimientos de programación para implementar programas comp
 
 ---
 
-## Metodología
-| **Durante Clase**  | - Prácticas en clase (3-5 por parcial)<br>- Lecciones sorpresa sin anticipación<br>- Resolución de ejercicios con asistencia del profesor |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Fuera de Clase** | - Tareas individuales (continuación de prácticas)<br>- Proyecto grupal<br>- Estudio autónomo                                          |
+> [!question] Metodología
+> | **Durante Clase**  | - Prácticas en clase (3-5 por parcial)<br>- Lecciones sorpresa sin anticipación<br>- Resolución de ejercicios con asistencia del profesor |
+> | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+> | **Fuera de Clase** | - Tareas individuales (continuación de prácticas)<br>- Proyecto grupal<br>- Estudio autónomo                                          |
 
+---
 ## Calificación
-### Componente Técnico (70%)
-| **Componente**      | **Porcentaje** | **Puntos** |
-| ------------------- | -------------- | ---------- |
-| Examen escrito      | 50%            | 35 pts     |
-| Tareas individuales | 10%            | 7 pts      |
-| Lecciones           | 10%            | 7 pts      |
-| Proyecto grupal     | 30%            | 21 pts     |
+> [!success] Componente Teórico (70%)
+> | **Componente**      | **Porcentaje** | **Puntos** |
+> | ------------------- | -------------- | ---------- |
+> | Examen escrito      | 50%            | 35 pts     |
+> | Tareas individuales | 10%            | 7 pts      |
+> | Lecciones           | 10%            | 7 pts      |
+> | Proyecto grupal     | 30%            | 21 pts     |
 
-### Componente Práctico (30%)
-| **Componente**      | **Porcentaje** | **Puntos** |
-| ------------------- | -------------- | ---------- |
-| Prácticas en clase  | 100%           | 30 pts     |
+> [!info] Componente Práctico (30%)
+> | **Componente**      | **Porcentaje** | **Puntos** |
+> | ------------------- | -------------- | ---------- |
+> | Prácticas en clase  | 100%           | 30 pts     |
 
-### Tercera Evaluación
-| **Componente**      | **Porcentaje** |
-| ------------------- | -------------- |
-| Examen escrito      | 100%           |
-
+---
 ## Contenidos
-#### Primer Parcial
-| **Tema**                    |
-| --------------------------- |
-| Tipos de Datos              |
-| Tipos de Datos Abstractos (TDAs) |
-| Listas                      |
-| Pilas                       |
-| Colas                       |
-| Conjuntos y mapas           |
+> [!success] Primer Parcial
+> | **Tema**                    |
+> | --------------------------- |
+> | Tipos de Datos              |
+> | Tipos de Datos Abstractos (TDAs) |
+> | Listas                      |
+> | Pilas                       |
+> | Colas                       |
+> | Conjuntos y mapas           |
 
-#### Segundo Parcial
-| **Tema**                    |
-| --------------------------- |
-| Grafos                      |
-| Árboles                     |
+> [!info] Segundo Parcial
+> | **Tema**                    |
+> | --------------------------- |
+> | Grafos                      |
+> | Árboles                     |
 
-## Herramientas
+---
+## Extra
+> [!tip] Herramientas
+> | **Característica** | **Descripción**                                        |
+> | ------------------ | ------------------------------------------------------ |
+> | IDE            | NetBeans (obligatorio para ejercicios de programación) |
+> | Lenguaje       | Java                                                   |
+> | Plataformas    | Aula Virtual, Teams                                    |
 
-| **Característica** | **Descripción**                                        |
-| ------------------ | ------------------------------------------------------ |
-| IDE            | NetBeans (obligatorio para ejercicios de programación) |
-| Lenguaje       | Java                                                   |
-| Plataformas    | Aula Virtual, Teams                                    |
+> [!question] Canales de Comunicación
+> | **Tipo**       | **Canal**                                                            |
+> | -------------- | -------------------------------------------------------------------- |
+> | Primario   | [Aula Virtual](https://aulavirtual.espol.edu.ec/)                    |
+> | Secundario | Email ([steisant@espol.edu.ec](mailto:steisant@espol.edu.ec)), Teams |
 
-## Canales de Comunicación
+> [!bug] Proyecto
+> | **Aspecto**     | **Detalle**                                                                        |
+> | --------------- | ---------------------------------------------------------------------------------- |
+> | Modalidad   | Grupal                                                                             |
+> | Enfoque     | Implementación de programas computacionales para resolución eficiente de problemas |
+> | Entregables | Según avances establecidos en el curso                                             |
 
-| **Tipo**       | **Canal**                                                            |
-| -------------- | -------------------------------------------------------------------- |
-| Primario   | [Aula Virtual](https://aulavirtual.espol.edu.ec/)                    |
-| Secundario | Email ([steisant@espol.edu.ec](mailto:steisant@espol.edu.ec)), Teams |
-
-## Proyecto
-
-| **Aspecto**     | **Detalle**                                                                        |
-| --------------- | ---------------------------------------------------------------------------------- |
-| Modalidad   | Grupal                                                                             |
-| Enfoque     | Implementación de programas computacionales para resolución eficiente de problemas |
-| Entregables | Según avances establecidos en el curso                                             |
-
-## Políticas Importantes
-
-| **Política**             | **Detalle**                                                                                                                                                            |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Asistencia               | Obligatoria. Más del 40% de inasistencia resulta en reprobación automática                                                                                             |
-| Tareas/Prácticas         | - Siempre individuales<br>- Deben compilar para ser calificadas<br>- No se aceptan por email, solo por Aula Virtual<br>- Entregas tardías no se califican              |
-| Lecciones                | Ocurren sin anticipación durante cualquier sesión de clase                                                                                                             |
-| Deshonestidad Académica: | - Primera infracción: Reprobación automática de la materia<br>- Reincidencia: Anulación definitiva de la matrícula<br>- Se reporta al comité de disciplina de la ESPOL |
+> [!warning] Políticas Importantes
+> | **Política**             | **Detalle**                                                                                                                                                            |
+> | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | Asistencia               | Obligatoria. Más del 40% de inasistencia resulta en reprobación automática                                                                                             |
+> | Tareas/Prácticas         | - Siempre individuales<br>- Deben compilar para ser calificadas<br>- No se aceptan por email, solo por Aula Virtual<br>- Entregas tardías no se califican              |
+> | Lecciones                | Ocurren sin anticipación durante cualquier sesión de clase                                                                                                             |
+> | Deshonestidad Académica: | - Primera infracción: Reprobación automática de la materia<br>- Reincidencia: Anulación definitiva de la matrícula<br>- Se reporta al comité de disciplina de la ESPOL |
