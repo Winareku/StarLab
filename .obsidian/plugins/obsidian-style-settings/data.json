@@ -8,5 +8,6 @@
   "cupertino@@hide-frontmatter-off": false,
   "cupertino@@empty-state-off": false,
   "cupertino@@compact-actions-off": false,
-  "cupertino@@hide-status-off": false
+  "cupertino@@hide-status-off": false,
+  "primary-theme@@interface_editor-bg": "editor-bgpattern-dotgrid"
 }
