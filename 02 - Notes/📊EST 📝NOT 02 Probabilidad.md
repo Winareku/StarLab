@@ -1,5 +1,4 @@
 ---
-fecha: 2025-10-16
 tags:
   - 📊EST
   - 📝NOT
@@ -14,13 +13,7 @@ tags:
 > [!example] Ejemplo:
 > - Se lanza un dado: S = {1,2,3,4,5,6}
 > - Evento elemental: Sale {1}
-
-$$
-\begin{equation}
-P(A) = \frac{1}{2}
-\label{eq:laplace}
-\end{equation}
-$$
+> $$P(A) = \frac{1}{2}$$
 
 ## Métodos de Conteo
 La regla de Laplace requiere del cálculo de la cardinalidad del espacio muestral y de los eventos, pero estos podrían ser conjuntos muy grandes.

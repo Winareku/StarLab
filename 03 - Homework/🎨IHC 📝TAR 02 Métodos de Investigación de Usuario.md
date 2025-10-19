@@ -3,7 +3,6 @@ fecha: 2025-10-13
 tags:
   - 🎨IHC
   - 📝TAR
-  - ✅DONE
 ---
 ---
 # 5 Métodos de Investigación Cualitativa

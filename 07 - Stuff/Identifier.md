@@ -25,10 +25,6 @@
 | Proyectos         | #🚀PRO | 🚀PRO    |
 | Prácticas         | #🔬LAB | 🔬LAB    |
 
-| **Sin Terminar** | **Terminado** |
-| ---------------- | ------------- |
-| #❎TODO         | #✅DONE      |
-
 > [!bug] PLANTILLA PARA NOMBRAR ARCHIVOS
 > 📊EST5 👨‍🏫MPR 01 "Estadística Descriptiva"
 
