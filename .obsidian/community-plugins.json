@@ -11,5 +11,7 @@
   "homepage",
   "obsidian-git",
   "obsidian-style-settings",
-  "copilot"
+  "copilot",
+  "copy-url-in-preview",
+  "omnisearch"
 ]

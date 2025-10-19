@@ -1,5 +1,4 @@
 ---
-banner: "https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
 date: <%tp.date.now("YYYY-MM-DD")%>T<%tp.date.now("HH:mm")%>
 tags:
   - Daily
@@ -22,5 +21,5 @@ cssclasses:
 
 ### Tasks
 
-> [!example] No tasks found
+> [!bug] No tasks found
 > - [ ] Nothing to see here yet

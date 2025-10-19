@@ -17,7 +17,7 @@ cssclasses:
 | **Experiencia de Usuario (UX)** | **Sentimiento y percepción global.** Abarca todos los aspectos de la interacción del usuario con un producto o servicio (antes, durante y después). | Proporcionar una **experiencia significativa, relevante y satisfactoria** que genere confianza y placer. |
 
 > [!example] Un producto puede ser **usable** (el usuario puede completar la tarea eficientemente) pero tener una **mala UX** (si el proceso fue estresante, la interfaz fea o los mensajes poco tranquilizadores).
-> La Usabilidad es una métrica, la UX es una percepción.
+>> [!warning] La Usabilidad es una métrica, la UX es una percepción.
 
 ---
 
@@ -33,4 +33,4 @@ cssclasses:
 
 > [!success] Un buen **IxD** hace que una interfaz diseñada por la **UI** se sienta natural y fluida, contribuyendo directamente a una **UX** positiva. El IxD se enfoca en las micro-interacciones que construyen la experiencia general.
 
-> [!tip] El contenido de esta semana puede revisarse en el libro guía, en el capítulo 1. Muchos de los conceptos que se revisarán se encuentran allí. Por ejemplo qué es interacción humano-computador se encuentra entre las páginas 10-11. Les recomiendo consultar parte del material que allí se encuentra pg. 2-26.
+> [!warning] El contenido de esta semana puede revisarse en el libro guía, en el capítulo 1. Muchos de los conceptos que se revisarán se encuentran allí. Por ejemplo qué es interacción humano-computador se encuentra entre las páginas 10-11. Les recomiendo consultar parte del material que allí se encuentra pg. 2-26.

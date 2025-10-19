@@ -28,5 +28,22 @@
       ],
       "key": "E"
     }
+  ],
+  "switcher:open": [],
+  "obsidian-completr:completr-open-suggestion-popup": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": " "
+    }
   ]
 }

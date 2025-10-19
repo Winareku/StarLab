@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCake",
       "LiIdCard",
       "LiBoomBox",
       "LiArchive",
-      "BoBxArchive",
-      "BoBxsArchive"
+      "BoBxArchive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -98,7 +98,8 @@
   "02 - Notes": "LiPen",
   "03 - Homework": "LiPenTool",
   "04 - Course": "LiBookMarked",
-  "06 - Stuff": "LiBoomBox",
   "05 - Resources": "LiArchive",
-  "06 - Stuff/Identifier.md": "LiIdCard"
+  "07 - Stuff": "LiBoomBox",
+  "07 - Stuff/Identifier.md": "LiIdCard",
+  "08 - Presents": "LiCake"
 }

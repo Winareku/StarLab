@@ -11,21 +11,21 @@ tags:
 Los tipos de datos permiten representar información del mundo real con diferentes características y operaciones.
 
 > [!quote] Datos Primitivos
-Son tipos básicos que permiten representar información numérica, caracteres y valores lógicos.
-
-| **Tipo** | **Valores** | **Operaciones** |
-|----------|-------------|-----------------|
-| Enteros | Números sin decimal | Suma, resta, multiplicación, división |
-| Reales | Números con decimal | Operaciones aritméticas |
-| Lógicos | True/False | And, Or, Not |
-| Caracteres | Letras, símbolos | Concatenar, buscar, subcadena |
+> Son tipos básicos que permiten representar información numérica, caracteres y valores lógicos.
+> 
+> | **Tipo** | **Valores** | **Operaciones** |
+> |----------|-------------|-----------------|
+> | Enteros | Números sin decimal | Suma, resta, multiplicación, división |
+> | Reales | Números con decimal | Operaciones aritméticas |
+> | Lógicos | True/False | And, Or, Not |
+> | Caracteres | Letras, símbolos | Concatenar, buscar, subcadena |
 
 > [!bug] Datos Compuestos
 > ```java
 > // Ejemplos en Java
 > int arreglo[];                    // Arreglos
 > public class ClaseEjemplo { }     // Clases
-> Set, List, Map, Queue            // Colecciones
+> Set, List, Map, Queue             // Colecciones
 > ```
 
 > [!info] Abstracción en Programación
