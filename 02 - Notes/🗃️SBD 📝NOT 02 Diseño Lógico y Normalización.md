@@ -1,7 +1,9 @@
 ---
 tags:
-- 🗃️SBD
-- 📝NOT
+  - 🗃️SBD
+  - 📝NOT
+cssclasses:
+  - center-titles
 ---
 
 Diseño Lógico y Normalización

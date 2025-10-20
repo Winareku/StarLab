@@ -2,6 +2,8 @@
 tags:
   - 📦DSW
   - 📝NOT
+cssclasses:
+  - center-titles
 ---
 ---
 # Principios SOLID

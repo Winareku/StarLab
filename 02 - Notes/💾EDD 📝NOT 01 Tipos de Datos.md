@@ -2,6 +2,8 @@
 tags:
   - 💾EDD
   - 📝NOT
+cssclasses:
+  - center-titles
 ---
 
 # Tipos de Datos

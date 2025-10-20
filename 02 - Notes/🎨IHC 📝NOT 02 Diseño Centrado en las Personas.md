@@ -2,6 +2,8 @@
 tags:
   - 🎨IHC
   - 📝NOT
+cssclasses:
+  - center-titles
 ---
 # Diseño Centrado en las Personas (HCD) y su Aplicación en Apps Móviles
 ---

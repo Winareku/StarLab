@@ -3,6 +3,8 @@ fecha: 2025-10-10
 tags:
   - 📊EST
   - 📝TAR
+cssclasses:
+  - center-titles
 ---
 ---
 # Tarea:

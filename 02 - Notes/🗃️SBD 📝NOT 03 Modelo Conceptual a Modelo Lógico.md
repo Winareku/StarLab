@@ -2,6 +2,8 @@
 tags:
   - 🗃️SBD
   - 📝NOT
+cssclasses:
+  - center-titles
 ---
 ---
 

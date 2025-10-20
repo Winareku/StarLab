@@ -3,6 +3,8 @@ fecha: 2025-10-13
 tags:
   - 🎨IHC
   - 📝TAR
+cssclasses:
+  - center-titles
 ---
 ---
 # Protocolo de entrevistas

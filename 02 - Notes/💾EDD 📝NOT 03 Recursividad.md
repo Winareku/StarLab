@@ -2,6 +2,8 @@
 tags:
   - 💾EDD
   - 📝NOT
+cssclasses:
+  - center-titles
 ---
 
 # Recursividad
@@ -14,26 +16,26 @@ Es una secuencia numérica infinita donde cada número es la suma de los dos ant
 La secuencia se define matemáticamente como: $F_n = F_{n-1} + F_{n-2}$ con los casos base: $F_0 = 0$ y $F_1 = 1$
 
 > [!bug] Método
-```java
-public class Fibonacci {
-    public static int fibonacci(int n) {
-        switch (n) {
-            case 1:
-                return 0;
-            case 2:
-                return 1;
-            default:
-                return fibonacci(n - 1) + fibonacci(n - 2);
-        }
-    }
-}
-public static void main(String[] args) {
-    System.out.println("Los primeros 10 números de Fibonacci:");
-    for (int i = 0; i < 10; i++) {
-        System.out.println("Fibonacci(" + i + ") = " + fibonacci(i));
-    }
-}
-```
+> ```java
+> public class Fibonacci {
+>     public static int fibonacci(int n) {
+>         switch (n) {
+>             case 1:
+>                 return 0;
+>             case 2:
+>                 return 1;
+>             default:
+>                 return fibonacci(n - 1) + fibonacci(n - 2);
+>         }
+>     }
+> }
+> public static void main(String[] args) {
+>     System.out.println("Los primeros 10 números de Fibonacci:");
+>     for (int i = 0; i < 10; i++) {
+>         System.out.println("Fibonacci(" + i + ") = " + fibonacci(i));
+>     }
+> }
+> ```
 
 > [!info] Un proceso recursivo se llama a sí mismo continuamente.
 

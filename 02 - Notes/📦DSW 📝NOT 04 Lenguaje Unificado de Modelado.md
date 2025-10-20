@@ -3,6 +3,8 @@ tags:
   - 📦DSW
   - 📝NOT
 cssclasses:
+  - center-titles
+  - center-images
 ---
 # Lenguaje Unificado de Modelado (UML) - Casos de Uso, Clases y Secuencia
 
@@ -11,7 +13,8 @@ cssclasses:
 ## 1. Introducción a UML
 
 > [!info] UML es un **estándar de facto** para el modelado orientado a objetos que integra varias notaciones de los años 80 y 90.
-> ![[📦DSW 📝NOT 04 UML - Image 01.png]]
+
+![[📦DSW 📝NOT 04 UML - Image 01.png|512]]
 
 | Aspecto | Descripción |
 |---------|-------------|

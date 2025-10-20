@@ -3,6 +3,7 @@ tags:
   - 🎨IHC
   - 📝NOT
 cssclasses:
+  - center-titles
 ---
 # Usabilidad, Experiencia de Usuario (UX), Interfaz de Usuario (UI) y Diseño de Interacción (IxD)
 ---
