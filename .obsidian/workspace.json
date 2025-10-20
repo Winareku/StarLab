@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7dfd05bb692a35aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251013.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20251013"
-            }
-          },
-          {
-            "id": "984cdb065f391472",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251012.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20251012"
-            }
-          },
-          {
             "id": "ffd2d27c0ddf2681",
             "type": "leaf",
             "state": {
@@ -49,8 +21,7 @@
               "title": "20251019"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,10 +229,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7891667b6e390b6d",
+  "active": "ffd2d27c0ddf2681",
   "lastOpenFiles": [
-    "01 - Daily/20251018.md",
+    "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf",
     "01 - Daily/20251019.md",
+    "01 - Daily/20251018.md",
     "01 - Daily/20251016.md",
     "01 - Daily/20251015.md",
     "01 - Daily/20251013.md",
@@ -285,7 +257,6 @@
     "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
     "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
     "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
-    "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
     "03 - Homework/📦DSW 👥TGR 01 SOLID.pdf",
     "05 - Resources/🎨IHC 📚LIB 00 Proyectos.pdf",
     "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
@@ -298,7 +269,6 @@
     "05 - Resources/🎨IHC 📚LIB 01 Interaction Design Beyond Human-Computer Interaction.pdf",
     "09 - Drawings",
     "05 - Resources/🎨IHC 📚LIB 03 Universal Methods of Design.pdf",
-    "05 - Resources/📦DSW 📚LIB 01 Software Engineering.pdf",
-    "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf"
+    "05 - Resources/📦DSW 📚LIB 01 Software Engineering.pdf"
   ]
 }
