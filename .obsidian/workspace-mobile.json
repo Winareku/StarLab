@@ -4,53 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "9cab76801a268c38",
+        "id": "6f515d17d2197283",
         "type": "tabs",
         "children": [
           {
-            "id": "6a5317cec2734f43",
+            "id": "283f76fa8483a323",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Stuff/Identifier.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Identifier"
-            }
-          },
-          {
-            "id": "30aaf68d34f5ad58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 - Stuff/Identifier.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Identifier"
-            }
-          },
-          {
-            "id": "ee7bccf52c6c8a15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251018.md",
+                "file": "01 - Daily/20251020.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251018"
+              "title": "20251020"
+            }
+          },
+          {
+            "id": "089c19a7ede9ad96",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "05 - Resources/📦DSW 📚LIB 01 Software Engineering.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "📦DSW 📚LIB 01 Software Engineering"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#📊EST",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -129,7 +112,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "937179be023b1de1",
@@ -208,6 +191,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
@@ -220,17 +205,36 @@
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "cdf2d6222c44e374",
+  "active": "283f76fa8483a323",
   "lastOpenFiles": [
-    "06 - Stuff/Identifier.md",
+    "99 - Meta/attachments/Recording 20251020143354.m4a",
+    "01 - Daily/20251019.md",
+    "05 - Resources/📦DSW 📚LIB 01 Software Engineering.pdf",
+    "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf",
+    "01 - Daily/20251020.md",
+    "03 - Homework/🎨IHC 📝TAR 03 Apuntes de la Entrevista.md",
+    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
+    "03 - Homework/🎨IHC 📝TAR 03 Customer Journey Map.md",
+    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
+    "05 - Resources/📦DSW 🏫MPR 04 Lenguaje Unificado de Modelado.pdf",
+    "02 - Notes/📦DSW 📝NOT 04 UML.md",
+    "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
+    "05 - Resources/🎨IHC 📚LIB 00 Proyectos.pdf",
+    "04 - Course/📦 Diseño de Software.md",
+    "04 - Course/🎨 Interacción Humano Computador.md",
+    "03 - Homework/🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas.md",
+    "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
+    "01 - Daily/20251012.md",
+    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
+    "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
     "01 - Daily/20251018.md",
+    "04 - Course/💾 Estructuras de Datos.md",
+    "06 - Stuff/Identifier.md",
     "/01 - Daily/20251018.md",
     "/01 - Daily",
-    "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
     "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
     "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md"
   ]
