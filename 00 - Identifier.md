@@ -62,3 +62,8 @@
 
 > [!info] Información
 > Este es un callout de tipo `info`. Para proporcionar información adicional o contextual.
+
+---
+> [!TIP] Pregunta de Lección #💠QNA
+> Este es un callout de tipo `tip`. Para Preguntas de Lección.
+

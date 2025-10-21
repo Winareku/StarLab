@@ -6,8 +6,7 @@ cssclasses:
   - center-titles
 ---
 
-# Estadística Descriptiva
-by Deepseek
+# [[📊EST 🏫MPR 01 Estadística Descriptiva.pdf|Estadística Descriptiva]]
 
 ---
 
@@ -15,6 +14,7 @@ by Deepseek
 
 > [!info] Definición
 > La **Estadística** es la ciencia que proporciona las herramientas para recolectar, transformar, interpretar y analizar datos para obtener información para la toma de decisiones. Trabaja fundamentalmente con la incertidumbre y la aleatoriedad.
+> <center>Aleatoriedad != Determinismo</center>
 
 > [!success] Aplicaciones de la Estadística
 > - Control de calidad en la industria
@@ -26,12 +26,13 @@ by Deepseek
 > Desde la antigüedad (Egipto, China, Roma) se realizaban censos para registrar posesiones, producción y población con fines tributarios y administrativos.
 
 > [!quote] La estadística se clasifica principalmente en tres grandes áreas:
-> |**Tipo**|**Descripción**|
-|---|---|
-|**Estadística Descriptiva**|Se enfoca en recopilar, organizar, presentar y resumir un conjunto de datos para facilitar su comprensión y análisis.|
-|**Probabilidad**|Modela cómo pueden suceder eventos inciertos y busca encontrar el orden dentro del azar.|
-|**Estadística Inferencial**|Permite proyectar o inferir las propiedades de una población completa a partir del análisis de una muestra.|
-
+> 
+> | **Tipo**                    | **Descripción**                                                                                                                                                                                                                                                                                |
+> | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | **Estadística Descriptiva** | - Es la parte de la estadística que nos permite comprender un conjunto de datos.<br>- Permite conocer las tendencias y homogeneidad dentro de un conjunto de datos.<br>- Se enfoca en recopilar, organizar, presentar y resumir un conjunto de datos para facilitar su comprensión y análisis. |
+> | **Probabilidad**            | Modela cómo pueden suceder eventos inciertos y busca encontrar el orden dentro del azar.                                                                                                                                                                                                       |
+> |**Estadística Inferencial**|Permite proyectar o inferir las propiedades de una población completa a partir del análisis de una muestra.|
+> 
 ---
 
 ## 2. Conceptos Básicos
@@ -39,10 +40,10 @@ by Deepseek
 > [!info] Población vs. Muestra
 > La correcta distinción entre estos conceptos es clave para la estadística inferencial.
 
-| **Concepto**  | **Descripción**                                                                               | **Característica Numérica**                                                                            |
-| ------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Población** | Es el conjunto completo y bien definido de todos los elementos (N) que son objeto de estudio. | **Parámetro**: Cantidad numérica calculada a partir de _toda_ la población.                            |
-| **Muestra**   | Es un subconjunto (n) de unidades de investigación extraídas de la población objetivo.        | **Estadístico (o Estimador)**: Cantidad numérica calculada a partir de los elementos de una _muestra_. |
+| **Concepto**  | **Descripción**                                                                      | **Característica Numérica**                                                                            |
+| ------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| **Población** | Es el conjunto completo y bien definido de N elementos que son objeto de estudio.    | **Parámetro**: Cantidad numérica calculada a partir de _toda_ la población.                            |
+| **Muestra**   | Es un subconjunto de n unidades de investigación extraídas de la población objetivo. | **Estadístico (o Estimador)**: Cantidad numérica calculada a partir de los elementos de una _muestra_. |
 
 > [!warning] Diferencia clave
 > La estadística trabaja con **incertidumbre**, a diferencia de las matemáticas puras que son deterministas.
@@ -50,7 +51,8 @@ by Deepseek
 ---
 
 ## 3. Variables y Datos
-
+> [!success] Definición de Variable
+> Es cualquier característica que se registra o mide sobre cualquier entidad.
 ### 3.1 Tipos de Variables
 
 | **Tipo Principal** | **Subtipo**  | **Descripción**                                                                | **Ejemplos**                                     |
@@ -61,7 +63,7 @@ by Deepseek
 |                    | **Continua** | Resultan de un proceso de medición y pueden tomar cualquier valor en un rango. | Peso, estatura, temperatura.                     |
 
 > [!info] Registro de datos
-> Los datos se registran típicamente en formato tabular:
+> Los datos son los valores que toman las variables y se registran típicamente en formato tabular:
 > - **Filas**: registros/individuos
 > - **Columnas**: variables
 

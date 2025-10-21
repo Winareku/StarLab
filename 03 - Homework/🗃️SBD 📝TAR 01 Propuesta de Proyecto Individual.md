@@ -24,7 +24,8 @@ cssclasses:
 > - **Ejemplos de consultas útiles que debería responder el sistema.**
 
 ---
-# Borrador: [Documento](https://docs.google.com/document/d/1TkLUbn0XJgFrItmNP7fqcwDyr-knKW63/edit?usp=sharing&ouid=112900750255928181135&rtpof=true&sd=true)
+# Borrador
+**Archivo** [Documento](https://docs.google.com/document/d/1TkLUbn0XJgFrItmNP7fqcwDyr-knKW63/edit?usp=sharing&ouid=112900750255928181135&rtpof=true&sd=true)
 
 **Nombre**
 > **AI Hint:**Un título claro y atractivo.
