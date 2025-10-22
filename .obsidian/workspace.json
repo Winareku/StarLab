@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "84e09b47debc9e70",
+        "id": "973b6a715c6b5cf3",
         "type": "tabs",
         "children": [
           {
-            "id": "eb76dc407d409442",
+            "id": "9934cdf539dd59b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251022.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "20251022"
+              "title": "New tab"
             }
           }
         ]
@@ -153,7 +149,7 @@
       {
         "id": "b06250c4c9f097e6",
         "type": "tabs",
-        "dimension": 64.81481481481481,
+        "dimension": 63.888888888888886,
         "children": [
           {
             "id": "1d13d33e1407f126",
@@ -193,7 +189,7 @@
       {
         "id": "8cb3d499b0e5631f",
         "type": "tabs",
-        "dimension": 35.18518518518518,
+        "dimension": 36.11111111111111,
         "children": [
           {
             "id": "8d3ced883be6ede7",
@@ -220,19 +216,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391
+    "width": 413
   },
   "left-ribbon": {
     "hiddenItems": {
-      "tasknotes:Open mini calendar": false,
-      "tasknotes:Open advanced calendar": false,
-      "tasknotes:Open task list": false,
-      "tasknotes:Open notes": false,
-      "tasknotes:Open agenda": false,
-      "tasknotes:Open kanban board": false,
-      "tasknotes:Open pomodoro": false,
-      "tasknotes:Open pomodoro stats": false,
-      "tasknotes:Create new task": false,
       "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -252,26 +239,29 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "01 - Daily/20251019.md",
+    "03 - Homework/📦DSW 👥TGR 04 UML.md",
+    "09 - Drawings/📦DSW 👥TGR 04 UML Case Use.excalidraw.md",
+    "08 - Presents/01 - MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
+    "08 - Presents/01 - MPR/📦DSW 🏫MPR 04 Patrones Estructurales.pdf",
+    "08 - Presents/01 - MPR/📦DSW 🏫MPR 05 Paradigmas de Diseño.pdf",
+    "05 - Resources/📦DSW 🏫MPR 04 Lenguaje Unificado de Modelado.pdf",
+    "01 - Daily/20251022.md",
+    "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
     "03 - Homework/🎨IHC 📝TAR 04 Concepto y Principios de Diseño.md",
+    "02 - Notes/🎨IHC 📝NOT 04 Concepto y Principios de Diseño.md",
+    "03 - Homework/📦DSW 👥TGR 02 UML.md",
     "00 - Identifier.md",
     "03 - Homework/🎨IHC 📝TAR 03 Customer Journey Map.md",
-    "03 - Homework/🎨IHC 📝TAR 03 Apuntes de la Entrevista.md",
-    "03 - Homework/📦DSW 👥TGR 02 UML.md",
+    "01 - Daily/20251019.md",
     "09 - Drawings/📦DSW 👥TGR 02 UML Class Diagram.excalidraw.md",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 02 UML Clases y Secuencia.pdf",
     "09 - Drawings/📦DSW 👥TGR 02 UML UseCase Diagram.excalidraw.md",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 02 UML Casos de Uso.pdf",
-    "01 - Daily/20251022.md",
     "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 08 Marcos de Prueba.pdf",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 07 Casos de Prueba.pdf",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 06 Patrones de Comportamiento.pdf",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 05 Paradigmas de Diseño.pdf",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 04 Patrones Estructurales.pdf",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 03 Principios SOLID.pdf",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 02 Implementación desde Diseño.pdf",
     "99 - Meta/attachments/📦DSW 📝NOT 04 Models.excalidraw.md",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
@@ -288,9 +278,6 @@
     "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
     "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
     "99 - Meta/attachments/Pasted image 20251021205024.png",
-    "Welcome file.md",
-    "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
-    "01 - Daily/20251015.md",
     "99 - Meta/attachments/Pasted image 20251019195837.png",
     "07 - Stuff/🎨IHC 🔰MISC Daemon Hunters Logo.png",
     "07 - Stuff/🔰MISC Wallpaper BTR Street.jpeg"
