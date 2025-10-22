@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNewspaper",
       "BoBxPaint",
       "LiBookTemplate",
       "LiArchiveX",
-      "LiCake",
-      "LiIdCard"
+      "LiCake"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -100,7 +100,7 @@
   "04 - Course": "LiBookMarked",
   "05 - Resources": "LiArchive",
   "07 - Stuff": "LiBoomBox",
-  "08 - Presents": "LiCake",
+  "08 - Presents": "LiNewspaper",
   "10 - Archived": "LiArchiveX",
   "09 - Drawings": "BoBxPaint",
   "00 - Identifier.md": "LiIdCard",

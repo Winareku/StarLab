@@ -4,7 +4,6 @@ tags:
   - 📝NOT
 cssclasses:
   - center-titles
-  - center-images
 ---
 # Lenguaje Unificado de Modelado (UML) - Casos de Uso, Clases y Secuencia
 
@@ -13,8 +12,7 @@ cssclasses:
 ## 1. Introducción a UML
 
 > [!info] UML es un **estándar de facto** para el modelado orientado a objetos que integra varias notaciones de los años 80 y 90.
-
-![[📦DSW 📝NOT 04 UML - Image 01.png|512]]
+> ![[📦DSW 📝NOT 04 Models.excalidraw|100%]]
 
 | Aspecto | Descripción |
 |---------|-------------|
@@ -63,20 +61,22 @@ Book
 | **-** | Privado | Solo la misma clase puede acceder |
 
 ### Tipos de Relaciones
-| Relación | Símbolo | Descripción |
-|----------|---------|-------------|
-| **Asociación** | `----` | Conexión básica entre clases |
-| **Agregación** | `◇----` | Relación parte-todo **débil** |
-| **Composición** | `◆----` | Relación parte-todo **fuerte** |
-| **Herencia** | `▷-----` | Relación de generalización |
+| Relación        | Símbolo  | Descripción                    |
+| --------------- | -------- | ------------------------------ |
+| **Asociación**  | `----`   | Conexión básica entre clases   |
+| **Agregación**  | `◇----`  | Relación parte-todo **débil**  |
+| **Composición** | `◆----`  | Relación parte-todo **fuerte** |
+| **Herencia**    | `▷-----` | Relación de generalización     |
 
-> [!warning] **Multiplicidad** es crucial: indica cuántos objetos participan en una relación (ej: `1..*`, `0..1`)
+> [!warning] Multiplicidad
+> Es crucial: indica cuántos objetos participan en una relación (ej: `1..*`, `0..1`)
 
 ---
 
 ## 4. Diagramas de Secuencia
 
-> [!info] Muestran las **interacciones temporales** entre objetos en un caso de uso específico.
+> [!info] Definición
+> Muestran las **interacciones temporales** entre objetos en un caso de uso específico.
 
 ### Elementos Clave
 | Elemento | Representación | Propósito |
@@ -92,7 +92,7 @@ Book
 | **opt** | `opt` | Fragmento opcional |
 | **loop** | `loop` | Fragmento que se repite |
 
-> [!example] **Ejemplo: Máquina de Autoservicio**
+> [!example] Ejemplo: Máquina de Autoservicio
 > ```
 > Front → Register: Insert(Input)
 > Front → Register: Select(Selection)  
@@ -101,11 +101,11 @@ Book
 > ```
 
 ### Tipos de Mensajes
-| Tipo | Símbolo | Comportamiento |
-|------|---------|----------------|
-| **Síncrono** | `→` | El emisor espera la respuesta |
-| **Asíncrono** | `→` | El emisor continúa sin esperar |
-| **Return** | `←` | Retorno de llamada síncrona |
+| Tipo          | Símbolo | Comportamiento                 |
+| ------------- | ------- | ------------------------------ |
+| **Síncrono**  | `→`     | El emisor espera la respuesta  |
+| **Asíncrono** | `→`     | El emisor continúa sin esperar |
+| **Return**    | `←`     | Retorno de llamada síncrona    |
 
 ---
 
@@ -126,7 +126,7 @@ Book
 
 ## 6. Puntos Clave para Recordar
 
-> [!info] **Conceptos Fundamentales**
+> [!info] Conceptos Fundamentales
 > - UML sirve para **visualizar, especificar, construir y documentar** sistemas software
 > - Los **modelos** capturan la esencia del sistema, los **diagramas** los visualizan
 > - Principales diagramas: **Casos de Uso, Clases, Secuencia**
@@ -137,11 +137,14 @@ Book
 
 ## 7. Lectura Adicional
 
-> [!example] **Libros Recomendados**
+> [!example] Libros Recomendados
 > - *Rumbaugh, Jacobson & Booch*: "The Unified Modeling Language Reference Manual" (Capítulos 1-5, 8)
 > - *Stevens & Pooley*: "Using UML" (Capítulos 1-3, 5-9)
 > - *Pressman & Maxim*: "Software Engineering" (Apéndices 1 y 2)
 
 ---
 
-> [!success] **Próximo Tema**: Proceso de implementación a partir de un diseño UML
+> [!success] Próximo Tema
+> Proceso de implementación a partir de un diseño UML
+
+Herencia entre Clases en Diagrama de Clases se le dice Generalización y entre Interfaces se le dice Realización.

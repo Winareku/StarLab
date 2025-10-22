@@ -9,5 +9,15 @@
   "cupertino@@empty-state-off": false,
   "cupertino@@compact-actions-off": false,
   "cupertino@@hide-status-off": false,
-  "primary-theme@@interface_editor-bg": "editor-bgpattern-dotgrid"
+  "primary-theme@@zero-popup-blur": true,
+  "primary-theme@@ribbon_styles": "ribbon-slideout",
+  "primary-theme@@interface_status-bar-style": "sb-style-floating",
+  "primary-theme@@interface_status-bar-item-display": "sb-word-count-only",
+  "primary-theme@@status-bar-floating-opacity": 0.7,
+  "primary-theme@@status-bar-floating-opacity-hover": 0.9,
+  "primary-theme@@colorful-folders_text": true,
+  "primary-theme@@colorful-folders_collapse-indicator": true,
+  "primary-theme@@colorful-folders_background": false,
+  "primary-theme@@colorful-folders_indentation-guide": true,
+  "primary-theme@@colorful-folders_inherit-color": true
 }
