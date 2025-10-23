@@ -25,7 +25,7 @@ cssclasses:
 
 ---
 # Borrador
-**Archivo** [Documento](https://docs.google.com/document/d/1TkLUbn0XJgFrItmNP7fqcwDyr-knKW63/edit?usp=sharing&ouid=112900750255928181135&rtpof=true&sd=true)
+**Archivo** [[🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.pdf|Propuesta]]
 
 **Nombre**
 > **AI Hint:**Un título claro y atractivo.

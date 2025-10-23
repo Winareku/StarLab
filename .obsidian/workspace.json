@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "973b6a715c6b5cf3",
+        "id": "f931d9cb74049236",
         "type": "tabs",
         "children": [
           {
-            "id": "9934cdf539dd59b8",
+            "id": "b7e6d92290194196",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -50,13 +50,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Daily/20251022.md",
+                "file": "05 - Resources/🗃️SBD 🏫MPR 01 Sistemas de Bases de Datos.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20251022"
+              "title": "Outline of 🗃️SBD 🏫MPR 01 Sistemas de Bases de Datos"
             }
           },
           {
@@ -239,29 +239,32 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
+    "02 - Notes/🗃️SBD 📝NOT 01 Modelo Conceptual de Datos.md",
+    "05 - Resources/🗃️SBD 🏫MPR 01 Supertipo.pdf",
+    "05 - Resources/🗃️SBD 🏫MPR 01 Sistemas de Bases de Datos.pdf",
+    "01 - Daily/20251023.md",
+    "05 - Resources/Unconfirmed 421678.crdownload",
+    "05 - Resources/Unconfirmed 250090.crdownload",
+    "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md",
+    "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.pdf",
+    "01 - Daily/20251019.md",
+    "01 - Daily/20251022.md",
     "03 - Homework/📦DSW 👥TGR 04 UML.md",
     "09 - Drawings/📦DSW 👥TGR 04 UML Case Use.excalidraw.md",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 04 Patrones Estructurales.pdf",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 05 Paradigmas de Diseño.pdf",
     "05 - Resources/📦DSW 🏫MPR 04 Lenguaje Unificado de Modelado.pdf",
-    "01 - Daily/20251022.md",
     "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
     "03 - Homework/🎨IHC 📝TAR 04 Concepto y Principios de Diseño.md",
     "02 - Notes/🎨IHC 📝NOT 04 Concepto y Principios de Diseño.md",
     "03 - Homework/📦DSW 👥TGR 02 UML.md",
     "00 - Identifier.md",
     "03 - Homework/🎨IHC 📝TAR 03 Customer Journey Map.md",
-    "01 - Daily/20251019.md",
     "09 - Drawings/📦DSW 👥TGR 02 UML Class Diagram.excalidraw.md",
     "08 - Presents/01 - MPR/📦DSW 🏫MPR 02 UML Clases y Secuencia.pdf",
     "09 - Drawings/📦DSW 👥TGR 02 UML UseCase Diagram.excalidraw.md",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 02 UML Casos de Uso.pdf",
     "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 08 Marcos de Prueba.pdf",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 07 Casos de Prueba.pdf",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 06 Patrones de Comportamiento.pdf",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 03 Principios SOLID.pdf",
     "99 - Meta/attachments/📦DSW 📝NOT 04 Models.excalidraw.md",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
@@ -270,12 +273,8 @@
     "02 - Notes/📊EST 📝NOT 01 Estadística Descriptiva.md",
     "01 - AI-Template.md",
     "Home.md",
-    "02 - Notes/🗃️SBD 📝NOT 01 Modelo Conceptual de Datos.md",
     "01 - Daily/20251021.md",
     "01 - Daily/20251012.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
     "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
     "99 - Meta/attachments/Pasted image 20251021205024.png",
     "99 - Meta/attachments/Pasted image 20251019195837.png",

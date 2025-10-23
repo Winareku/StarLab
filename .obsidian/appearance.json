@@ -19,6 +19,6 @@
   "translucency": false,
   "theme": "system",
   "baseFontSize": 18,
-  "showRibbon": false,
+  "showRibbon": true,
   "baseFontSizeAction": false
 }

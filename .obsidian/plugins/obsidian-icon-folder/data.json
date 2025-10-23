@@ -100,9 +100,10 @@
   "04 - Course": "LiBookMarked",
   "05 - Resources": "LiArchive",
   "07 - Stuff": "LiBoomBox",
-  "08 - Presents": "LiNewspaper",
+  "08 - Presents": "LiCake",
   "10 - Archived": "LiArchiveX",
   "09 - Drawings": "BoBxPaint",
   "00 - Identifier.md": "LiIdCard",
-  "01 - AI-Template.md": "LiBookTemplate"
+  "01 - AI-Template.md": "LiBookTemplate",
+  "08 - Presents/01 - MPR": "LiNewspaper"
 }
