@@ -8,61 +8,61 @@
         "type": "tabs",
         "children": [
           {
-            "id": "283f76fa8483a323",
+            "id": "55407c07032795f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251020.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20251020"
-            }
-          },
-          {
-            "id": "18572f084413e670",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Homework/🎨IHC 📝TAR 03 Apuntes de la Entrevista.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🎨IHC 📝TAR 03 Apuntes de la Entrevista"
-            }
-          },
-          {
-            "id": "569a21f3a2d88c28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251020.md",
+                "file": "01 - Daily/20251022.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251020"
+              "title": "20251022"
             }
           },
           {
-            "id": "089c19a7ede9ad96",
+            "id": "7f6334d89db25165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Homework/📦DSW 👥TGR 02 UML.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📦DSW 👥TGR 02 UML"
+            }
+          },
+          {
+            "id": "996acbffa7a81735",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "05 - Resources/📦DSW 📚LIB 01 Software Engineering.pdf"
+                "file": "05 - Resources/🗃️SBD 🏫MPR 01 Supertipo.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "📦DSW 📚LIB 01 Software Engineering"
+              "title": "🗃️SBD 🏫MPR 01 Supertipo"
+            }
+          },
+          {
+            "id": "d58e76a6329613f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Course/💾 Estructuras de Datos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "💾 Estructuras de Datos"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -211,12 +211,22 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "lucide-ghost",
-          "title": "git-view"
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      },
+      {
+        "id": "0e12ab3bdd6ddc30",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {},
+          "icon": "checkmark",
+          "title": "Todo List"
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,9 +247,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "569a21f3a2d88c28",
+  "active": "d58e76a6329613f2",
   "lastOpenFiles": [
+    "01 - Daily/20251023.md",
+    "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
+    "05 - Resources/🗃️SBD 🏫MPR 01 Supertipo.pdf",
+    "05 - Resources/🗃️SBD 🏫MPR 01 Sistemas de Bases de Datos.pdf",
+    "03 - Homework/📦DSW 👥TGR 02 UML.md",
+    "01 - Daily/20251022.md",
+    "08 - Presents/01 - MPR/📦DSW 🏫MPR 02 UML Clases y Secuencia.pdf",
+    "05 - Resources/📦DSW 📚LIB 01 Software Engineering.pdf",
+    "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf",
     "01 - Daily/20251021.md",
+    "01 - Daily/20251020.md",
     "03 - Homework/🎨IHC 📝TAR 03 Apuntes de la Entrevista.md",
     "03 - Homework/🎨IHC 📝TAR 02 Métodos de Investigación de Usuario.md",
     "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
@@ -249,11 +269,8 @@
     "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
     "99 - Meta/attachments/Recording 20251021094219.m4a",
     "01 - Daily/20251024.md",
-    "01 - Daily/20251020.md",
     "99 - Meta/attachments/Recording 20251020143354.m4a",
     "01 - Daily/20251019.md",
-    "05 - Resources/📦DSW 📚LIB 01 Software Engineering.pdf",
-    "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "03 - Homework/🎨IHC 📝TAR 03 Customer Journey Map.md",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
@@ -266,12 +283,7 @@
     "03 - Homework/🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas.md",
     "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
     "01 - Daily/20251012.md",
-    "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
     "01 - Daily/20251018.md",
-    "04 - Course/💾 Estructuras de Datos.md",
-    "06 - Stuff/Identifier.md",
-    "/01 - Daily/20251018.md",
-    "/01 - Daily",
-    "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md"
+    "04 - Course/💾 Estructuras de Datos.md"
   ]
 }
