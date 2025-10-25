@@ -21,7 +21,7 @@
 | Material          | #🏫MPR | 🏫MPR    |
 | Libros            | #📚LIB | 📚LIB    |
 | Apuntes           | #📝NOT | 📝NOT    |
-| Exámenes          | #🧠EXA | 🧠EXA    |
+| Exámenes y Lecciones          | #🧠EXA | 🧠EXA    |
 | Proyectos         | #🚀PRO | 🚀PRO    |
 | Prácticas         | #🔬LAB | 🔬LAB    |
 

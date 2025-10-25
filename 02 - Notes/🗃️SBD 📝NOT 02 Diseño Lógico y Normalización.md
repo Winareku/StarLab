@@ -19,12 +19,12 @@ Diseño Lógico y Normalización
 
 [cite_start]Cada entidad del modelo conceptual se convierte en una **tabla** [cite: 178][cite_start], y sus atributos se transforman en las **columnas** de dicha tabla[cite: 179].
 
-| Elemento MC | Elemento ML | Descripción |
-|-------------|-------------|-------------|
-| [cite_start]Entidad [cite: 182] | [cite_start]Tabla [cite: 183] | Representa un conjunto de objetos del mundo real con propiedades comunes. |
-| [cite_start]Atributo [cite: 180] | [cite_start]Columna [cite: 181] | Representa una característica o propiedad de una entidad. |
-| Identificador | Clave Primaria (PK) | [cite_start]Un atributo o conjunto de atributos que identifica de forma única cada fila en una tabla[cite: 200, 203]. [cite_start]La PK no puede contener valores nulos[cite: 41]. |
-| Relación | Clave Foránea (FK) | [cite_start]Una columna (o conjunto de columnas) que establece un vínculo entre dos tablas[cite: 210]. [cite_start]Debe hacer referencia a una clave única en la tabla referenciada[cite: 212]. |
+| Elemento MC                      | Elemento ML                     | Descripción                                                                                                                                                                                     |
+| -------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [cite_start]Entidad [cite: 182]  | [cite_start]Tabla [cite: 183]   | Representa un conjunto de objetos del mundo real con propiedades comunes.                                                                                                                       |
+| [cite_start]Atributo [cite: 180] | [cite_start]Columna [cite: 181] | Representa una característica o propiedad de una entidad.                                                                                                                                       |
+| Identificador                    | Clave Primaria (PK)             | [cite_start]Un atributo o conjunto de atributos que identifica de forma única cada fila en una tabla[cite: 200, 203]. [cite_start]La PK no puede contener valores nulos[cite: 41].              |
+| Relación                         | Clave Foránea (FK)              | [cite_start]Una columna (o conjunto de columnas) que establece un vínculo entre dos tablas[cite: 210]. [cite_start]Debe hacer referencia a una clave única en la tabla referenciada[cite: 212]. |
 
 > [!example] Ejemplo de transformación
 > [cite_start]Una entidad **CLIENTE** con atributos `idCliente`, `Nombre` y `Dirección` se convierte en una tabla `CLIENTE` con esas mismas columnas, donde `idCliente` es la Clave Primaria (PK)[cite: 184, 185, 186, 187, 188, 189].

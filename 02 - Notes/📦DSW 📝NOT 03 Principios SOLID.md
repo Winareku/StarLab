@@ -11,7 +11,7 @@ cssclasses:
 > [!info] Definición
 > Los principios SOLID son un conjunto de cinco principios de diseño de software que, cuando se aplican, ayudan a los desarrolladores a crear sistemas más comprensibles, flexibles y mantenibles. Fueron popularizados por Robert C. Martin (también conocido como "Uncle Bob").
 
-| **Nombre completo**                 | **Descripción breve**                                                                                                                    |
+| **Nombre completo**             | **Descripción breve**                                                                                                                |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Single Responsibility Principle | Cada clase debe tener **una sola responsabilidad** o motivo para cambiar.                                                            |
 | Open/Closed Principle           | El código debe estar **abierto a extensión, pero cerrado a modificación**. Puedes agregar funciones sin tocar lo ya hecho.           |

@@ -1,9 +1,9 @@
 {
   "accentColor": "#2a5f6f",
-  "cssTheme": "Primary",
-  "interfaceFontFamily": "Iosevka Nerd Font",
-  "textFontFamily": "Iosevka Nerd Font",
-  "monospaceFontFamily": "Iosevka Nerd Font Mono",
+  "cssTheme": "Underwater",
+  "interfaceFontFamily": "Google Sans Code",
+  "textFontFamily": "Iosevka Nerd Font Mono",
+  "monospaceFontFamily": "Recursive",
   "enabledCssSnippets": [
     "retro-notebook-bg",
     "Daily Note",
@@ -18,7 +18,7 @@
   ],
   "translucency": false,
   "theme": "system",
-  "baseFontSize": 18,
-  "showRibbon": true,
+  "baseFontSize": 16,
+  "showRibbon": false,
   "baseFontSizeAction": false
 }

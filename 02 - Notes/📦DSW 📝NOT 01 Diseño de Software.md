@@ -11,6 +11,7 @@ cssclasses:
 | **Definición 1** | Proceso que define la arquitectura, componentes, interfaces y características de un sistema.                                                                                                                                |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Definición 2** | Es una descripción de la estructura del software a ser implementado, los modelos de datos y estructuras usadas por el sistema, las interfaces entre los componentes del sistema y, algunas veces los algoritmos utilizados. |
+
 ### Componentes de Software
 - **Definición**: Bloque modular, desplegable y reemplazable que encapsula implementación y expone interfaces.
 - **Características**: Independiente, ejecutable, más abstracto que las clases.

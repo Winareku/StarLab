@@ -9,9 +9,9 @@ cssclasses:
 # Complejidades
 ---
 ### Búsqueda Binaria
-Complejidad $O(log(n))$
+- Complejidad $O(log(n))$
 ### Complejidad Constante
-- Algoritmo para sumar $$a+b+c$$
+- Algoritmo para sumar $a+b+c$
 - Independientemente de los valores de a, b y c, el algoritmo se ejecuta en el mismo tiempo.
 ### Complejidad Factorial
 - Problema del Agente Viajero
@@ -28,5 +28,5 @@ Complejidad $O(log(n))$
 
 
 ---
-#### Ojo:
-Cuál es el nivel de complejidad de agregar un elemento a un array, mapa, etc.
+> [!tip] Tener en cuenta:
+> Cuál es el nivel de complejidad de agregar un elemento a un array, mapa, etc.

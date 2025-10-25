@@ -1,5 +1,4 @@
 {
-  "underwater-theme@@underwater-colors-dark": "uw-deep",
   "underwater-theme@@vault-icon": "Moon",
   "underwater-theme@@table": "table-minimal",
   "fancy-a-story@@theme-variant-dark": "fas-silver-dark",
@@ -19,5 +18,7 @@
   "primary-theme@@colorful-folders_collapse-indicator": true,
   "primary-theme@@colorful-folders_background": false,
   "primary-theme@@colorful-folders_indentation-guide": true,
-  "primary-theme@@colorful-folders_inherit-color": true
+  "primary-theme@@colorful-folders_inherit-color": true,
+  "underwater-theme@@underwater-colors-light": "rose-pine-dawn",
+  "underwater-theme@@underwater-colors-dark": "catppuccin-mocha"
 }
