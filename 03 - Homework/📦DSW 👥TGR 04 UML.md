@@ -6,7 +6,7 @@ cssclasses:
   - center-titles
 ---
 
-# Taller Grupal #4
+# Taller Grupal #04
 > [!info] Contexto
 > Su tarea consiste en identificar el comportamiento de un sistema para una clínica que quiere un sistema interactivo para manejar interacciones entre sus pacientes y sus doctores.
 > **Los requerimientos identificados hasta el momento son los siguientes:**

@@ -6,7 +6,7 @@ cssclasses:
   - center-titles
 ---
 
-# Taller Grupal #2
+# Taller Grupal #02
 > [!info] Contexto
 > - La institución ofrece materias cada período. Cada materia se abre en uno o varios paralelos, cada paralelo tiene un profesor asignado, un aula y uno o más horarios semanales.
 > - Existen tres roles de usuario: estudiante, profesor y administrativo. Todos inician sesión para usar el sistema.

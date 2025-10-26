@@ -6,7 +6,7 @@ cssclasses:
   - center-titles
 ---
 
-# Probabilidad: Teoría y Aplicaciones
+# [[📊EST 🏫MPR 02 Probabilidad.pdf|Unidad 2: Probabilidad]]
 
 ---
 
@@ -78,36 +78,90 @@ $$
 ### 4.1 Regla de Multiplicación
 > [!info] Definición
 > La cantidad de elementos de un espacio muestral se define por la ocurrencia de varios eventos será el resultado de multiplicar la cantidad de elementos de cada uno de los eventos de manera secuencial.
-
-$$
-n(S) = n_1 \times n_2 \times \ldots \times n_k
-$$
+> $$
+> n(S) = n_1 \times n_2 \times \ldots \times n_k
+> $$
 
 ### 4.2 Permutaciones
 
-> [!success] Sin repetición: 
-> $$
-> nP_r = \frac{n!}{(n - r)!}
-> $$
+> [!info] Concepto Clave
+> - Una permutación de $n$ elementos tomados de un conjunto de $N$ elementos es una disposición u ordenación de esos $n$ elementos, donde el orden en que se colocan sí importa.
+> - En las permutaciones, el **orden** de los elementos seleccionados es crucial. Si cambiamos el orden, obtenemos una permutación diferente.
 
-> [!bug] Con repetición:
+> [!success] Permutaciones sin repetición
+> Se utilizan cuando se seleccionan $n$ elementos distintos de un total de $N$ elementos, y el orden en que se eligen es importante.
 > $$
-> \frac{n!}{n_1! \cdot n_2! \cdot \ldots \cdot n_k!}
+> P(N, n) = \frac{N!}{(N - n)!}
 > $$
+> Donde:
+> *   $N$ es el número total de elementos disponibles.
+> *   $n$ es el número de elementos que se van a ordenar o seleccionar.
 
-> [!example] Elección de directiva
-> - 40 estudiantes, elegir presidente, vicepresidente y tesorero:
-> - $40 \times 39 \times 38 = 59,280$
+> [!example] Elección de una directiva
+> En un grupo de $N = 40$ estudiantes, se deben elegir un presidente, un vicepresidente y un tesorero. Dado que cada cargo es distinto, el orden en que se eligen las personas sí importa (no es lo mismo ser presidente que vicepresidente).
+>
+> Aquí, $N = 40$ (total de estudiantes) y $n = 3$ (cargos a elegir).
+>
+> Aplicando la fórmula:
+> $$
+> P(40, 3) = \frac{40!}{(40 - 3)!} = \frac{40 \times 39 \times 38 \times 37!}{37!} = 40 \times 39 \times 38 = 59,280
+> $$
+> Hay 59,280 maneras diferentes de elegir la directiva.
+
+> [!bug] Permutaciones con elementos repetidos
+> Se utilizan cuando se desea ordenar un conjunto de $N$ elementos, donde algunos de ellos son idénticos.
+> $$
+> P_{rep}(N; n_1, n_2, \ldots, n_k) = \frac{N!}{n_1! \cdot n_2! \cdot \ldots \cdot n_k!}
+> $$
+> Donde:
+> *   $N$ es el número total de elementos a ordenar.
+> *   $n_1, n_2, \ldots, n_k$ son las cantidades de cada tipo de elemento repetido, tal que $n_1 + n_2 + \ldots + n_k = N$.
+
+> [!example] Formación de palabras con letras repetidas
+> ¿Cuántas palabras distintas (con o sin sentido) se pueden formar con las letras de la palabra "MATEMATICAS"?
+>
+> Primero, contamos el total de letras ($N$) y la repetición de cada una:
+> *   $N = 11$ letras en total.
+> *   M: 2 veces ($n_1 = 2$)
+> *   A: 3 veces ($n_2 = 3$)
+> *   T: 2 veces ($n_3 = 2$)
+> *   E: 1 vez
+> *   I: 1 vez
+> *   C: 1 vez
+> *   S: 1 vez
+>
+> Aplicando la fórmula:
+> $$
+> P_{rep}(11; 2, 3, 2) = \frac{11!}{2! \cdot 3! \cdot 2!} = \frac{39,916,800}{2 \cdot 6 \cdot 2} = \frac{39,916,800}{24} = 1,663,200
+> $$
+> Se pueden formar 1,663,200 palabras distintas.
 
 ### 4.3 Combinaciones
 
-$$
-nC_r = \binom{n}{r} = \frac{n!}{(n - r)! \cdot r!}
-$$
+> [!info] Concepto Clave
+> - Una combinación de $n$ elementos tomados de un conjunto de $N$ elementos es un subconjunto de esos $N$ elementos, donde solo importa qué elementos están incluidos, y no el orden en que se seleccionaron.
+> - En las combinaciones, el **orden** de los elementos seleccionados **no importa**. Un conjunto de elementos es el mismo sin importar el orden en que se presenten.
 
-> [!example] Comités sin orden
-> - De 40 estudiantes, elegir 3 sin cargos:
-> - $\binom{40}{3} = 9,880$
+> [!success] Combinaciones sin repetición
+> Se utilizan cuando se seleccionan $n$ elementos distintos de un total de $N$ elementos, y el orden en que se eligen NO es importante.
+> $$
+> C(N, n) = \binom{N}{n} = \frac{N!}{(N - n)! \cdot n!}
+> $$
+> Donde:
+> *   $N$ es el número total de elementos disponibles.
+> *   $n$ es el número de elementos que se van a seleccionar para formar el subconjunto.
+
+> [!example] Formación de un comité
+> En un grupo de $N = 40$ estudiantes, se desea formar un comité de $n = 3$ miembros. En un comité, todos los miembros tienen el mismo "rango", por lo que el orden en que son elegidos no importa.
+>
+> Aquí, $N = 40$ (total de estudiantes) y $n = 3$ (miembros a elegir para el comité).
+>
+> Aplicando la fórmula:
+> $$ C(40, 3) = \binom{40}{3} = \frac{40!}{(40 - 3)! \cdot 3!} = \frac{40!}{37! \cdot 3!} = \frac{40 \times 39 \times 38}{3 \times 2 \times 1} = 40 \times 13 \times 19 = 9,880 $$
+
+> [!tip] Regla práctica
+> - **Usa Combinaciones** cuando: "solo necesito un grupo" (todos los miembros son equivalentes)
+> - **Usa Permutaciones** cuando: "necesito asignar roles específicos" (cada posición es única)
 
 ---
 

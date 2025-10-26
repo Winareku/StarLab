@@ -12,7 +12,7 @@ cssclasses:
 ## 1. Introducción a UML
 
 > [!info] UML es un **estándar de facto** para el modelado orientado a objetos que integra varias notaciones de los años 80 y 90.
-> ![[📦DSW 📝NOT 04 Models.excalidraw|100%]]
+> ![[📦DSW 📝NOT 04 Models.excalidraw|75%]]
 
 | Aspecto | Descripción |
 |---------|-------------|

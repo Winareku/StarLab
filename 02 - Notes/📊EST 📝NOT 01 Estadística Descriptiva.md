@@ -6,7 +6,7 @@ cssclasses:
   - center-titles
 ---
 
-# [[📊EST 🏫MPR 01 Estadística Descriptiva.pdf|Estadística Descriptiva]]
+# [[📊EST 🏫MPR 01 Estadística Descriptiva.pdf|Unidad 1: Estadística Descriptiva]]
 
 ---
 
@@ -50,7 +50,7 @@ cssclasses:
 | **Concepto**  | **Descripción**                                                                                       | **Característica Numérica**                                                                            |
 | ------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | **Población** | Es el conjunto completo y bien definido de N **unidades de investigación** que son objeto de estudio. | **Parámetro**: Cantidad numérica calculada a partir de _toda_ la población.                            |
-| **Muestra**   | Es un subconjunto de n **observaciones** de la población objetivo.                                        | **Estadístico (o Estimador)**: Cantidad numérica calculada a partir de los elementos de una _muestra_. |
+| **Muestra**   | Es un subconjunto de n **observaciones** de la población objetivo.                                    | **Estadístico (o Estimador)**: Cantidad numérica calculada a partir de los elementos de una _muestra_. |
 
 > [!warning] Diferencia clave
 > La estadística trabaja con **incertidumbre**, a diferencia de las matemáticas puras que son deterministas.
@@ -161,12 +161,12 @@ cssclasses:
 
 ### 7.1 Principales Medidas
 
-| Medida                       | Fórmula                             | Interpretación                             |
-| ---------------------------- | ----------------------------------- | ------------------------------------------ |
-| **Rango**                    | $$MAX - MIN$$                       | Amplitud total de los datos                |
-| **Varianza (s²)**            | $\frac{\sum(x_i - \bar{x})^2}{n-1}$ | Dispersión cuadrática promedio             |
-| **Desviación Estándar (s)**  | $\sqrt{s^2}$                        | Dispersión en unidades originales          |
-| **Coeficiente de Variación** | $CV = \frac{s}{\bar{x}}$            | Dispersión relativa (para comparar grupos) |
+| Medida                           | Fórmula                             | Interpretación                             |
+| -------------------------------- | ----------------------------------- | ------------------------------------------ |
+| **Rango (R)**                    | $$X_{(n)} - X_{(1)}$$               | Amplitud total de los datos                |
+| **Varianza (s²)**                | $\frac{\sum(x_i - \bar{x})^2}{n-1}$ | Dispersión cuadrática promedio             |
+| **Desviación Estándar (s)**      | $\sqrt{s^2}$                        | Dispersión en unidades originales          |
+| **Coeficiente de Variación (V)** | $V = \frac{s}{\bar{x}}$             | Dispersión relativa (para comparar grupos) |
 
 > [!warning] Población vs Muestra
 > 
@@ -208,7 +208,7 @@ cssclasses:
 ## 9. Gráficos de Caja y Bigotes
 
 > [!info] Componentes de un Gráfico de Caja
-> 
+> ![[Pasted image 20251025133739.png|256]]
 > - La **caja** está delimitada por el primer cuartil ($Q_1$) y el tercer cuartil ($Q_3$). Su longitud es el Rango Intercuartílico (IQR).
 >     
 > - La **línea** dentro de la caja marca la Mediana ($Q_2$).
@@ -229,7 +229,7 @@ cssclasses:
 > [!bug] 10.1 Asimetría (Sesgo)
 > Mide el grado de simetría de la distribución. Puede ser positiva (cola a la derecha) o negativa (cola a la izquierda). En distribuciones simétricas, la media y la mediana coinciden.
 > - **Simétrica**: Media = Mediana
-> - **Asimetría positiva**: Cola a la derecha, Media > Mediana
+> - **Asimetría positiva**: Cola a la derecha, Mediana < Media
 > - **Asimetría negativa**: Cola a la izquierda, Media < Mediana
 
 > [!danger] 10.2 Curtosis (Apuntamiento)
