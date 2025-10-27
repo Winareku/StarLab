@@ -62,25 +62,31 @@ cssclasses:
 
 ***
 ## 1. Journey Map
-> [!success] 1. Solicitud de Reporte
-> El ERP realiza correctamente las solicitudes.
+> [!success] Solicitud de Reporte  
+> Un área de la empresa solicita un reporte financiero específico o se activa un proceso mensual de registro.
 
-> [!failure] 2. Extracción de Datos Contables
-> 
+> [!failure] Extracción de Datos Contables  
+> Se recopilan datos de diversas fuentes (bancos, facturas) para consolidarlos según el objetivo del reporte.
 
-> [!success] 3. Validación y Supervisión de Datos
+> [!success] Validación y Supervisión de Datos  
+> Personal especializado verifica que la información sea correcta, confiable y cumpla con los estándares de calidad.
 
-> [!failure] 4. Envío de Datos
+> [!failure] Envío de Datos  
+> Los datos validados se envían a las áreas correspondientes (como contabilidad) para su procesamiento.
 
-> [!success] 5. Cálculo de Indicadores
+> [!success] Cálculo de Indicadores  
+> Con software especializado (ej. Excel), se calculan índices, proyecciones, costos u otros indicadores numéricos.
 
-> [!failure] 6. Detección de Criticidad en Cartera
+> [!failure] Detección de Criticidad en Cartera  
+> Según reglas de negocio, se identifican alertas (ej. saldos bajos) que requieren una acción o supervisión.
 
-> [!failure] 7. Creación de Gráfica e Informe
+> [!failure] Creación de Gráfica e Informe  
+> Se consolidan todos los datos en informes finales con gráficos, explicaciones del proceso y las alertas detectadas.
 
-> [!success] 8. Envío y Presentación de Documentos
+> [!success] Envío y Presentación de Documentos  
+> Los reportes se presentan a los solicitantes y, si son documentos legales, se envían a entidades correspondientes (ej. SRI).
 
-> [!tip] Redefinición del Problema
+> [!note] Redefinición del Problema
 > Hemos notado que el área de ventas necesita acceder de forma rápida y eficaz a información precisa sobre estados de cuenta, cartera, comparación de recaudación anual, y proyección de ingresos, con alertas automáticas y seguimiento de procesos críticos, pero actualmente carecen de una herramienta digital que entregue esos datos de manera inmediata, y los procesos existentes, como el ERP, no permiten una visualización unificada ni respuestas ágiles a consultas específicas. Si esto continúa, el administrador de ventas no podrá tomar decisiones oportunas basadas en datos actualizados y se dificultará la proyección precisa de ingresos, afectando tanto la eficiencia operativa del área como la capacidad de la empresa y optimizar su flujo. ¿Cómo podemos diseñar una solución digital centrada en experiencia de usuario que integre gráficas, un asistente conversacional con IA y alertas automatizadas, manteniendo los estándares de seguridad y segmentación de perfiles?
 
 ***
@@ -194,7 +200,7 @@ cssclasses:
 > [!success] Concepto Central: "SalesBot Intelligence"
 > **Visión**: Un asistente conversacional inteligente que democratiza el acceso a datos financieros críticos mediante interfaces naturales y seguras, transformando datos complejos en insights accionables para todos los perfiles de usuario.
 > 
-> Elementos clave del concepto:
+> **Elementos clave del concepto:**
 > - Interacción natural: Chatbot con lenguaje natural que elimina barreras técnicas
 > - Visualización unificada: Dashboard consolidado con gráficos claros y en tiempo real
 > - Segmentación inteligente: Respuestas y vistas adaptadas al perfil del usuario

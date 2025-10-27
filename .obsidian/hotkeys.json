@@ -46,7 +46,15 @@
       "key": " "
     }
   ],
-  "editor:toggle-blockquote": [
+  "table-editor-obsidian:format-all-tables": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "callout-integrator:callout-integrate": [
     {
       "modifiers": [
         "Mod"
@@ -54,12 +62,13 @@
       "key": "Q"
     }
   ],
-  "table-editor-obsidian:format-all-tables": [
+  "callout-integrator:callout-unintegrate": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
-      "key": "`"
+      "key": "Q"
     }
   ]
 }

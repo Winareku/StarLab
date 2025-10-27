@@ -18,5 +18,6 @@
   "obsidian-checklist-plugin",
   "obsidian-export-image",
   "table-editor-obsidian",
-  "sheets"
+  "sheets",
+  "callout-integrator"
 ]
