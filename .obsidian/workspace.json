@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bfcfe9d7d9fe81cd",
+        "id": "92d3fcba42c92f43",
         "type": "tabs",
         "children": [
           {
-            "id": "3a020e9211938a3e",
+            "id": "fb78868380171389",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251027.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "20251027"
+              "title": "New tab"
             }
           }
         ]
@@ -40,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Daily/20251027.md",
+                "file": "03 - Homework/🎨IHC 🚀PRO Entrevistas Alt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20251027"
+              "title": "Outline of 🎨IHC 🚀PRO Entrevistas Alt"
             }
           },
           {
@@ -187,8 +183,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8cb3d499b0e5631f",
@@ -254,17 +249,26 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf",
+    "99 - Meta/attachments/📦DSW 📝NOT 04 Models.excalidraw.md",
+    "01 - Daily/20251028.md",
+    "99 - Meta/attachments/Entrevista Maria.mp3",
+    "99 - Meta/attachments/Entrevista Marco.mp3",
+    "09 - Drawings/Conceptos.excalidraw.md",
+    "09 - Drawings/Conceptos.excalidraw",
+    "09 - Drawings/📦DSW 👥TGR 04 UML Case Use.excalidraw.md",
     "01 - Daily/20251027.md",
-    "01 - Daily/20251026.md",
+    "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
+    "05 - Resources/💾EDD 🏫MPR 04 Notación BigO.pdf",
     "01 - Daily/20251024.md",
+    "03 - Homework/🎨IHC 🚀PRO Entrevistas Alt.md",
+    "03 - Homework/🎨IHC 🚀PRO Entrevistas.md",
+    "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf",
+    "01 - Daily/20251026.md",
     "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
     "02 - Notes/🎨IHC 📝NOT 05 Generación de Ideas.md",
     "00 - Identifier.md",
     "03 - Homework/🎨IHC 📝TAR 06 Ideas de diseño en base a principios de diseño.md",
-    "03 - Homework/🎨IHC 🚀PRO Entrevistas.md",
     "03 - Homework/🎨IHC 📝TAR 05 Ideas de diseño en base a principios de diseño 1.md",
-    "03 - Homework/🎨IHC 🚀PRO Entrevistas Alt.md",
     "03 - Homework/🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas.md",
     "03 - Homework/🎨IHC 📝TAR 04 Concepto y Principios de Diseño.md",
     "02 - Notes/🎨IHC 📝NOT 04 Concepto y Principios de Diseño.md",
@@ -281,20 +285,11 @@
     "08 - a",
     "05 - Resources/💾EDD 🏫MPR 03 Recursión.pdf",
     "03 - Homework/📦DSW 👥TGR 04 UML.md",
-    "03 - Homework/📦DSW 👥TGR 02 UML.md",
-    "03 - Homework/📦DSW 👥TGR 01 SOLID.pdf",
-    "02 - Notes/📊EST 📝NOT 01 Estadística Descriptiva.md",
-    "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
-    "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
-    "05 - Resources/📊EST 🏫MPR 01 Estadística Descriptiva.pdf",
     "99 - Meta/attachments/Pasted image 20251025133739.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 04.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 02.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 03.png",
-    "02 - Notes/🗃️SBD 📝NOT 02 Diseño Lógico y Normalización.md",
-    "05 - Resources/💾EDD 🏫MPR 02 Java Generics.pdf",
-    "05 - Resources/🗃️SBD 🏫MPR 01 Supertipo.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
     "99 - Meta/attachments/Pasted image 20251021205024.png",
