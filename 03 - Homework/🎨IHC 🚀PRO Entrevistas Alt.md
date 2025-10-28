@@ -17,7 +17,7 @@ cssclasses:
 
 > [!info] Introducción y Presentación (1 minuto)
 > **Objetivo:** Recalcar el contexto (proyecto universitario, no implementación real) y pedirle al contacto que se presente por su área de *expertise*, no por su empresa.
->
+> ![[Entrevista Marco.mp3]]
 > **Frase de inicio:** "¡Buenos días/tardes! Mil gracias por su tiempo. Como le comenté, esta es una charla académica grabada y, como acordamos, **no hablaremos de su empresa actual ni de sus procesos internos**. Mi interés es 100% su **opinión profesional** sobre escenarios hipotéticos.
 >
 > Mi proyecto es el diseño conceptual de un asistente IA ('SalesBot') que gestionaría datos financieros críticos en una **empresa privada hipotética**.

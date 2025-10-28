@@ -14,7 +14,9 @@ cssclasses:
 
 > [!info] Introducción y Presentación (1 minuto)
 > **Objetivo:** Recalcar el contexto (proyecto universitario, no implementación real) y que el contacto se presente para entender su rol y enfocar la conversación.
->
+> 
+> ![[Entrevista Maria.mp3]]
+> 
 > **Frase de inicio:** "¡Buenos días/tardes! Mil gracias por su tiempo. Para empezar, ¿podría presentarse brevemente, incluyendo su nombre y su rol actual en la empresa? Esto nos ayudará a contextualizar mejor la conversación. Mi proyecto es el diseño conceptual de un asistente IA, 'SalesBot', que gestiona datos financieros críticos."
 >
 > **Pregunta de confirmación:** *(Esta pregunta ya no es necesaria como tal, ya que la presentación inicial cubre el rol. Podrías usarla como un seguimiento si la presentación es muy breve, o simplemente omitirla y dejar que la "Frase de inicio" cumpla ambos propósitos.)*
