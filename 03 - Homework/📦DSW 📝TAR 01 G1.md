@@ -77,7 +77,7 @@ cssclasses:
 # RoadMap
 
 ## 🎯 Fase 1: Planificación Inicial
-- [ ] **Formar equipo** (3-4 personas) y asignar roles
+- [x] **Formar equipo** (3-4 personas) y asignar roles
 - [ ] **Leer y analizar** detenidamente los antecedentes del sistema HomeStay
 - [ ] **Identificar** los actores principales del sistema
 - [ ] **Definir** las funcionalidades clave del sistema

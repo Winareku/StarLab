@@ -208,7 +208,7 @@ cssclasses:
 ## 9. Gráficos de Caja y Bigotes
 
 > [!info] Componentes de un Gráfico de Caja
-> ![[Pasted image 20251025133739.png|256]]
+> ![[📊EST 📝NOT 01 Estadística Descriptiva - Image 05.png|256]]
 > - La **caja** está delimitada por el primer cuartil ($Q_1$) y el tercer cuartil ($Q_3$). Su longitud es el Rango Intercuartílico (IQR).
 >     
 > - La **línea** dentro de la caja marca la Mediana ($Q_2$).

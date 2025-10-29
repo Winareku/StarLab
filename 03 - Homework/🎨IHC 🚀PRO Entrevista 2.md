@@ -17,15 +17,16 @@ cssclasses:
 
 > [!info] Introducción y Presentación (1 minuto)
 > **Objetivo:** Recalcar el contexto (proyecto universitario, no implementación real) y pedirle al contacto que se presente por su área de *expertise*, no por su empresa.
-> ![[Entrevista Marco.mp3]]
+> ![[🎨IHC 🚀PRO Entrevista 02.mp3]]
 > **Frase de inicio:** "¡Buenos días/tardes! Mil gracias por su tiempo. Como le comenté, esta es una charla académica grabada y, como acordamos, **no hablaremos de su empresa actual ni de sus procesos internos**. Mi interés es 100% su **opinión profesional** sobre escenarios hipotéticos.
 >
 > Mi proyecto es el diseño conceptual de un asistente IA ('SalesBot') que gestionaría datos financieros críticos en una **empresa privada hipotética**.
 >
 > Para empezar, ¿podría solo decirme su nombre y su **área general de 'expertise'**? (por ejemplo, 'gestión de TI', 'seguridad de datos', 'finanzas', 'gestión de proyectos', etc.)"
 
-**Anotación 1 (Área de Expertise General):**
-**Anotación 2 (Años de Experiencia, si lo menciona):**
+> [!success] Anotaciones:
+> - **Nombre:** Marco Elías Estrada Ontaneda
+> - **Área de Expertise:** Presidente de una caja de ahorro, especializado en datos financieros, estados financieros, contabilidad y gestión de cuentas
 
 ---
 
@@ -34,8 +35,9 @@ cssclasses:
 > [!question] P1: Confianza Inicial en la IA (Perspectiva de Datos)
 > **Pregunta:** Pensemos en un **escenario hipotético** en una empresa privada. En lugar de que un gerente entre al sistema contable (ERP) para ver un dato, le pregunta a un chatbot de IA. ¿Cuál es su **opinión profesional** sobre la **confianza** que generaría ese método para acceder a un dato financiero clave (como un saldo o un reporte de ventas)?
 
-**Anotación 1:**
-**Anotación 2:**
+> [!success] Anotaciones:
+> - La principal preocupación sería la filtración de información o mal uso de los datos
+> - Posibilidad de errores en la interpretación de la IA que afecten resultados y decisiones basadas en esos datos
 
 ---
 
@@ -43,16 +45,18 @@ cssclasses:
 > **Pregunta:** Si este bot (en este escenario hipotético) accediera a **datos sensibles de la empresa**, ¿cuál sería, desde su punto de vista profesional, la **mayor preocupación o riesgo de seguridad**? ¿Podría explicar por qué?
 > * *(Si necesita ayuda para empezar:)* "¿Sería la intercepción del dato, que el bot se equivoque, o que le dé acceso a la información a alguien no autorizado? ¿O quizás otro?"
 
-**Anotación 1:**
-**Anotación 2:**
+> [!success] Anotaciones:
+> - El principal riesgo sería la filtración de datos personales y financieros (sigilo bancario)
+> - Necesidad de controlar estrictamente el acceso, limitándolo solo a personal autorizado
 
 ---
 
 > [!question] P3: Validación del Canal (WhatsApp)
 > **Pregunta:** El proyecto busca usar **WhatsApp** como canal principal. ¿Cómo cree que un **profesional de finanzas o un gerente** recibiría la idea de pedir un 'estado de cuenta' o 'reporte de cartera' por WhatsApp? ¿Considera que es un canal adecuado o generaría preocupaciones de seguridad para este tipo de información? ¿Por qué?
 
-**Anotación 1:**
-**Anotación 2:**
+> [!success] Anotaciones:
+> - No considera WhatsApp un canal confiable para datos financieros
+> - Preocupación por políticas de protección de datos y sigilo bancario
 
 ---
 
@@ -60,8 +64,9 @@ cssclasses:
 > **Pregunta:** Si el bot le da una cifra crítica a un gerente (Ej.: "La recaudación fue X"), ¿qué elementos necesitaría **ese gerente** para **confiar plenamente y poder auditar** la cifra? Desde su experiencia, ¿qué le daría esa seguridad?
 > * *(Si necesita ayuda para empezar:)* "¿Necesitaría un gráfico, que el bot envíe el documento fuente (factura/reporte), o la cifra por sí sola sería suficiente?"
 
-**Anotación 1:**
-**Anotación 2:**
+> [!success] Anotaciones:
+> - Requeriría autenticación del usuario, encriptación de datos y auditorías periódicas
+> - Confiaría solo en un 60-65% en la IA, siempre corroboraría personalmente los datos críticos
 
 ---
 
@@ -69,8 +74,9 @@ cssclasses:
 > **Pregunta:** Teniendo en cuenta que el dato es sensible, ¿cómo equilibraría usted, como profesional, la **usabilidad** (rapidez y facilidad) con la **seguridad** en el acceso a esta información? ¿Qué priorizaría y por qué?
 > * *(Ejemplos si es necesario:)* "Por ejemplo, ¿un acceso muy rápido (PIN) o un acceso muy seguro (clave + código al celular) aunque tome más tiempo?"
 
-**Anotación 1:**
-**Anotación 2:**
+> [!success] Anotaciones:
+> - Priorizaría conocer la entidad detrás de la aplicación y sus políticas de seguridad
+> - Verificaría la institución, su misión, visión y objetivos antes de confiar en la herramienta
 
 ---
 
@@ -79,7 +85,10 @@ cssclasses:
 > [!question] Pregunta de Cierre y Retroalimentación (1-2 Minutos)
 > **Pregunta:** ¿Se me escapa algo importante que considere relevante para este tema de confianza y seguridad en un asistente de IA para datos financieros? ¿Tiene alguna recomendación o comentario adicional basado en su experiencia general?
 
-**Anotación 1:**
-**Anotación 2:**
+> [!success] Anotaciones:
+> - Recomienda implementar buenas políticas de seguridad y minimizar riesgos
+> - Sugiere control estricto de acceso limitado a personal específico
+> - Considera que la IA es más confiable para datos cuantitativos que cualitativos
+> - Ve potencial en el proyecto para agilizar procesos administrativos y contables
 
 ---
