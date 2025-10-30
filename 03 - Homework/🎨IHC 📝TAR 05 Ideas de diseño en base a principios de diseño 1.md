@@ -9,7 +9,7 @@ cssclasses:
 # Proyecto | Investigación de Campo | Individual | 4 hr 10 min
 
 > [!success] Información Necesaria
-> [[🎨IHC 🚀PRO SalesBot]]
+> ![[🎨IHC 🚀PRO SalesBot]]
 
 > [!bug] Completar
 > > [!warning] Cada miembro del grupo debe: Entrevistar mínimo a 2 personas (por lo menos 30 minutos por cada entrevista). Observar mínimo 1 contexto (por lo menos 30 minutos de observación con evidencias).
