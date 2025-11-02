@@ -111,41 +111,41 @@ cssclasses:
   - [x] **L** - Principio de sustitución de Liskov
   - [x] **I** - Principio de segregación de interfaces
   - [x] **D** - Principio de inversión de dependencias
-- [ ] **Definir** relaciones entre clases con multiplicidad y roles
-- [ ] **Justificar** aplicación de cada principio SOLID
-- [ ] **Validar** que el diseño soporte los casos de uso
+- [x] **Definir** relaciones entre clases con multiplicidad y roles
+- [x] **Justificar** aplicación de cada principio SOLID
+- [x] **Validar** que el diseño soporte los casos de uso
 
 > [!warning] Importante
 > Asegúrense de que cada principio SOLID esté claramente aplicado y justificado en el documento.
 
 ## 🔄 Fase 4: Diagramas de Secuencia (Sección C - 40%)
-- [ ] **Seleccionar** los 4 casos de uso de la Sección A
-- [ ] **Diseñar** diagrama de secuencia para cada caso de uso
-- [ ] **Incluir** en cada diagrama:
-  - [ ] Mensajes entre objetos
-  - [ ] Creación de instancias
-  - [ ] Llamadas a métodos
-- [ ] **Verificar** consistencia con el diagrama de clases
+- [x] **Seleccionar** los 4 casos de uso de la Sección A
+- [x] **Diseñar** diagrama de secuencia para cada caso de uso
+- [x] **Incluir** en cada diagrama:
+  - [x] Mensajes entre objetos
+  - [x] Creación de instancias
+  - [x] Llamadas a métodos
+- [x] **Verificar** consistencia con el diagrama de clases
 
 ## 💻 Fase 5: Generación de Código (Sección D - 10%)
 - [x] **Configurar** repositorio en GitHub
 - [x] **Implementar** clases e interfaces del diagrama
-- [ ] **Codificar** lógica mínima para los métodos
-- [ ] **Asegurar** que todos los integrantes contribuyan
-- [ ] **Documentar** commits en el repositorio
+- [x] **Codificar** lógica mínima para los métodos
+- [x] **Asegurar** que todos los integrantes contribuyan
+- [x] **Documentar** commits en el repositorio
 
 ## 📦 Fase 6: Integración y Entrega
-- [ ] **Revisar** que todos los diagramas estén completos
-- [ ] **Validar** consistencia entre diagramas y código
-- [ ] **Preparar** documento final con:
-  - [ ] Portada con nombres del equipo
-  - [ ] Índice de contenido
-  - [ ] Diagramas UML
-  - [ ] Descripción de casos de uso
-  - [ ] Justificación SOLID
-- [ ] **Exportar** documentos en formato DOCX y PDF
-- [ ] **Incluir** archivos de Visual Paradigm
-- [ ] **Comprimir** todos los entregables en ZIP/RAR
+- [x] **Revisar** que todos los diagramas estén completos
+- [x] **Validar** consistencia entre diagramas y código
+- [x] **Preparar** documento final con:
+  - [x] Portada con nombres del equipo
+  - [x] Índice de contenido
+  - [x] Diagramas UML
+  - [x] Descripción de casos de uso
+  - [x] Justificación SOLID
+- [x] **Exportar** documentos en formato DOCX y PDF
+- [x] **Incluir** archivos de Visual Paradigm
+- [x] **Comprimir** todos los entregables en ZIP/RAR
 
 > [!success] Recordatorio Final
 > - **Fecha límite**: [Insertar fecha de entrega]

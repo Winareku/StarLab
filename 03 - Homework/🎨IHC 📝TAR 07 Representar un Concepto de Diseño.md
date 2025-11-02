@@ -12,9 +12,9 @@ cssclasses:
 > 
 
 > [!bug] Completar
-> - [ ] ¿Qué funcionalidades y/o formas de interacción con la solución sí resalta este video? Indique un mínimo de 3 funcionalidades.
-> - [ ] Nombre una funcionalidad que probablemente la solución debe tener, pero que el video no resalta.
-> - [ ] Explique detalladamente: ¿Por qué el video no resalta la funcionalidad del punto anterior y sí resalta otras?
+> - ¿Qué funcionalidades y/o formas de interacción con la solución sí resalta este video? Indique un mínimo de 3 funcionalidades.
+> - Nombre una funcionalidad que probablemente la solución debe tener, pero que el video no resalta.
+> - Explique detalladamente: ¿Por qué el video no resalta la funcionalidad del punto anterior y sí resalta otras?
 
 
 > [!note] Entregar

@@ -22,7 +22,9 @@
   "underwater-theme@@underwater-colors-light": "rose-pine-dawn",
   "underwater-theme@@underwater-colors-dark": "catppuccin-mocha",
   "underwater-theme@@workspace-bg": true,
-  "underwater-theme@@bg-url": "url(\"obsidian://open?vault=StarLab&file=07%20-%20Stuff%2F%F0%9F%94%B0MISC%20Wallpaper%20GruvGreen.png\")",
+  "underwater-theme@@bg-url": "obsidian://open?vault=StarLab&file=07%20-%20Stuff%2F%F0%9F%94%B0MISC%20Wallpaper%20GruvGreen.png",
   "underwater-theme@@callout": "callout-outlined",
-  "underwater-theme@@checkbox": "checkbox-circle"
+  "underwater-theme@@checkbox": "checkbox-circle",
+  "underwater-theme@@bg-opacity": 0.5,
+  "underwater-theme@@rose-rgb@@dark": "#79BBCD"
 }
