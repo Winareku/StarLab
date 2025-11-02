@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8fbcc9f976ec056f",
+        "id": "25783cc892e6702e",
         "type": "tabs",
         "children": [
           {
-            "id": "8969bf9b29ff5d36",
+            "id": "cc9664c4b3ac14e6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20251101.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "20251101"
             }
           }
         ]
@@ -248,13 +252,16 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "02 - Notes/!🔰MISC Próximas Actividades.md",
-    "03 - Homework/📦DSW 📝TAR 01 G1 - Indicaciones.md",
-    "03 - Homework/🎨IHC 📝TAR 05 Ideas de diseño en base a principios de diseño 1.md",
     "01 - Daily/20251031.md",
-    "01 - Daily/20251101.md",
-    "03 - Homework/🎨IHC 📝TAR 07 Representar un Concepto de Diseño.md",
+    "03 - Homework/📦DSW 📝TAR 01 G1 - Indicaciones.md",
     "03 - Homework/📦DSW 📝TAR 01 G1 - Resolución.md",
+    "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
+    "03 - Homework/📦DSW 👥TGR 04 UML.md",
+    "03 - Homework/📦DSW 👥TGR 04 UML 1.md",
+    "01 - Daily/20251101.md",
+    "02 - Notes/!🔰MISC Próximas Actividades.md",
+    "03 - Homework/🎨IHC 📝TAR 05 Ideas de diseño en base a principios de diseño 1.md",
+    "03 - Homework/🎨IHC 📝TAR 07 Representar un Concepto de Diseño.md",
     "09 - Drawings/📦DSW 📝TAR 01 G1 - Image 02.excalidraw.md",
     "09 - Drawings/📦DSW 📝TAR 01 G1 - Image 01.excalidraw.md",
     "09 - Drawings/ED-202511010245.excalidraw.md",
@@ -274,8 +281,6 @@
     "01 - Daily/20251023.md",
     "01 - Daily/20251022.md",
     "01 - Daily/20251021.md",
-    "03 - Homework/🎨IHC 📝TAR 08 Replantear el Concepto de Diseño.md",
-    "03 - Homework/Salesbot.md",
     "03 - Homework/Unconfirmed 357748.crdownload",
     "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/DoublyNode.class",
     "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/NodoDE.java",
@@ -286,7 +291,6 @@
     "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/Dog.java",
     "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/NodoDE.class",
     "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/Nodo.class",
-    "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 05.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 04.png",
