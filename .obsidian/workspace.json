@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "521fbc296ccc772f",
+        "id": "53b70ce16b6e1f5d",
         "type": "tabs",
         "children": [
           {
-            "id": "6440e9609426d1e0",
+            "id": "07209afe1c3248eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Homework/🎨IHC 📝TAR 08 Replantear el Concepto de Diseño.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "🎨IHC 📝TAR 08 Replantear el Concepto de Diseño"
+              "title": "New tab"
             }
           }
         ]
@@ -40,13 +36,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 🎨IHC 🚀PRO SalesBot"
+              "title": "Outline"
             }
           },
           {
@@ -253,12 +248,32 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "99 - Meta/attachments/Evidencia_021.png",
-    "03 - Homework/🎨IHC 📝TAR 07 Representar un Concepto de Diseño.md",
-    "03 - Homework/🎨IHC 📝TAR 08 Replantear el Concepto de Diseño.md",
-    "03 - Homework/Salesbot.md",
+    "03 - Homework/📦DSW 📝TAR 01 G1 - Indicaciones.md",
+    "03 - Homework/📦DSW 📝TAR 01 G1 - Resolución.md",
+    "09 - Drawings/📦DSW 📝TAR 01 G1 - Image 02.excalidraw.md",
+    "09 - Drawings/📦DSW 📝TAR 01 G1 - Image 01.excalidraw.md",
+    "01 - Daily/20251101.md",
+    "09 - Drawings/ED-202511010245.excalidraw.md",
     "00 - Identifier.md",
+    "Deepseek 01.md",
+    "Claude 01.md",
+    "01 - Daily/20251031.md",
+    "07 - Stuff/🔰MISC Wallpaper GruvGreen.png",
+    "07 - Stuff/GruvGreen.png",
+    "99 - Meta/attachments/Evidencia_021.png",
+    "01 - Daily/20251030.md",
     "01 - Daily/20251029.md",
+    "01 - Daily/20251028.md",
+    "01 - Daily/20251027.md",
+    "01 - Daily/20251026.md",
+    "01 - Daily/20251025.md",
+    "01 - Daily/20251024.md",
+    "01 - Daily/20251023.md",
+    "01 - Daily/20251022.md",
+    "01 - Daily/20251021.md",
+    "03 - Homework/🎨IHC 📝TAR 08 Replantear el Concepto de Diseño.md",
+    "03 - Homework/🎨IHC 📝TAR 07 Representar un Concepto de Diseño.md",
+    "03 - Homework/Salesbot.md",
     "03 - Homework/Unconfirmed 357748.crdownload",
     "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/DoublyNode.class",
     "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/NodoDE.java",
@@ -271,33 +286,13 @@
     "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/Nodo.class",
     "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
     "03 - Homework/📦DSW 👥TGR 04 UML 1.md",
-    "01 - Daily/20251028.md",
-    "01 - Daily/20251027.md",
-    "01 - Daily/20251026.md",
-    "01 - Daily/20251025.md",
-    "01 - Daily/20251024.md",
-    "01 - Daily/20251023.md",
-    "01 - Daily/20251022.md",
     "01 - Daily/20251018.md",
-    "03 - Homework/🎨IHC 📝TAR 05 Ideas de diseño en base a principios de diseño 1.md",
-    "03 - Homework/🎨IHC 📝TAR 06 Ideas de diseño en base a principios de diseño.md",
-    "02 - Notes/📊EST 📝NOT 01 Estadística Descriptiva.md",
-    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
-    "09 - Drawings/Conceptos.excalidraw.md",
-    "03 - Homework/📦DSW 📝TAR 01 G1.md",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 05.png",
-    "03 - Homework/🎨IHC 🚀PRO Entrevista 1.md",
-    "03 - Homework/🎨IHC 🚀PRO Entrevista 2.md",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
-    "99 - Meta/attachments/📦DSW 📝NOT 04 Models.excalidraw.md",
-    "09 - Drawings/📦DSW 👥TGR 04 UML Case Use.excalidraw.md",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 04.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 02.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 03.png",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
-    "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
-    "99 - Meta/attachments/Pasted image 20251021205024.png",
-    "99 - Meta/attachments/Pasted image 20251019195837.png",
-    "07 - Stuff/🔰MISC 🎨IHC Daemon Hunters Logo.png"
+    "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png"
   ]
 }
