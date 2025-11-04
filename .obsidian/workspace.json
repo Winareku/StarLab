@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "25783cc892e6702e",
+        "id": "e570b6f44c1b792b",
         "type": "tabs",
         "children": [
           {
-            "id": "cc9664c4b3ac14e6",
+            "id": "42d5a52d2b572ced",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251101.md",
+                "file": "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "20251101"
+              "title": "📊EST 📝NOT 02 Probabilidad"
             }
           }
         ]
@@ -40,12 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 📊EST 📝NOT 02 Probabilidad"
             }
           },
           {
@@ -194,16 +195,6 @@
         "dimension": 44.08468244084682,
         "children": [
           {
-            "id": "8d3ced883be6ede7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "e83e2057316cda5b",
             "type": "leaf",
             "state": {
@@ -211,6 +202,16 @@
               "state": {},
               "icon": "checkmark",
               "title": "Todo List"
+            }
+          },
+          {
+            "id": "8d3ced883be6ede7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -252,51 +253,50 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "01 - Daily/20251031.md",
-    "03 - Homework/📦DSW 📝TAR 01 G1 - Indicaciones.md",
-    "03 - Homework/📦DSW 📝TAR 01 G1 - Resolución.md",
-    "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
-    "03 - Homework/📦DSW 👥TGR 04 UML.md",
-    "03 - Homework/📦DSW 👥TGR 04 UML 1.md",
-    "01 - Daily/20251101.md",
+    "02 - Notes/📊EST 📝NOT 01 Estadística Descriptiva.md",
+    "01 - Daily/20251103.md",
+    "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
     "02 - Notes/!🔰MISC Próximas Actividades.md",
-    "03 - Homework/🎨IHC 📝TAR 05 Ideas de diseño en base a principios de diseño 1.md",
-    "03 - Homework/🎨IHC 📝TAR 07 Representar un Concepto de Diseño.md",
-    "09 - Drawings/📦DSW 📝TAR 01 G1 - Image 02.excalidraw.md",
-    "09 - Drawings/📦DSW 📝TAR 01 G1 - Image 01.excalidraw.md",
-    "09 - Drawings/ED-202511010245.excalidraw.md",
-    "00 - Identifier.md",
-    "Deepseek 01.md",
-    "Claude 01.md",
+    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
+    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
+    "03 - Homework/🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas.md",
+    "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
+    "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md",
+    "02 - Notes/🗃️SBD 📝NOT 02 Diseño Lógico y Normalización.md",
+    "02 - Notes/🗃️SBD 📝NOT 01 Modelo Conceptual de Datos.md",
+    "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
+    "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
+    "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
+    "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md",
+    "02 - Notes/📦DSW 📝NOT 01 Diseño de Software.md",
+    "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
+    "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
+    "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
+    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
+    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
+    "02 - Notes/🎨IHC 📝NOT 05 Generación de Ideas.md",
+    "02 - Notes/🎨IHC 📝NOT 04 Concepto y Principios de Diseño.md",
+    "02 - Notes/🎨IHC 📝NOT 03 NA.md",
+    "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
+    "01 - AI-Template.md",
+    "05 - Resources/🎨IHC 📚LIB 00 Proyectos.pdf",
+    "05 - Resources/📦DSW 📚LIB 02 Design Patterns Explained.pdf",
+    "05 - Resources/03_Design patterns explained a new perspective on object-oriented design (Shalloway, AlanTrott, James).pdf",
+    "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
     "07 - Stuff/🔰MISC Wallpaper GruvGreen.png",
     "07 - Stuff/GruvGreen.png",
     "99 - Meta/attachments/Evidencia_021.png",
-    "01 - Daily/20251030.md",
-    "01 - Daily/20251029.md",
-    "01 - Daily/20251028.md",
-    "01 - Daily/20251027.md",
-    "01 - Daily/20251026.md",
-    "01 - Daily/20251025.md",
-    "01 - Daily/20251024.md",
-    "01 - Daily/20251023.md",
-    "01 - Daily/20251022.md",
-    "01 - Daily/20251021.md",
     "03 - Homework/Unconfirmed 357748.crdownload",
     "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/DoublyNode.class",
     "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/NodoDE.java",
     "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/Nodo.java",
     "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/MyLinkedList.java",
     "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/MyArrayList.java",
-    "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/Main.java",
-    "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/Dog.java",
-    "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/NodoDE.class",
-    "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/Nodo.class",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 05.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 04.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 02.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 03.png",
-    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png"
   ]
 }

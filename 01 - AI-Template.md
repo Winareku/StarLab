@@ -2,6 +2,9 @@
 tags:
   - [MATERIA]       # Ej: #🎨IHC
   - [TIPO_ARCHIVO]  # Ej: #📝NOT
+cssclasses:
+  - center-titles
+  - embed-auto
 ---
 
 # Título Principal del Documento

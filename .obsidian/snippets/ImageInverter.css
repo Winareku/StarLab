@@ -1,0 +1,135 @@
+/* ----------------------------------------------------------------------------
+ *  Image Backgrounds & Color Inversion - Catppuccin
+ *  Clases: embed-auto, embed-light, embed-dark, embed-inverse, no-embed
+ - *----------------------------------------------------------------------------- */
+
+:root {
+    /* Colores Catppuccin con transparencia */
+    --embed-light-bg: rgba(122, 122, 184, 0.3);
+    --embed-dark-bg: rgba(24, 24, 37, 0.3);
+    --embed-light-border: rgba(122, 122, 184, 0.2);
+    --embed-dark-border: rgba(24, 24, 37, 0.2);
+}
+
+/* ==================== MODO AUTOMÁTICO CORREGIDO ==================== */
+
+.embed-auto img:not(.no-embed):not(.embed-inverse) {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 24px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* MODO OSCURO: fondo CLARO */
+.theme-dark .embed-auto img:not(.no-embed):not(.embed-inverse) {
+    background-color: var(--embed-light-bg);
+    border-color: var(--embed-light-border);
+}
+
+/* MODO CLARO: fondo OSCURO */
+.theme-light .embed-auto img:not(.no-embed):not(.embed-inverse) {
+    background-color: var(--embed-dark-bg);
+    border-color: var(--embed-dark-border);
+}
+
+/* ==================== INVERSIÓN DE COLORES ==================== */
+
+/* Inversión de colores para imágenes - funciona en cualquier contexto */
+.embed-inverse img,
+img.embed-inverse {
+    filter: invert(1) hue-rotate(180deg) !important;
+    mix-blend-mode: screen;
+    transition: filter 0.3s ease;
+}
+
+/* Inversión específica para modo claro */
+.theme-light .embed-inverse img,
+.theme-light img.embed-inverse {
+    mix-blend-mode: multiply;
+}
+
+/* Inversión con fondo automático */
+.embed-auto img.embed-inverse {
+    background-color: var(--embed-light-bg);
+    border-color: var(--embed-light-border);
+    border-radius: 24px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.theme-dark .embed-auto img.embed-inverse {
+    background-color: var(--embed-dark-bg);
+    border-color: var(--embed-dark-border);
+}
+
+/* ==================== MODO MANUAL ==================== */
+
+.embed-light img:not(.no-embed):not(.embed-inverse) {
+    background-color: var(--embed-light-bg);
+    border: 1px solid var(--embed-light-border);
+    border-radius: 24px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.embed-dark img:not(.no-embed):not(.embed-inverse) {
+    background-color: var(--embed-dark-bg);
+    border: 1px solid var(--embed-dark-border);
+    border-radius: 24px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ==================== CONTROLES BÁSICOS ==================== */
+
+/* Desactivar fondo completamente */
+.embed-auto img.no-embed,
+.embed-light img.no-embed,
+.embed-dark img.no-embed,
+.embed-inverse img.no-embed,
+img.no-embed {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+/* ==================== HOVER SUAVE ==================== */
+
+.embed-auto img:hover,
+.embed-light img:hover,
+.embed-dark img:hover,
+.embed-inverse img:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+}
+
+/* ==================== COMPATIBILIDAD CON LIVE PREVIEW ==================== */
+
+/* Para Live Preview Mode */
+.cm-content .embed-auto img,
+.cm-content .embed-light img,
+.cm-content .embed-dark img,
+.cm-content .embed-inverse img {
+    border-radius: 24px;
+}
+
+.cm-content .embed-inverse img,
+.cm-content img.embed-inverse {
+    filter: invert(1) hue-rotate(180deg);
+    mix-blend-mode: screen;
+}
+
+.theme-light .cm-content .embed-inverse img,
+.theme-light .cm-content img.embed-inverse {
+    mix-blend-mode: multiply;
+}
+
+/* Asegurar que el z-index no interfiera */
+.cm-editor .cm-scroller {
+    z-index: auto;
+}

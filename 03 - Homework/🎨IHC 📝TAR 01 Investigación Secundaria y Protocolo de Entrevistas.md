@@ -5,6 +5,7 @@ tags:
   - 📝TAR
 cssclasses:
   - center-titles
+  - embed-auto
 ---
 ---
 # Protocolo de entrevistas
