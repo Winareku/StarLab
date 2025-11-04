@@ -30,11 +30,13 @@ cssclasses:
 |-------------------------------|----------------------------|
 | Resultado conocido de antemano | Resultado impredecible |
 | Ej: Calentar agua a 100°C | Ej: Lanzar un dado |
+
 > [!tip] Elementos Clave
 > 
-> * Espacio Muestral ($S$ / $\omega$): Conjunto de todos los resultados posibles de un experimento aleatorio.
+> * Espacio Muestral ($S$ / $\Omega$): Conjunto de todos los resultados posibles de un experimento aleatorio.
 > 
 > * Evento (A, B, etc.): Cualquier subconjunto del espacio muestral.
+
 ### 2.2 Espacio Muestral
 
 > [!quote] Definición
@@ -60,8 +62,9 @@ cssclasses:
 $$
 P(A) = \frac{n(A)}{n(S)} = \frac{\text{Número de casos favorables}}{\text{Número de casos posibles}}
 $$
+
 > [!info] Definición
-> Se denomina evento elemental al evento que contiene un solo elemento.
+> Se denomina **evento elemental** al evento que contiene **un solo elemento**.
 
 > [!warning] Condición
 > Solo aplica cuando los eventos elementales son **equiprobables**.
@@ -70,6 +73,20 @@ $$
 > - Espacio muestral: 36 resultados posibles.
 > - Evento A: suma sea 6 → $A = \{(1,5), (2,4), (3,3), (4,2), (5,1)\}$
 > - $P(A) = \frac{5}{36} \approx 13.89\%$
+
+> [!note] Probabilidad en Equiprobabilidad
+> Cuando los eventos elementales son equiprobables, la probabilidad de un evento E se calcula como:
+> $$ P(E) = \frac{N(E)}{N(\Omega)} $$
+> donde $N(E)$ es el número de casos favorables y $N(\Omega)$ es el número de casos posibles.
+
+> [!example] Lanzamiento de dos monedas
+> Al lanzar dos monedas justas, el espacio muestral es $\Omega = \{CC, CS, SC, SS\}$ (4 resultados equiprobables). 
+> - La probabilidad de que ambas sean caras o ambas sellos (evento E) es:
+> $$ P(E) = \frac{N(E)}{N(\Omega)} = \frac{2}{4} = 0.5 $$
+> Por lo tanto, la probabilidad es del 50%.
+
+> [!question] Razonamiento en Probabilidad
+> En problemas con dados no regulares, la equiprobabilidad no se cumple. Sin embargo, en el caso de Angela (dado de 6 caras, del 2 al 7) y Raúl (dado de 8 caras, del 1 al 8), sin información adicional, no podemos calcular la probabilidad exacta de que Raúl obtenga un número mayor que Angela. No obstante, se puede razonar que el dado de Raúl tiene más caras y un rango más amplio, pero la respuesta correcta en este contexto es que la probabilidad es menor al 50% debido a la distribución de los números.
 
 ---
 
@@ -175,7 +192,12 @@ $$
 > [!success] Propiedades derivadas
 > - $P(A^c) = 1 - P(A)$
 > - $P(\emptyset) = 0$
-> - $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+> - $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ (Regla de la unión)
+> - Si A y B son mutuamente excluyentes, entonces $P(A \cup B) = P(A) + P(B)$.
+> - La probabilidad del espacio muestral es 1: $P(\Omega) = 1$.
+
+> [!warning] Eventos Mutuamente Excluyentes
+> Dos eventos A y B son mutuamente excluyentes si no pueden ocurrir al mismo tiempo, es decir, $A \cap B = \emptyset$. Por lo tanto, es falso que exista intersección entre ellos.
 
 ---
 
@@ -189,8 +211,6 @@ $$
 > P(A|B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) \neq 0
 > $$ 
 
-
-
 ### 6.2 Eventos Independientes
 > [!info] Eventos Independientes
 > Dos eventos A y B son independientes si la ocurrencia de uno no influye en la probabilidad del otro.
@@ -202,13 +222,17 @@ $$
 > - $P(A) = 0.10, P(B) = 0.06, P(A \cap B) = 0.02$
 > - $P(A|B) = \frac{0.02}{0.06} = 0.333$
 
+> [!note] Propiedades de Eventos Independientes
+> - La probabilidad de la intersección de eventos independientes es igual al producto de sus probabilidades individuales.
+> - No confundir con eventos mutuamente excluyentes, que no pueden ocurrir al mismo tiempo.
+
 ---
 
 ## 7. Probabilidad Total y Teorema de Bayes
 
 ### 7.1 Probabilidad Total
 > [!quote] Fórmula de la Probabilidad Total
-> Sean B1​,B2​,…,Bk​ una partición de Ω. La probabilidad de un evento A es:
+> Sean B1​,B2​,…,Bk​ una partición de Ω (Eventos exhaustivos y mutuamente excluyentes). La probabilidad de un evento A es:
 > $$
 > P(A) = \sum_{i=1}^k P(B_i) \cdot P(A|B_i)
 > $$
