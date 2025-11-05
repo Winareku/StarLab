@@ -8,7 +8,7 @@ cssclasses:
   - embed-inverse
 ---
 
-# Patrones de Diseño Creacionales - Complemento SourceMaking
+# Patrones de Diseño Creacionales
 
 ## 1. Singleton - Perspectiva Profundizada
 

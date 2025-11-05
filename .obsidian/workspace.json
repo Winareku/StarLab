@@ -4,24 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "d1b6d865e90a73a5",
+        "id": "81b99354efbb1fe2",
         "type": "tabs",
+        "dimension": 70.68273092369478,
         "children": [
           {
-            "id": "2f6e308954c23900",
+            "id": "e9fe3b289979f7cf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "📦DSW 🏫MPR 04 Patrones de Diseño"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5b64ffda003286e",
+        "type": "tabs",
+        "dimension": 29.31726907630522,
+        "children": [
+          {
+            "id": "9fa5badee66724c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
+                "file": "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "🎨IHC 🚀PRO SalesBot"
+              "title": "📦DSW 📝NOT 05 Patrones de Diseño Creacionales"
+            }
+          },
+          {
+            "id": "1904175c1416ebcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20251105.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "20251105"
+            }
+          },
+          {
+            "id": "12f67243455fa1c1",
+            "type": "leaf",
+            "state": {
+              "type": "audio",
+              "state": {
+                "file": "99 - Meta/attachments/Recording 20251105142343.m4a"
+              },
+              "icon": "lucide-file-audio",
+              "title": "Recording 20251105142343"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,13 +87,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
+                "file": "01 - Daily/20251105.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 🎨IHC 🚀PRO SalesBot"
+              "title": "Outline of 20251105"
             }
           },
           {
@@ -142,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "0810d8a464ec16c5",
@@ -186,8 +234,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8cb3d499b0e5631f",
@@ -251,11 +298,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "067067ddcd3cf388",
+  "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
-    "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
+    "99 - Meta/attachments/Recording 20251105142343.m4a",
+    "Untitled.md",
+    "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
+    "02 - Notes/!🔰MISC Próximas Actividades.md",
+    "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
     "01 - Daily/20251105.md",
+    "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
+    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
+    "09 - Drawings/📦DSW 👥TGR 02 UML Class Diagram.excalidraw.md",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 02.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 03.png",
@@ -273,21 +326,16 @@
     "Apuntes de Lección.md",
     "01 - Daily/20251103.md",
     "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
-    "02 - Notes/!🔰MISC Próximas Actividades.md",
-    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
     "03 - Homework/🎨IHC 📝TAR 01 Investigación Secundaria y Protocolo de Entrevistas.md",
     "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
     "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md",
     "02 - Notes/🗃️SBD 📝NOT 02 Diseño Lógico y Normalización.md",
     "02 - Notes/🗃️SBD 📝NOT 01 Modelo Conceptual de Datos.md",
-    "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
     "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
     "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
     "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md",
     "02 - Notes/📦DSW 📝NOT 01 Diseño de Software.md",
-    "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
-    "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
     "05 - Resources/🎨IHC 📚LIB 00 Proyectos.pdf",
     "05 - Resources/📦DSW 📚LIB 02 Design Patterns Explained.pdf",
     "05 - Resources/03_Design patterns explained a new perspective on object-oriented design (Shalloway, AlanTrott, James).pdf",
@@ -296,8 +344,6 @@
     "03 - Homework/Unconfirmed 357748.crdownload",
     "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/DoublyNode.class",
     "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/NodoDE.java",
-    "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/Nodo.java",
-    "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/MyLinkedList.java",
-    "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/MyArrayList.java"
+    "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/Nodo.java"
   ]
 }

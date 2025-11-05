@@ -20,6 +20,6 @@
   "translucency": false,
   "theme": "system",
   "baseFontSize": 16,
-  "showRibbon": false,
+  "showRibbon": true,
   "baseFontSizeAction": false
 }
