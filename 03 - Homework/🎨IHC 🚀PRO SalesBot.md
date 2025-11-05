@@ -22,6 +22,15 @@ cssclasses:
 > [!info] Datos de la Entrevista
 > **Entrevistado:** Marco Jarrín - Gerente de Soluciones Integrales OMNISOFT (Empresa especializada en el desarrollo de soluciones informáticas totalmente basadas en la tecnología de Internet.)
 > **Propósito:** Explorar procesos actuales y viabilidad de un Sales-Bot para gestión de ventas, facturación y cartera
+
+> [!check] Hallazgos Adicionales de Investigación
+> **Problema en Ecuador:** Más del 40% de empresas en Ecuador tienen necesidades de automatización financiera. Las PYMES y startups son las más afectadas por falta de presupuesto y conocimiento técnico.
+> **Barreras Identificadas:**
+> - Económica: Alto costo de soluciones como Power BI
+> - Conocimiento: Desconocimiento sobre herramientas digitales
+> - Tecnológica: Dificultad para consolidar información dispersa
+> **Soluciones Existentes:** Herramientas como ¡Conta, Contífico y Mónica ofrecen facturación básica pero carecen de inteligencia de ventas y alertas personalizadas
+
 ---
 
 > [!bug] Herramientas y Procesos que utilizan
@@ -39,7 +48,7 @@ cssclasses:
 > 
 > 3. **Seleccionar la tecnología**: (Nos ofreció como recomendación GitHub) + APIs de IA.
 > 
-> 4. **Diseñar el flujo**: Lo primordial es identificar quién es el usuario para identificar su perfil (cliente o tomador de decisiones). Luego presentar una serie de opciones que el usuario pueda ingresar o, mediante lenguaje natural, solicitar consultas específicas.
+> 4. **Diseñar el flujo**: Lo primordial es identificar quién es el usuario para identificar su perfíl (cliente o tomador de decisiones). Luego presentar una serie de opciones que el usuario pueda ingresar o, mediante lenguaje natural, solicitar consultas específicas.
 > 
 > 5. **Definir la personalidad**: Cómo va a tratar al usuario, si va a tener género, cómo se comunica (texto o voz).
 > 
@@ -86,8 +95,8 @@ cssclasses:
 > [!success] Envío y Presentación de Documentos  
 > Los reportes se presentan a los solicitantes y, si son documentos legales, se envían a entidades correspondientes (ej. SRI).
 
-> [!note] Redefinición del Problema
-> Hemos notado que el área de ventas necesita acceder de forma rápida y eficaz a información precisa sobre estados de cuenta, cartera, comparación de recaudación anual, y proyección de ingresos, con alertas automáticas y seguimiento de procesos críticos, pero actualmente carecen de una herramienta digital que entregue esos datos de manera inmediata, y los procesos existentes, como el ERP, no permiten una visualización unificada ni respuestas ágiles a consultas específicas. Si esto continúa, el administrador de ventas no podrá tomar decisiones oportunas basadas en datos actualizados y se dificultará la proyección precisa de ingresos, afectando tanto la eficiencia operativa del área como la capacidad de la empresa y optimizar su flujo. ¿Cómo podemos diseñar una solución digital centrada en experiencia de usuario que integre gráficas, un asistente conversacional con IA y alertas automatizadas, manteniendo los estándares de seguridad y segmentación de perfiles?
+> [!note] Redefinición del Problema (Versión Grupal)
+> Hemos notado que los encargados de áreas contables y los empleados de un negocio buscan tener visibilidad inmediata y proactiva sobre el estado de su cartera y proyecciones de ingresos. Sin embargo, el hecho de que tengan que extraer, validar y consolidar manualmente datos de muchas fuentes diferentes y buscar los puntos clave en reportes que no cambian, no permite tomar decisiones rápidas ni actuar a tiempo. Si esto continúa, se pueden perder oportunidades de mejorar las decisiones financieras, las proyecciones serán poco exactas y, al final, el crecimiento de la empresa se verá limitado por la lenta reacción al uso de nuevas tecnologías. ¿Cómo podemos lograr que las alertas sobre problemas financieros críticos sean automáticas, personalizadas y fáciles de usar para los negocios?
 
 ***
 
@@ -182,7 +191,6 @@ cssclasses:
 >     
 > - Interés en probar el chatbot con usuarios antes de la implementación final.
 
-
 ***
 
 ## 3. Hallazgos y Principios de Diseño
@@ -207,14 +215,55 @@ cssclasses:
 > - Seguridad transparente: Protección robusta sin comprometer la usabilidad
 > - Multiplataforma: Acceso through canales familiares (WhatsApp, web, APIs)
 
-### Principios de Diseño
+### Principios de Diseño (Versión Grupal)
 > [!example] Principios de Diseño para SalesBot
 > 
-> - La solución permite al usuario acceder a información crítica de ventas y cartera en menos de 30 segundos
-> - La solución permite visualizar tendencias financieras mediante gráficos consolidados en una sola vista
-> - La solución permite adaptar las respuestas y funcionalidades según el perfil y rol del usuario
-> - La solución permite interactuar mediante lenguaje natural sin requerir conocimientos técnicos
-> - La solución permite mantener la seguridad y privacidad de datos sin comprometer la experiencia de usuario
-> - La solución permite recibir alertas proactivas basadas en criterios predefinidos del negocio
-> - La solución permite integrarse con canales existentes (WhatsApp, web) de forma transparente
-> - La solución permite validar y refinar funcionalidades mediante pruebas iterativas con usuarios reales
+> **PRINCIPIO 1**: La solución permite recibir alertas proactivas basadas en criterios predefinidos del negocio
+> **PRINCIPIO 2**: La solución permite al usuario acceder a información crítica de ventas y cartera en tiempos cortos
+> **PRINCIPIO 3**: La solución permite visualizar datos financieros mediante gráficos intuitivos para tomar decisiones
+> ***
+> **PRINCIPIO 4**: La solución permite adaptar las respuestas y funcionalidades según el perfil y rol del usuario
+> **PRINCIPIO 5**: La solución permite interactuar mediante lenguaje natural sin requerir conocimientos técnicos
+> **PRINCIPIO 6**: La solución permite mantener la seguridad y privacidad de datos sin comprometer la experiencia de usuario
+> **PRINCIPIO 7**: La solución permite integrarse con canales existentes (WhatsApp, web) de forma transparente
+> **PRINCIPIO 8**: La solución permite validar y refinar funcionalidades mediante pruebas iterativas con usuarios reales
+
+***
+## 4. Ideación y Concepto Final
+
+> [!example] PRINCIPIO 1
+> La solución permite al usuario acceder a información crítica de ventas y cartera en menos de 30 segundos.
+
+> [!idea] IDEA 1: Mostrar acciones rápidas de texto
+> Un sistema de atajos en la conversación, como cuando un chat de IA te da opciones cuando empiezas a chatear con él y cambie dinámicamente las opciones a medida que avanza la conversación.
+
+> [!example] PRINCIPIO 2
+> La solución permite recibir alertas proactivas basadas en criterios predefinidos del negocio.
+
+> [!idea] IDEA 2: Un panel de alertas configurable
+> Crear una sección dentro del sistema donde el administrador pueda definir y configurar las condiciones de sus alertas, por ejemplo: “Notificarme si la cartera vencida crece más de un 5% mensual”, “Alertar si un cliente supera su línea de crédito”.
+
+> [!example] PRINCIPIO 3
+> La solución permite validar y refinar funcionalidades mediante pruebas iterativas con usuarios reales.
+
+> [!idea] IDEA 3: Integrar un Panel de Feedback
+> Después de ciertas interacciones de manera periódica, el SalesBot pedirá una valoración con estrellas y un comentario opcional. Este feedback se recopilará en un panel para el equipo de diseño, permitiendo identificar puntos de dolor y oportunidades de mejora.
+
+> [!example] PRINCIPIO 4
+> La solución permite visualizar tendencias financieras mediante gráficos consolidados en una sola vista.
+
+> [!idea] IDEA 4: Un dashboard personalizable
+> Una pantalla de inicio que funcione como Dashboard. Este mostraría por defecto los gráficos clave, pero el usuario podrá personalizar esta vista arrastrando, añadiendo o eliminando Widgets gráficos según sus necesidades de monitoreo.
+
+> [!success] PoliSales [Nombre Provisional]
+> **Descripción**: Es una aplicación móvil que transforma la gestión financiera mediante tres pilares fundamentales:
+> - **Dashboard de Widgets Inteligentes**: Pantalla principal con KPIs financieros personalizables que se cargan inmediatamente al iniciar la app
+> - **Asistente Conversacional con IA**: Botón flotante permanente que activa un chatbot con comprensión de lenguaje natural
+> - **Sistema de Alertas Proactivas**: Notificaciones push inteligentes categorizadas por urgencia (crítico/medio/bajo)
+> 
+> **Relación con Principios de Diseño:**
+> - **Vista principal de widgets**: Cumple principio de acceso rápido a información crítica (<30 segundos)
+> - **Chatbot integrado**: Permite interacción mediante lenguaje natural sin conocimientos técnicos
+> - **Sistema de notificaciones**: Implementa alertas proactivas basadas en criterios del negocio
+
+## 5. Iteración en cómo Representar un Concepto de Diseño
