@@ -45,15 +45,15 @@ Se utiliza para crear una nueva tabla y definir sus columnas, tipos de datos y r
 > ```
 
 > [!question] Tipos de Datos Comunes
-> 
-> |**Tipo de Dato**|**Descripción**|
-> |---|---|
-> |`CHAR(n)`|Cadena de caracteres de tamaño fijo (`n`).|
-> |`VARCHAR2(n)`|Cadena de caracteres de tamaño variable (eficiente en almacenamiento).|
-> |`INTEGER`, `NUMERIC`|Tipos para números enteros o con decimales.|
-> |`REAL`, `FLOAT`|Tipos para números en punto flotante.|
-> |`DATE`, `TIMESTAMP`|Almacena fechas y/o fecha y hora.|
-> |`SERIAL` / `AUTO_INCREMENT`|Genera valores numéricos únicos y secuenciales (utilizado para PK).|
+
+| **Tipo de Dato**            | **Descripción**                                                        |
+| --------------------------- | ---------------------------------------------------------------------- |
+| `CHAR(n)`                   | Cadena de caracteres de tamaño fijo (`n`).                             |
+| `VARCHAR2(n)`               | Cadena de caracteres de tamaño variable (eficiente en almacenamiento). |
+| `INTEGER`, `NUMERIC`        | Tipos para números enteros o con decimales.                            |
+| `REAL`, `FLOAT`             | Tipos para números en punto flotante.                                  |
+| `DATE`, `TIMESTAMP`         | Almacena fechas y/o fecha y hora.                                      |
+| `SERIAL` / `AUTO_INCREMENT` | Genera valores numéricos únicos y secuenciales (utilizado para PK).    |
 
 > [!question] Restricciones (Constraints)
 > 

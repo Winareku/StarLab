@@ -69,8 +69,111 @@ cssclasses:
 > - Perfiles de usuario bien definidos.
 > - Los clientes solo deben ser capaces de ver sus propios datos.
 
+---
+## 1. Constitución del Equipo y Compromisos
+
+> [!success] Equipo: Daemon Hunters
+> **Integrantes:**
+> - Juan Andres Gualotuña Andrade (Líder)
+> - Mateo Andres Andrade Dominguez
+> - Francisco Etienne Defranc Rojas
+> - Windsor Alexander Estrada Lara
+> - Marlo Carlo Valle Franco
+
+> [!example] Organización del Trabajo
+> **Reuniones:** Viernes 16:00 pm
+> **Medios:** Teams y WhatsApp
+> **Canales de Comunicación:** Grupo oficial de Teams para gestionar reuniones y WhatsApp para comunicación rápida
+
+> [!check] Acuerdos de Liderazgo
+> **Expectativas del Líder:**
+> - Distribuir trabajo de manera equilibrada
+> - Ser atento a dudas de compañeros
+> - Ser ejemplo y ayudar con información
+> 
+> **Acciones si el líder no cumple:**
+> - Recordatorios frecuentes
+> - Comunicación directa
+> - Escalamiento a la profesora si es necesario
+
+> [!warning] Protocolo de Problemas
+> **Falta de respuesta:** Comunicación directa, identificación de problemas
+> **Falta a reuniones:** Justificación requerida, escalamiento si es recurrente
+> **Falta de entrega:** Ofrecer ayuda, advertencias, escalamiento si persiste
+
 ***
-## 1. Journey Map
+## 2. Investigación Secundaria y Protocolo de Entrevistas
+
+> [!note] Hallazgos de Investigación
+> **Problema en Ecuador:** Más del 40% de empresas necesitan automatización financiera
+> **Barreras Identificadas:**
+> - Económica: Alto costo de soluciones existentes
+> - Conocimiento: Desconocimiento de herramientas digitales
+> - Tecnológica: Dificultad para consolidar información
+
+> [!example] Perfiles de Usuario Identificados
+> **Perfil 1:** Empresarios/gerentes comerciales
+> **Perfil 2:** Clientes finales
+> **Perfil 3:** Jefes de ventas y contadores
+> **Perfil 4:** Gerentes de startups y departamento TIC
+
+> [!check] Soluciones Existentes Analizadas
+> **¡Conta:** Enfocado en contabilidad y facturación, carece de inteligencia de ventas
+> **Power BI:** Costoso, requiere conocimiento técnico avanzado
+> **Mónica/Contífico:** Sistemas básicos de facturación sin análisis predictivo
+> **Excel:** Flexible pero propenso a errores y consume mucho tiempo
+
+> [!tip] Preguntas Clave para Entrevistas
+> - ¿Qué procesos manuales les toman más tiempo?
+> - ¿Cómo acceden actualmente a información crítica?
+> - ¿Qué tipo de alertas les serían útiles?
+> - ¿Qué preocupaciones tienen sobre seguridad?
+
+***
+## 3. Investigación de Campo
+
+> [!success] Entrevistas Realizadas
+> **5 integrantes × 2 entrevistas = 10 entrevistas totales**
+> **Perfiles entrevistados:** Contadores, auditores, gerentes financieros, abogados, empresarios
+
+> [!example] Hallazgos Clave de Entrevistas
+> **Procesos Manuales:** Consolidación de datos toma horas/días
+> **Frustración:** Pérdida de tiempo en tareas repetitivas
+> **Preocupación Seguridad:** Datos sensibles requieren protección robusta
+> **Receptividad IA:** Interés en automatización pero con cautela
+
+> [!warning] Contextos Observados
+> **Sistemas Contables Fragmentados:** Módulos separados requieren consolidación manual
+> **Procesos Desconectados:** Dificultad para integrar información entre departamentos
+> **Dependencia de Terceros:** Necesidad de solicitar datos a otras áreas
+
+> [!check] Evidencias Recolectadas
+> **Grabaciones de audio:** 5 entrevistas documentadas
+> **Notas detalladas:** Procesos actuales y puntos de dolor
+> **Fotos de contextos:** Sistemas y flujos de trabajo actuales
+
+***
+## 4. Plan de Investigación
+
+> [!note] Preguntas Esenciales de Investigación
+> 1. ¿Cuál es el proceso actual para obtener datos de facturación y cartera?
+> 2. ¿Qué criterios definen una situación "crítica" en ventas?
+> 3. ¿Cómo prefieren visualizar la información financiera?
+> 4. ¿Qué nivel de conocimiento tienen sobre IA y chatbots?
+
+> [!example] Métodos de Exploración
+> **Para procesos actuales:** Análisis de artefactos, diagramas de flujo
+> **Para criterios de negocio:** Entrevistas, diarios de usuarios
+> **Para visualización:** Grupos focales, estudios de campo
+> **Para conocimiento IA:** Encuestas, simulaciones de uso
+
+> [!check] Estrategia de Validación
+> **Pruebas iterativas** con usuarios reales
+> **Prototipos** para validar flujos
+> **Métricas** de éxito definidas (tiempo de respuesta <30 segundos)
+
+***
+## 5. Journey Map
 > [!success] Solicitud de Reporte  
 > Un área de la empresa solicita un reporte financiero específico o se activa un proceso mensual de registro.
 
@@ -100,7 +203,7 @@ cssclasses:
 
 ***
 
-## 2. Diagrama de Afinidad
+## 6. Diagrama de Afinidad
 
 > [!example] Perfil del Usuario y Contexto Operativo
 > 
@@ -193,7 +296,7 @@ cssclasses:
 
 ***
 
-## 3. Hallazgos y Principios de Diseño
+## 7. Hallazgos y Principios de Diseño
 
 ### Hallazgos
 > [!warning] Hallazgos Críticos
@@ -229,7 +332,7 @@ cssclasses:
 > **PRINCIPIO 8**: La solución permite validar y refinar funcionalidades mediante pruebas iterativas con usuarios reales
 
 ***
-## 4. Ideación y Concepto Final
+## 8. Ideación y Concepto Final
 
 > [!example] PRINCIPIO 1
 > La solución permite al usuario acceder a información crítica de ventas y cartera en menos de 30 segundos.
@@ -241,7 +344,7 @@ cssclasses:
 > La solución permite recibir alertas proactivas basadas en criterios predefinidos del negocio.
 
 > [!idea] IDEA 2: Un panel de alertas configurable
-> Crear una sección dentro del sistema donde el administrador pueda definir y configurar las condiciones de sus alertas, por ejemplo: “Notificarme si la cartera vencida crece más de un 5% mensual”, “Alertar si un cliente supera su línea de crédito”.
+> Crear una sección dentro del sistema donde el administrador pueda definir y configurar las condiciones de sus alertas, por ejemplo: "Notificarme si la cartera vencida crece más de un 5% mensual", "Alertar si un cliente supera su línea de crédito".
 
 > [!example] PRINCIPIO 3
 > La solución permite validar y refinar funcionalidades mediante pruebas iterativas con usuarios reales.
@@ -266,4 +369,66 @@ cssclasses:
 > - **Chatbot integrado**: Permite interacción mediante lenguaje natural sin conocimientos técnicos
 > - **Sistema de notificaciones**: Implementa alertas proactivas basadas en criterios del negocio
 
-## 5. Iteración en cómo Representar un Concepto de Diseño
+***
+## 9. Iteración en Cómo Representar el Concepto de Diseño
+
+> [!note] Estrategia de Representación
+> **Usuarios objetivo:** Gerentes financieros, personal contable, directores de área
+> **Contexto:** Reuniones ejecutivas urgentes donde se necesita acceso rápido a datos
+> **Canales preferidos:** WhatsApp, aplicación móvil, dashboard web
+
+> [!example] Storyboard Propuesto
+> **Escena 1:** Usuario frustrado con procesos manuales y reportes complejos
+> **Escena 2:** Descubre PoliSales y su interfaz intuitiva
+> **Escena 3:** Interacción fluida con el chatbot para consultas específicas
+> **Escena 4:** Toma de decisiones rápidas basadas en datos visuales claros
+
+> [!check] Funcionalidades a Resaltar
+> - Consultas por lenguaje natural
+> - Gráficos automáticos personalizables
+> - Alertas proactivas configurables
+> - Integración con WhatsApp
+
+***
+## 10. Prueba de Concepto de Diseño
+
+> [!success] Pitch de Presentación
+> **Duración:** 5 minutos
+> **Enfoque:** Solución que transforma datos complejos en insights accionables
+> **Demostración:** Flujo de usuario desde consulta hasta toma de decisiones
+
+> [!example] Estrategia de Feedback
+> **Preguntas clave para la audiencia:**
+> 1. "¿Para qué consulta usaría primero esta herramienta?"
+> 2. "¿Qué preocupación de seguridad tendría?"
+> 3. "¿Cómo describiría esta solución en una frase?"
+
+> [!check] Métricas de Validación
+> - Comprensión inmediata del concepto
+> - Identificación con los "dolores" presentados
+> - Percepción de innovación y utilidad
+> - Claridad del valor diferencial
+
+***
+## 11. Video de Presentación del Concepto
+
+> [!note] Estructura del Video
+> **A - Problema:** Contexto específico y general de la gestión financiera actual
+> **B - Soluciones existentes:** Limitaciones de herramientas actuales
+> **C - Investigación:** Hallazgos de entrevistas y observación
+> **D - Análisis:** Hallazgos y principios de diseño
+> **E - Solución:** Demostración de PoliSales y cumplimiento de principios
+> **F - Conclusión:** Valor agregado y llamado a acción
+
+> [!tip] Distribución de Contenido
+> **Integrante 1:** Problema y contexto
+> **Integrante 2:** Investigación y hallazgos
+> **Integrante 3:** Principios de diseño
+> **Integrante 4:** Demostración de solución
+> **Integrante 5:** Conclusión y beneficios
+
+> [!success] Recursos Visuales
+> - Storyboard de usuario final
+> - Prototipo de interfaz
+> - Gráficos comparativos
+> - Testimonios de entrevistas
