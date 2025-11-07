@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "93dad48b25699611",
+        "id": "63ff45d00ee6e813",
         "type": "tabs",
         "children": [
           {
-            "id": "d5bde8c4c7b48acd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Homework/💾EDD 📝TAR 04.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "💾EDD 📝TAR 04"
-            }
-          },
-          {
-            "id": "81d7983bb17b5f26",
+            "id": "d9c8a0fb79ad264b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "01 - Daily/20251107.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "20251107"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +135,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Daily/20251107.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 20251107"
+              "title": "Backlinks"
             }
           },
           {
@@ -169,12 +153,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Daily/20251107.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 20251107"
+              "title": "Outgoing links"
             }
           },
           {
@@ -212,13 +195,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Daily/20251107.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20251107"
+              "title": "Outline"
             }
           }
         ],
@@ -250,7 +232,9 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
+    "02 - Notes/Notas de SBD.md",
     "03 - Homework/💾EDD 📝TAR 04.md",
+    "01 - Daily/20251107.md",
     "03 - Homework/💾EDD 📝TAR 05.md",
     "03 - Homework/💾EDD 📝TAR 03.md",
     "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
@@ -261,7 +245,6 @@
     "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
     "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
     "02 - Notes/!🔰MISC Próximas Actividades.md",
-    "01 - Daily/20251107.md",
     "01 - Daily/20251105.md",
     "Untitled.md",
     "01 - Daily/20251106.md",
@@ -278,7 +261,6 @@
     "99 - Meta/attachments/Recording 20251105142343.m4a",
     "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
-    "09 - Drawings/📦DSW 👥TGR 02 UML Class Diagram.excalidraw.md",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 02.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 03.png",
