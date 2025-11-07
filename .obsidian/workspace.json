@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "43c0aed8879605b0",
+        "id": "52108db972ff0ea7",
         "type": "tabs",
         "children": [
           {
-            "id": "f3013e16ff97918f",
+            "id": "a14681f16997a1d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -152,7 +152,7 @@
       {
         "id": "b06250c4c9f097e6",
         "type": "tabs",
-        "dimension": 59.19117647058824,
+        "dimension": 50.87281795511222,
         "children": [
           {
             "id": "1d13d33e1407f126",
@@ -168,6 +168,23 @@
             }
           },
           {
+            "id": "067067ddcd3cf388",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f02d6f6252afe11d",
+        "type": "tabs",
+        "dimension": 49.12718204488778,
+        "children": [
+          {
             "id": "e83e2057316cda5b",
             "type": "leaf",
             "state": {
@@ -178,13 +195,13 @@
             }
           },
           {
-            "id": "067067ddcd3cf388",
+            "id": "8d3ced883be6ede7",
             "type": "leaf",
             "state": {
-              "type": "copilot-chat-view",
+              "type": "calendar",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -198,24 +215,7 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "f02d6f6252afe11d",
-        "type": "tabs",
-        "dimension": 40.80882352941176,
-        "children": [
-          {
-            "id": "8d3ced883be6ede7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -243,8 +243,10 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "02 - Notes/!🔰MISC Próximas Actividades.md",
+    "01 - Daily/20251012.md",
+    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
     "01 - Daily/20251107.md",
+    "02 - Notes/!🔰MISC Próximas Actividades.md",
     "02 - Notes/Notas de SBD.md",
     "03 - Homework/💾EDD 📝TAR 04.md",
     "03 - Homework/💾EDD 📝TAR 05.md",
@@ -267,8 +269,6 @@
     "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
     "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
     "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md",
-    "00 - Identifier.md",
-    "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
     "99 - Meta/attachments/Recording 20251105142343.m4a",
     "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",

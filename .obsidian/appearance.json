@@ -1,9 +1,9 @@
 {
   "accentColor": "#2a5f6f",
-  "cssTheme": "Cupertino",
-  "interfaceFontFamily": "Iosevka Nerd Font Mono,Google Sans Code",
-  "textFontFamily": "Iosevka Nerd Font Mono",
-  "monospaceFontFamily": "Iosevka Nerd Font Mono,Recursive",
+  "cssTheme": "Underwater",
+  "interfaceFontFamily": "Google Sans Code,Iosevka Nerd Font Mono",
+  "textFontFamily": "Google Sans Code,Iosevka Nerd Font Mono",
+  "monospaceFontFamily": "Google Sans Code,Iosevka Nerd Font Mono,Recursive",
   "enabledCssSnippets": [
     "retro-notebook-bg",
     "Daily Note",

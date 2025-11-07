@@ -18,7 +18,7 @@
   "primary-theme@@colorful-folders_indentation-guide": true,
   "primary-theme@@colorful-folders_inherit-color": true,
   "underwater-theme@@underwater-colors-light": "rose-pine-dawn",
-  "underwater-theme@@underwater-colors-dark": "catppuccin-mocha",
+  "underwater-theme@@underwater-colors-dark": "uw-deep",
   "underwater-theme@@workspace-bg": false,
   "underwater-theme@@callout": "callout-math",
   "underwater-theme@@checkbox": "checkbox-circle",
@@ -31,5 +31,7 @@
   "underwater-theme@@links-styling": "no-links",
   "blue-topaz-theme@@toggle-calendar-transparent": false,
   "blue-topaz-theme@@style-options-for-calendar-plugin": "style-options-for-calendar-plugin-default",
-  "cupertino@@liquid-glass-off": false
+  "cupertino@@liquid-glass-off": false,
+  "underwater-theme@@no-calendar": true,
+  "underwater-theme@@dotted": true
 }
