@@ -1,9 +1,9 @@
 {
   "accentColor": "#2a5f6f",
-  "cssTheme": "Underwater",
-  "interfaceFontFamily": "Google Sans Code",
+  "cssTheme": "Cupertino",
+  "interfaceFontFamily": "Iosevka Nerd Font Mono,Google Sans Code",
   "textFontFamily": "Iosevka Nerd Font Mono",
-  "monospaceFontFamily": "Recursive",
+  "monospaceFontFamily": "Iosevka Nerd Font Mono,Recursive",
   "enabledCssSnippets": [
     "retro-notebook-bg",
     "Daily Note",
@@ -13,13 +13,13 @@
     "Japanese Font Support",
     "Colored Sidebar Items",
     "Minecraft",
-    "CyanVoxel's General Tweaks",
     "Daily Note Themes",
-    "ImageInverter"
+    "ImageInverter",
+    "CyanVoxel's General Tweaks"
   ],
   "translucency": false,
   "theme": "system",
   "baseFontSize": 16,
-  "showRibbon": true,
+  "showRibbon": false,
   "baseFontSizeAction": false
 }

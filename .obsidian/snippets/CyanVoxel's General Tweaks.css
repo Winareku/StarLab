@@ -37,7 +37,7 @@ img {
 }
 
 .task-list-item-checkbox {
-  border-width: 2px;
+  border-width: 0px;
 }
 
 #calendar-container .title {

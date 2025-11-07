@@ -1,16 +1,16 @@
 /*------------------------------------------------------------------------------
-                     Daily Note Themes by CyanVoxel v1.0.5
+ *                    Daily Note Themes by CyanVoxel v1.0.5
+ *
+ T *hese are a set of 7 main CSS classes that can be used to apply individual color
+ schemes to daily notes for each day of the week.
+ To customize the colors for each day, just swamp out the colors values under
+ the main "day of the week" classes.
 
-These are a set of 7 main CSS classes that can be used to apply individual color
-schemes to daily notes for each day of the week.
-To customize the colors for each day, just swamp out the colors values under
-the main "day of the week" classes.
+ NOTE: By default, this snippet relies on the "Bai Jamjuree" or
+ "JetBrainsMono Nerd Font Mono" fonts. If you don't wish to use these, then just
+ change or remove those font-family lines from this snippet.
 
-NOTE: By default, this snippet relies on the "Bai Jamjuree" or
-"JetBrainsMono Nerd Font Mono" fonts. If you don't wish to use these, then just
-change or remove those font-family lines from this snippet.
-                
-------------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------------*/
 :root {
   --highlight: #e0e0e0;
   --primary: #999999;
@@ -20,7 +20,7 @@ change or remove those font-family lines from this snippet.
 .daily {
   --dark: var(--dark);
   color: var(--highlight);
-  background-color: var(--dark);
+  background-color: color-mix(in srgb, var(--dark) 25%, transparent);
   --text-normal: var(--highlight);
   --text-muted: var(--highlight);
   --text-faint: var(--highlight);
@@ -28,9 +28,9 @@ change or remove those font-family lines from this snippet.
   --metadata-label-text-color: var(--highlight);
   --metadata-input-text-color: var(--highlight);
   /*
-  --tag-color: var(--dark);
-  --tag-background: var(--primary);
-  */
+   * --tag-color: var(--dark);
+   * --tag-background: var(--primary);
+   */
   --hr-color: var(--primary);
   --blockquote-border-color: var(--primary);
   --interactive-accent: var(--primary);
@@ -147,13 +147,13 @@ change or remove those font-family lines from this snippet.
 }
 
 :is(.sunday, .Sunday,
-.monday, .Monday,
-.tuesday, .Tuesday,
-.wednesday, .Wednesday,
-.thursday, .Thursday,
-.friday, .Friday,
-.saturday, .Saturday
-  )
-  svg {
+    .monday, .Monday,
+    .tuesday, .Tuesday,
+    .wednesday, .Wednesday,
+    .thursday, .Thursday,
+    .friday, .Friday,
+    .saturday, .Saturday
+)
+svg {
   color: color-mix(in srgb, var(--highlight) 60%, transparent);
 }

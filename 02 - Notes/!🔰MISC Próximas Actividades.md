@@ -3,6 +3,7 @@ tags:
   - 🔰MISC
   - 📝NOT
 cssclasses:
+  - write
 ---
 # Próximas Actividades
 

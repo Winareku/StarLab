@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dda68a190ec6e5c5",
+        "id": "93dad48b25699611",
         "type": "tabs",
         "children": [
           {
-            "id": "b368a077790aa1a5",
+            "id": "d5bde8c4c7b48acd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Notes/!🔰MISC Próximas Actividades.md",
-                "mode": "preview",
+                "file": "03 - Homework/💾EDD 📝TAR 04.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "!🔰MISC Próximas Actividades"
-            }
-          },
-          {
-            "id": "fc9899d8d77d3558",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251106.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20251106"
+              "title": "💾EDD 📝TAR 04"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,118 +29,7 @@
   "left": {
     "id": "28c4ffaaaf379343",
     "type": "split",
-    "children": [
-      {
-        "id": "28b7c5b2263daf48",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "090e79fa77433be4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "01 - Daily/20251105.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 20251105"
-            }
-          },
-          {
-            "id": "6a909d2ea1395b6b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "7a36ede7ffe1a99a",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "32e586b3f017bf5b",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "94325fc71aa8b514",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "05 - Resources/💾EDD 🏫MPR 03 Recursión.pdf",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 💾EDD 🏫MPR 03 Recursión"
-            }
-          },
-          {
-            "id": "2d37c757bad355f7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "05 - Resources/💾EDD 🏫MPR 03 Recursión.pdf",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 💾EDD 🏫MPR 03 Recursión"
-            }
-          },
-          {
-            "id": "865f0f5da04644e7",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          }
-        ]
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
     "width": 225.5,
     "collapsed": true
@@ -167,7 +41,6 @@
       {
         "id": "b06250c4c9f097e6",
         "type": "tabs",
-        "dimension": 63.22314049586777,
         "children": [
           {
             "id": "1d13d33e1407f126",
@@ -182,33 +55,6 @@
               "title": "Files"
             }
           },
-          {
-            "id": "067067ddcd3cf388",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
-            "id": "87bd6586244306e2",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8cb3d499b0e5631f",
-        "type": "tabs",
-        "dimension": 36.77685950413223,
-        "children": [
           {
             "id": "e83e2057316cda5b",
             "type": "leaf",
@@ -230,6 +76,16 @@
             }
           },
           {
+            "id": "067067ddcd3cf388",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
             "id": "7891667b6e390b6d",
             "type": "leaf",
             "state": {
@@ -240,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -266,9 +122,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc9899d8d77d3558",
+  "active": "7891667b6e390b6d",
   "lastOpenFiles": [
+    "03 - Homework/💾EDD 📝TAR 03.md",
+    "03 - Homework/💾EDD 📝TAR 04.md",
+    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
+    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
+    "02 - Notes/🎨IHC 📝NOT 05 Generación de Ideas.md",
+    "02 - Notes/🎨IHC 📝NOT 04 Concepto y Principios de Diseño.md",
+    "02 - Notes/🎨IHC 📝NOT 03 NA.md",
+    "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
+    "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
     "02 - Notes/!🔰MISC Próximas Actividades.md",
+    "01 - Daily/20251107.md",
+    "01 - Daily/20251105.md",
+    "Untitled.md",
     "01 - Daily/20251106.md",
     "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md",
     "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
@@ -276,17 +144,12 @@
     "02 - Notes/🗃️SBD 📝NOT 01 Modelo Conceptual de Datos.md",
     "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
     "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
-    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
-    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
-    "03 - Homework/💾EDD 📝TAR 03.md",
     "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
     "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.md",
-    "01 - Daily/20251105.md",
     "00 - Identifier.md",
     "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
     "99 - Meta/attachments/Recording 20251105142343.m4a",
     "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
-    "Untitled.md",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "09 - Drawings/📦DSW 👥TGR 02 UML Class Diagram.excalidraw.md",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
@@ -297,14 +160,7 @@
     "99 - Meta/attachments/📦DSW 📝NOT 04 Models.excalidraw.md",
     "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
     "99 - Meta/attachments/Evidencia_021.png",
-    "03 - Homework/🎨IHC 🚀PRO Entrevista 1.md",
-    "03 - Homework/🎨IHC 🚀PRO Entrevista 2.md",
-    "01 - Daily/20251104.md",
-    "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
     "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
-    "02 - Notes/📊EST 📝NOT 01 Estadística Descriptiva.md",
-    "Apuntes de Lección.md",
-    "01 - Daily/20251103.md",
     "05 - Resources/🎨IHC 📚LIB 00 Proyectos.pdf",
     "05 - Resources/📦DSW 📚LIB 02 Design Patterns Explained.pdf",
     "05 - Resources/03_Design patterns explained a new perspective on object-oriented design (Shalloway, AlanTrott, James).pdf",
