@@ -35,11 +35,11 @@ cssclasses:
 
 ### 1.2 Beneficios de los Genéricos
 
-| **Sin Genéricos** | **Con Genéricos** | **Ventaja** |
-|-------------------|-------------------|-------------|
-| Casting necesario | Sin casting | Mayor seguridad |
-| Errores en ejecución | Errores en compilación | Detección temprana |
-| Código menos legible | Código más claro | Mejor mantenibilidad |
+| **Sin Genéricos**    | **Con Genéricos**      | **Ventaja**          |
+| -------------------- | ---------------------- | -------------------- |
+| Casting necesario    | Sin casting            | Mayor seguridad      |
+| Errores en ejecución | Errores en compilación | Detección temprana   |
+| Código menos legible | Código más claro       | Mejor mantenibilidad |
 
 ---
 
@@ -182,14 +182,14 @@ cssclasses:
 > [!info] Estándares Comunes
 > Convenciones para nombres de parámetros genéricos:
 
-| **Letra** | **Significado** | **Uso Típico** |
-|-----------|-----------------|----------------|
-| E | Element | Colecciones (List<E>, Set<E>) |
-| K | Key | Mapas (Map<K, V>) |
-| N | Number | Tipos numéricos |
-| T | Type | Tipo genérico cualquiera |
-| V | Value | Valores en mapas |
-| S, U, V | Tipos adicionales | Múltiples parámetros |
+| **Letra** | **Significado**   | **Uso Típico**                |
+| --------- | ----------------- | ----------------------------- |
+| E         | Element           | Colecciones (List<E>, Set<E>) |
+| K         | Key               | Mapas (Map<K, V>)             |
+| N         | Number            | Tipos numéricos               |
+| T         | Type              | Tipo genérico cualquiera      |
+| V         | Value             | Valores en mapas              |
+| S, U, V   | Tipos adicionales | Múltiples parámetros          |
 
 > [!warning] Importante
 > Estas son **convenciones**, no reglas. Puedes usar cualquier letra, pero se recomienda seguir los estándares para mejor legibilidad.

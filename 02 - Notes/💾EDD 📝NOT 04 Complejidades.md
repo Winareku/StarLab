@@ -15,15 +15,15 @@ cssclasses:
 
 ### 1.1 Principales Categorías de Complejidad
 
-| **Complejidad** | **Notación** | **Descripción** | **Ejemplo** |
-|-----------------|--------------|-----------------|-------------|
-| Constante | O(1) | Tiempo independiente del tamaño de entrada | Acceso a array por índice |
-| Logarítmica | O(log n) | Divide el problema en cada paso | Búsqueda binaria |
-| Lineal | O(n) | Crece proporcionalmente al tamaño | Recorrer un array |
-| Log Lineal | O(n log n) | Combinación lineal y logarítmica | QuickSort, MergeSort |
-| Cuadrática | O(n²) | Crece con el cuadrado del tamaño | Bubble Sort |
-| Exponencial | O(2ⁿ) | Se duplica con cada adición | Torres de Hanoi |
-| Factorial | O(n!) | Crece factorialmente | Agente Viajero |
+| **Complejidad** | **Notación** | **Descripción**                            | **Ejemplo**               |
+| --------------- | ------------ | ------------------------------------------ | ------------------------- |
+| Constante       | O(1)         | Tiempo independiente del tamaño de entrada | Acceso a array por índice |
+| Logarítmica     | O(log n)     | Divide el problema en cada paso            | Búsqueda binaria          |
+| Lineal          | O(n)         | Crece proporcionalmente al tamaño          | Recorrer un array         |
+| Log Lineal      | O(n log n)   | Combinación lineal y logarítmica           | QuickSort, MergeSort      |
+| Cuadrática      | O(n²)        | Crece con el cuadrado del tamaño           | Bubble Sort               |
+| Exponencial     | O(2ⁿ)        | Se duplica con cada adición                | Torres de Hanoi           |
+| Factorial       | O(n!)        | Crece factorialmente                       | Agente Viajero            |
 
 ### 1.2 Ejemplos Prácticos
 
@@ -151,11 +151,11 @@ int resultado = busquedaBinaria(arreglo, 2); // Índice 1
 ### 3.2 Ejemplo con 4 Ciudades
 
 | **Ciudad** | **A** | **B** | **C** | **D** |
-|------------|-------|-------|-------|-------|
-| **A** | 0 | 5 | 9 | 14 |
-| **B** | 5 | 0 | 7 | 8 |
-| **C** | 9 | 7 | 0 | 10 |
-| **D** | 14 | 8 | 10 | 0 |
+| ---------- | ----- | ----- | ----- | ----- |
+| **A**      | 0     | 5     | 9     | 14    |
+| **B**      | 5     | 0     | 7     | 8     |
+| **C**      | 9     | 7     | 0     | 10    |
+| **D**      | 14    | 8     | 10    | 0     |
 
 **Rutas posibles:**
 1. A→B→C→D→A = 5 + 7 + 10 + 14 = 36
@@ -309,12 +309,12 @@ public class HashMapEjemplo {
 ### 4.4 Resumen de Complejidades
 
 | **Estructura** | **Acceso** | **Búsqueda** | **Inserción** | **Eliminación** |
-|----------------|------------|--------------|---------------|-----------------|
-| Array | O(1) | O(n) | O(n) | O(n) |
-| Lista Enlazada | O(n) | O(n) | O(1) inicio | O(1) inicio |
-| Pila (Stack) | O(n) | O(n) | O(1) | O(1) |
-| Cola (Queue) | O(n) | O(n) | O(1) | O(1) |
-| HashMap | O(1) | O(1) | O(1) | O(1) |
+| -------------- | ---------- | ------------ | ------------- | --------------- |
+| Array          | O(1)       | O(n)         | O(n)          | O(n)            |
+| Lista Enlazada | O(n)       | O(n)         | O(1) inicio   | O(1) inicio     |
+| Pila (Stack)   | O(n)       | O(n)         | O(1)          | O(1)            |
+| Cola (Queue)   | O(n)       | O(n)         | O(1)          | O(1)            |
+| HashMap        | O(1)       | O(1)         | O(1)          | O(1)            |
 
 ---
 

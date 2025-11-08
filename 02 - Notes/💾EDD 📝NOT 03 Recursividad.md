@@ -15,11 +15,11 @@ cssclasses:
 
 ### 1.1 Conceptos Fundamentales
 
-| **Concepto** | **Descripción** | **Importancia** |
-|--------------|-----------------|-----------------|
-| **Caso Base** | Condición que detiene la recursión | Evita llamadas infinitas |
+| **Concepto**       | **Descripción**                                       | **Importancia**                    |
+| ------------------ | ----------------------------------------------------- | ---------------------------------- |
+| **Caso Base**      | Condición que detiene la recursión                    | Evita llamadas infinitas           |
 | **Caso Recursivo** | Llamada a la misma función con parámetros modificados | Divide el problema en subproblemas |
-| **Stack (Pila)** | Memoria donde se almacenan las llamadas | Límite: StackOverflowError |
+| **Stack (Pila)**   | Memoria donde se almacenan las llamadas               | Límite: StackOverflowError         |
 
 > [!danger] ¡Precaución!
 > Sin caso base, la recursión causa **StackOverflowError**:
@@ -141,9 +141,9 @@ public static int fibonacci(int n) {
 ```
 
 **Primeros 14 términos:**
-| n | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|
-| **fib(n)** | 0 | 1 | 1 | 2 | 3 | 5 | 8 | 13 | 21 | 34 | 55 | 89 | 144 | 233 |
+| n          | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  |
+| ---------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **fib(n)** | 0   | 1   | 1   | 2   | 3   | 5   | 8   | 13  | 21  | 34  | 55  | 89  | 144 | 233 |
 
 ---
 
@@ -272,14 +272,14 @@ SALIDA: 3 2 1 1 2 3
 > - **Proporciones corporales** en animales
 
 **Ejemplo de conejos (problema original):**
-| Mes | Parejas | Explicación |
-|-----|---------|-------------|
-| 1 | 1 | Nace pareja A |
-| 2 | 1 | Pareja A se cruza |
-| 3 | 2 | Pareja A da a luz a B |
-| 4 | 3 | Pareja A da a luz a C, B cumple 1 mes |
-| 5 | 5 | A y B dan a luz, C cumple 1 mes |
-| 6 | 8 | A, B, C dan a luz, D y E cumplen 1 mes |
+| Mes | Parejas | Explicación                            |
+| --- | ------- | -------------------------------------- |
+| 1   | 1       | Nace pareja A                          |
+| 2   | 1       | Pareja A se cruza                      |
+| 3   | 2       | Pareja A da a luz a B                  |
+| 4   | 3       | Pareja A da a luz a C, B cumple 1 mes  |
+| 5   | 5       | A y B dan a luz, C cumple 1 mes        |
+| 6   | 8       | A, B, C dan a luz, D y E cumplen 1 mes |
 
 ---
 
@@ -287,10 +287,10 @@ SALIDA: 3 2 1 1 2 3
 
 ### 7.1 Ventajas y Desventajas
 
-| **Ventajas** | **Desventajas** |
-|--------------|-----------------|
-| Código más legible y elegante | Mayor consumo de memoria (pila) |
-| Solución natural para problemas recursivos | Posible StackOverflowError |
+| **Ventajas**                                   | **Desventajas**                 |
+| ---------------------------------------------- | ------------------------------- |
+| Código más legible y elegante                  | Mayor consumo de memoria (pila) |
+| Solución natural para problemas recursivos     | Posible StackOverflowError      |
 | Fácil de implementar para problemas dividibles | Menor eficiencia que iterativos |
 
 ### 7.2 Cuándo Usar Recursividad

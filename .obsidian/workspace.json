@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
-                "mode": "source",
+                "file": "03 - Homework/💾EDD 📝TAR 04.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "💾EDD 📝NOT 04 Complejidades"
+              "title": "💾EDD 📝TAR 04"
             }
           }
         ]
@@ -40,13 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
+                "file": "03 - Homework/💾EDD 📝TAR 04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 💾EDD 📝NOT 04 Complejidades"
+              "title": "Outline of 💾EDD 📝TAR 04"
             }
           },
           {
@@ -239,16 +239,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7891667b6e390b6d",
+  "active": "927b7fb79689a29d",
   "lastOpenFiles": [
-    "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
-    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
-    "03 - Homework/💾EDD 📝TAR 01.md",
-    "03 - Homework/💾EDD 📝TAR 02.md",
     "03 - Homework/💾EDD 📝TAR 03.md",
+    "03 - Homework/💾EDD 📝TAR 02.md",
     "03 - Homework/💾EDD 📝TAR 04.md",
     "03 - Homework/💾EDD 📝TAR 05.md",
+    "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
+    "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
+    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
     "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
+    "02 - Notes/💾EDD 📝NOT 05 ArrayList vs LinkedList en Java.md",
+    "02 - Notes/💾EDD 📝NOT 06 Listas en Java.md",
+    "03 - Homework/💾EDD 📝TAR 01.md",
     "03 - Homework/📦DSW 📝TAR 01 G1 - Resolución.md",
     "03 - Homework/📦DSW 📝TAR 01 G1 - Indicaciones.md",
     "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
@@ -264,9 +267,6 @@
     "01 - Daily/20251114.md",
     "01 - Daily/20251113.md",
     "01 - Daily/20251112.md",
-    "01 - Daily/20251109.md",
-    "01 - Daily/20251106.md",
-    "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
     "99 - Meta/attachments/Recording 20251105142343.m4a",
     "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
