@@ -14,12 +14,12 @@ cssclasses:
 
 ### Notes
 
-> [!tip] No notes found
-> - Nothing to see here yet
+> [!tip] No notes found.
+> - Nothing to see here yet.
 
 ***
 
 ### Tasks
 
-> [!bug] No tasks found
-> - [?] Nothing to see here yet
+> [!bug] No tasks found.
+> - [?] Nothing to see here yet.

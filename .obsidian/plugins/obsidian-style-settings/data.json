@@ -33,5 +33,6 @@
   "blue-topaz-theme@@style-options-for-calendar-plugin": "style-options-for-calendar-plugin-default",
   "cupertino@@liquid-glass-off": false,
   "underwater-theme@@no-calendar": true,
-  "underwater-theme@@dotted": true
+  "underwater-theme@@dotted": true,
+  "underwater-theme@@tab-img": "url(\"https://a.akatsuki.gg/76197\")"
 }
