@@ -8,17 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "927b7fb79689a29d",
+            "id": "ce68d49894d0f502",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homework/💾EDD 📝TAR 04.md",
+                "file": "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "💾EDD 📝TAR 04"
+              "title": "📦DSW 👥TGR 06 Patrones Creacionales"
+            }
+          },
+          {
+            "id": "72570569513508c3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "03 - Homework/📦DSW 👥TGR 06 G1 PatronCreacionalyUML.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "📦DSW 👥TGR 06 G1 PatronCreacionalyUML"
             }
           }
         ]
@@ -40,13 +52,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Homework/💾EDD 📝TAR 04.md",
+                "file": "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 💾EDD 📝TAR 04"
+              "title": "Outline of 📦DSW 👥TGR 06 Patrones Creacionales"
+            }
+          },
+          {
+            "id": "e83e2057316cda5b",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -142,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 271.5
   },
   "right": {
     "id": "0810d8a464ec16c5",
@@ -151,7 +173,6 @@
       {
         "id": "b06250c4c9f097e6",
         "type": "tabs",
-        "dimension": 50.87281795511221,
         "children": [
           {
             "id": "1d13d33e1407f126",
@@ -167,33 +188,6 @@
             }
           },
           {
-            "id": "067067ddcd3cf388",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f02d6f6252afe11d",
-        "type": "tabs",
-        "dimension": 49.12718204488779,
-        "children": [
-          {
-            "id": "e83e2057316cda5b",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
-          },
-          {
             "id": "8d3ced883be6ede7",
             "type": "leaf",
             "state": {
@@ -201,6 +195,16 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
+            }
+          },
+          {
+            "id": "067067ddcd3cf388",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -214,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -239,22 +243,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "927b7fb79689a29d",
+  "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "03 - Homework/💾EDD 📝TAR 03.md",
-    "03 - Homework/💾EDD 📝TAR 02.md",
+    "03 - Homework/📦DSW 👥TGR 06 G1 PatronCreacionalyUML.pdf",
+    "07 - Stuff/🔰MISC 📝TAR Formato de Tarea.pdf",
+    "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
     "03 - Homework/💾EDD 📝TAR 04.md",
+    "03 - Homework/📦DSW 📝TGR 06 G1 PatronCreacionalyUML.pdf",
+    "03 - Homework/TallerPatronCreacionalyUML.pdf",
+    "05 - Resources/TallerPatronCreacionalyUML.pdf",
+    "02 - Notes/💾EDD 📝NOT 05 ArrayList vs LinkedList en Java.md",
+    "02 - Notes/💾EDD 📝NOT 06 Listas en Java.md",
+    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
+    "03 - Homework/💾EDD 📝TAR 02.md",
+    "03 - Homework/💾EDD 📝TAR 01.md",
+    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
+    "03 - Homework/💾EDD 📝TAR 03.md",
     "03 - Homework/💾EDD 📝TAR 05.md",
     "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
     "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
-    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
-    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
-    "02 - Notes/💾EDD 📝NOT 05 ArrayList vs LinkedList en Java.md",
-    "02 - Notes/💾EDD 📝NOT 06 Listas en Java.md",
-    "03 - Homework/💾EDD 📝TAR 01.md",
     "03 - Homework/📦DSW 📝TAR 01 G1 - Resolución.md",
     "03 - Homework/📦DSW 📝TAR 01 G1 - Indicaciones.md",
-    "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
     "01 - Daily/20251107.md",
     "01 - Daily/20251108.md",
     "01 - Daily/20251115.md",
@@ -266,7 +275,6 @@
     "01 - Daily/20251116.md",
     "01 - Daily/20251114.md",
     "01 - Daily/20251113.md",
-    "01 - Daily/20251112.md",
     "99 - Meta/attachments/Recording 20251105142343.m4a",
     "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
@@ -282,10 +290,6 @@
     "05 - Resources/📦DSW 📚LIB 02 Design Patterns Explained.pdf",
     "05 - Resources/03_Design patterns explained a new perspective on object-oriented design (Shalloway, AlanTrott, James).pdf",
     "07 - Stuff/🔰MISC Wallpaper GruvGreen.png",
-    "07 - Stuff/GruvGreen.png",
-    "03 - Homework/Unconfirmed 357748.crdownload",
-    "03 - Homework/EDD TIN 01 Arrays/demo/target/classes/com/espol/edd/DoublyNode.class",
-    "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/NodoDE.java",
-    "03 - Homework/EDD TIN 01 Arrays/demo/src/main/java/com/espol/edd/Nodo.java"
+    "07 - Stuff/GruvGreen.png"
   ]
 }

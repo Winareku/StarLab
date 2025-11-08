@@ -10,15 +10,15 @@
   "sortDirectionGroups": "a->z",
   "sortDirectionSubGroups": "new->old",
   "includeFiles": "",
-  "lookAndFeel": "classic",
+  "lookAndFeel": "compact",
   "_collapsedSections": [
     "01 - Daily/20251021.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "01 - Daily/20251025.md",
     "01 - Daily/20251105.md",
     "02 - Notes/!🔰MISC Próximas Actividades.md",
-    "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
-    "01 - Daily/20251107.md"
+    "01 - Daily/20251107.md",
+    "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md"
   ],
   "_hiddenTags": []
 }
