@@ -8,123 +8,111 @@ cssclasses:
 
 # Taller Grupal #06
 
-## ✅ Estado del Proyecto
+## 🎯 Paso 1: Análisis Rápido (30 minutos)
 
-- [ ] **Sección A:** Reporte de patrones (0%)
-- [ ] **Sección B:** Diagramas UML (0%) 
-- [ ] **Sección C:** Implementación Java (0%)
+### 1.1 Identificar Patrones Clave
+> [!info] Dos patrones principales
+> **Singleton**: Para el componente único de base de datos
+> **Factory Method**: Para crear productos físicos/digitales
 
----
-
-## 🎯 Fase 1: Análisis y Planificación
-
-### 1.1 Comprensión del Problema
-> [!info] Contexto del Sistema
-> Sistema de administración de productos para tienda con:
-> - Artículos físicos y digitales
-> - Gestión de categorías e inventario
-> - Base de datos central única
-> - Creación flexible de nuevos tipos de productos
-
-### 1.2 Identificación de Patrones
-> [!tip] Patrones a Considerar
-> - **Singleton**: Para el componente único de acceso a BD
-> - **Factory Method/Abstract Factory**: Para creación de productos
-> - **Builder**: Opcional para productos complejos
-
-### 1.3 Definición de Supuestos
-> [!warning] Supuestos Clave
-> - Base de datos relacional (MySQL/PostgreSQL)
-> - Sistema monolítico (no microservicios)
-> - No hay requerimientos de concurrencia avanzada
-> - Los productos comparten atributos base (id, nombre, precio)
-
----
-
-## 📋 Fase 2: Sección A - Reporte (30%)
-
-### 2.1 Patrón Singleton - Acceso a Datos
-- [ ] **Objetivo**: Garantizar una única instancia de conexión a BD
-- [ ] **Motivación**: Evitar duplicación de recursos y conflictos
-- [ ] **Consecuencias**: 
-  - ✅ Control centralizado
-  - ✅ Ahorro de recursos
-  - ❌ Posible cuello de botella
-- [ ] **Relación con SOLID**:
-  - **SRP**: Gestión única de conexión
-  - **DIP**: Depender de abstracciones de BD
-
-### 2.2 Patrón Factory - Creación de Productos
-- [ ] **Objetivo**: Crear productos dinámicamente según tipo
-- [ ] **Motivación**: Extensibilidad sin modificar código existente
-- [ ] **Consecuencias**:
-  - ✅ Fácil añadir nuevos tipos
-  - ✅ Código organizado
-  - ❌ Mayor complejidad inicial
-- [ ] **Relación con SOLID**:
-  - **OCP**: Abierto a extensión
-  - **SRP**: Responsabilidad única en creación
-
-> [!success] Checklist Sección A
-> - [ ] Reporte completo de ambos patrones
-> - [ ] Justificación clara de elección
-> - [ ] Supuestos documentados
-> - [ ] Relación con principios SOLID
-
----
-
-## 📊 Fase 3: Sección B - Diagramas UML (40%)
-
-### 3.1 Diagrama de Clases
-- [ ] **Paquete `database`**:
-  - Clase `DatabaseConnection` (Singleton)
-  - Métodos: `getInstance()`, `connect()`, `query()`
-- [ ] **Paquete `products`**:
-  - Interfaz `Product`
-  - Clases abstractas/concretas: `PhysicalProduct`, `DigitalProduct`
-  - Factory: `ProductFactory`
-- [ ] **Relaciones**:
-  - Herencia entre productos
-  - Dependencia Factory → Product
-  - Asociación Singleton → Database
-
-### 3.2 Diagramas de Secuencia
-- [ ] **Secuencia 1**: Obtención de instancia Singleton
-- [ ] **Secuencia 2**: Creación de producto físico
-- [ ] **Secuencia 3**: Creación de producto digital
-
-> [!bug] Herramientas Recomendadas
-> ```text
-> - Visual Paradigm (recomendado)
-> - PlantUML (gratuito)
-> - Draw.io (gratuito)
-> - Lucidchart
-> ```
-
----
-
-## 💻 Fase 4: Sección C - Implementación Java (30%)
-
-### 4.1 Estructura de Paquetes
+### 1.2 Definir Estructura Base
 ```java
-src/
-├── database/
-│   └── DatabaseConnection.java
-├── products/
-│   ├── Product.java
-│   ├── PhysicalProduct.java
-│   ├── DigitalProduct.java
-│   └── ProductFactory.java
-└── Main.java
+// Esqueleto mental
+DatabaseManager (Singleton)
+Product (Interface)
+├── PhysicalProduct
+└── DigitalProduct
+ProductFactory (Factory Method)
 ```
 
-### 4.2 Implementación Singleton
+---
+
+## 📝 Paso 2: Sección A - Reporte (1.5 horas)
+
+### 2.1 Patrón Singleton
+**Objetivo**: Una única instancia de conexión a BD
+**Motivación**: Evitar conflictos y duplicar recursos
+**SOLID**: Cumple SRP (una sola responsabilidad)
+
+### 2.2 Patrón Factory Method  
+**Objetivo**: Crear productos sin saber el tipo concreto
+**Motivación**: Extensible para nuevos tipos de productos
+**SOLID**: Cumple OCP (abierto para extensión)
+
+> [!success] Formato del Reporte
+> - 1 página por patrón
+> - Incluir objetivo, motivación, consecuencias
+> - Relación con SOLID
+> - Supuestos claros
+
+---
+
+## 📊 Paso 3: Sección B - Diagramas UML (2 horas)
+
+### 3.1 Diagrama de Clases (1 hora)
+```plantuml
+@startuml
+package database {
+  class DatabaseConnection {
+    - instance: DatabaseConnection
+    - connection: Connection
+    + getInstance(): DatabaseConnection
+    + connect(): void
+    + query(sql: String): ResultSet
+  }
+}
+
+package products {
+  interface Product {
+    + getName(): String
+    + getPrice(): double
+    + save(): void
+  }
+  
+  class PhysicalProduct {
+    - weight: double
+    - dimensions: String
+  }
+  
+  class DigitalProduct {
+    - fileSize: double
+    - format: String
+  }
+  
+  class ProductFactory {
+    + createProduct(type: String): Product
+  }
+}
+
+DatabaseConnection --> ProductFactory
+ProductFactory --> Product
+Product <|-- PhysicalProduct
+Product <|-- DigitalProduct
+@enduml
+```
+
+### 3.2 Diagramas de Secuencia (1 hora)
+- **Secuencia 1**: Obtener instancia Singleton
+- **Secuencia 2**: Crear producto físico
+- **Secuencia 3**: Crear producto digital
+
+> [!tip] Herramienta Rápida
+> Usa **Draw.io** o **PlantUML** para diagramas rápidos
+
+---
+
+## 💻 Paso 4: Sección C - Código Java (2 horas)
+
+### 4.1 Singleton Database (30 minutos)
 ```java
 // DatabaseConnection.java
 public class DatabaseConnection {
     private static DatabaseConnection instance;
+    private Connection connection;
     
-    private DatabaseConnection() { /* conexión real */ }
+    private DatabaseConnection() {
+        // Inicializar conexión real aquí
+    }
     
     public static DatabaseConnection getInstance() {
         if (instance == null) {
@@ -132,11 +120,41 @@ public class DatabaseConnection {
         }
         return instance;
     }
+    
+    public void connect() { /* implementación */ }
+    public ResultSet query(String sql) { /* implementación */ }
 }
 ```
 
-### 4.3 Implementación Factory
+### 4.2 Productos y Factory (1 hora)
 ```java
+// Product.java
+public interface Product {
+    String getName();
+    double getPrice();
+    void save();
+}
+
+// PhysicalProduct.java
+public class PhysicalProduct implements Product {
+    private String name;
+    private double price;
+    private double weight;
+    private String dimensions;
+    
+    // constructor, getters, save method
+}
+
+// DigitalProduct.java  
+public class DigitalProduct implements Product {
+    private String name;
+    private double price;
+    private double fileSize;
+    private String format;
+    
+    // constructor, getters, save method
+}
+
 // ProductFactory.java
 public class ProductFactory {
     public static Product createProduct(String type, String name, double price) {
@@ -146,59 +164,62 @@ public class ProductFactory {
             case "digital":
                 return new DigitalProduct(name, price);
             default:
-                throw new IllegalArgumentException("Tipo no soportado");
+                throw new IllegalArgumentException("Tipo no válido");
         }
     }
 }
 ```
 
-> [!success] Checklist Implementación
-> - [ ] Singleton thread-safe (opcional)
-> - [ ] Factory extensible para nuevos tipos
-> - [ ] Atributos específicos por producto
-> - [ ] Código compilable y ejecutable
+### 4.3 Clase Main de Prueba (30 minutos)
+```java
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        // Probar Singleton
+        DatabaseConnection db = DatabaseConnection.getInstance();
+        
+        // Probar Factory
+        Product physical = ProductFactory.createProduct("physical", "Libro", 25.99);
+        Product digital = ProductFactory.createProduct("digital", "Ebook", 15.99);
+        
+        System.out.println("Productos creados exitosamente");
+    }
+}
+```
 
 ---
 
-## 📦 Fase 5: Empaquetado y Entrega
+## 📦 Paso 5: Documentación Final (1 hora)
 
-### 5.1 Documento Final
-- [ ] Carátula con integrantes del equipo
-- [ ] Tabla de contenido
-- [ ] Herramientas de modelado especificadas
-- [ ] Imágenes de diagramas en alta resolución
-- [ ] Reporte completo de patrones
-
-### 5.2 Estructura de Archivos
+### 5.1 Estructura del Documento
 ```
-entrega/
-├── documento/
-│   └── TallerPatrones.pdf
-├── src/
-│   ├── database/
-│   ├── products/
-│   └── Main.java
-└── README.txt
+Carátula (integrantes, materia, fecha)
+Tabla de contenido
+Sección A: Reporte de patrones (2 páginas)
+Sección B: Diagramas UML (2-3 páginas)  
+Sección C: Código Java (1-2 páginas)
 ```
 
-### 5.3 Validación Final
-> [!warning] Puntos de Verificación
-> - [ ] Todos los patrones correctamente implementados
-> - [ ] Diagramas UML coherentes con código
-> - [ ] Justificaciones claras y concisas
-> - [ ] Código compila sin errores
-> - [ ] Archivo ZIP/RAR correctamente estructurado
+### 5.2 Checklist Final
+- [ ] Reporte completo de ambos patrones
+- [ ] Diagrama de clases con paquetes
+- [ ] Diagramas de secuencia
+- [ ] Código Java implementado
+- [ ] Documento con carátula y tabla de contenido
+- [ ] Todo comprimido en ZIP
 
 ---
 
-## 🚀 Siguientes Pasos Inmediatos
+## ⏱️ Timeline Sugerido para el Día
 
-1. **Hoy**: Reunión de equipo para asignar roles
-2. **Día 2**: Diseñar diagramas de clases preliminares
-3. **Día 3**: Implementar código base de patrones
-4. **Día 4**: Revisión y ajustes finales
-5. **Día 5**: Empaquetado y entrega
+| Hora | Actividad |
+|------|-----------|
+| 8:00 - 8:30 | Análisis y planificación |
+| 8:30 - 10:00 | Sección A - Reporte |
+| 10:00 - 12:00 | Sección B - Diagramas UML |
+| 12:00 - 14:00 | Sección C - Código Java |
+| 14:00 - 15:00 | Documentación final y empaquetado |
 
-> [!quote] Recordatorio Importante
-> "Mantener el foco en dos piezas: acceso a datos y creación de productos"
-> — Especificaciones del Taller
+> [!success] ¡Listo para Entregar!
+> Sigue estos pasos en orden y tendrás el taller completo en un día.
+> **Recuerda**: Mantener el foco en los dos patrones principales.

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "876e933d9d8eef7c",
+        "id": "4d67affbbf17cc31",
         "type": "tabs",
         "children": [
           {
-            "id": "784eee1d28ed503b",
+            "id": "927b7fb79689a29d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "💾EDD 📝NOT 04 Complejidades"
             }
           }
         ]
@@ -36,12 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 💾EDD 📝NOT 04 Complejidades"
             }
           },
           {
@@ -234,17 +239,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "784eee1d28ed503b",
+  "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "03 - Homework/📦DSW 👥TGR 02 AspectJ.md",
-    "03 - Homework/📦DSW 👥TGR 04 UML.md",
+    "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
+    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
+    "03 - Homework/💾EDD 📝TAR 01.md",
+    "03 - Homework/💾EDD 📝TAR 02.md",
+    "03 - Homework/💾EDD 📝TAR 03.md",
+    "03 - Homework/💾EDD 📝TAR 04.md",
+    "03 - Homework/💾EDD 📝TAR 05.md",
+    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
+    "03 - Homework/📦DSW 📝TAR 01 G1 - Resolución.md",
+    "03 - Homework/📦DSW 📝TAR 01 G1 - Indicaciones.md",
     "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
     "01 - Daily/20251107.md",
     "01 - Daily/20251108.md",
+    "01 - Daily/20251115.md",
+    "03 - Homework/📦DSW 👥TGR 02 AspectJ.md",
+    "03 - Homework/📦DSW 👥TGR 04 UML.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "01 - Daily/20251111.md",
     "01 - Daily/20251110.md",
-    "01 - Daily/20251115.md",
     "01 - Daily/20251116.md",
     "01 - Daily/20251114.md",
     "01 - Daily/20251113.md",
@@ -252,16 +267,6 @@
     "01 - Daily/20251109.md",
     "01 - Daily/20251106.md",
     "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
-    "03 - Homework/💾EDD 📝TAR 02.md",
-    "03 - Homework/💾EDD 📝TAR 01.md",
-    "03 - Homework/💾EDD 📝TAR 03.md",
-    "01 - Daily/20251012.md",
-    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md",
-    "02 - Notes/!🔰MISC Próximas Actividades.md",
-    "02 - Notes/Notas de SBD.md",
-    "03 - Homework/💾EDD 📝TAR 04.md",
-    "03 - Homework/💾EDD 📝TAR 05.md",
-    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
     "99 - Meta/attachments/Recording 20251105142343.m4a",
     "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
