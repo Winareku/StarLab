@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7a182fb2d0e84807",
+        "id": "876e933d9d8eef7c",
         "type": "tabs",
         "children": [
           {
-            "id": "97003baef3856d7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251107.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "20251107"
-            }
-          },
-          {
-            "id": "f3c797d3469958bb",
+            "id": "784eee1d28ed503b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -31,8 +17,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 247.5
   },
   "right": {
     "id": "0810d8a464ec16c5",
@@ -249,8 +234,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7891667b6e390b6d",
+  "active": "784eee1d28ed503b",
   "lastOpenFiles": [
+    "03 - Homework/📦DSW 👥TGR 02 AspectJ.md",
+    "03 - Homework/📦DSW 👥TGR 04 UML.md",
+    "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
     "01 - Daily/20251107.md",
     "01 - Daily/20251108.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
@@ -274,9 +262,6 @@
     "03 - Homework/💾EDD 📝TAR 04.md",
     "03 - Homework/💾EDD 📝TAR 05.md",
     "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
-    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
-    "02 - Notes/🎨IHC 📝NOT 05 Generación de Ideas.md",
-    "02 - Notes/🎨IHC 📝NOT 04 Concepto y Principios de Diseño.md",
     "99 - Meta/attachments/Recording 20251105142343.m4a",
     "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
