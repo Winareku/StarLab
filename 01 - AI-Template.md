@@ -31,7 +31,7 @@ cssclasses:
 ### 2.1 Subsección
 
 > [!info] Instrucción para la IA
-> Todo el contenido de un callout debe estar contenido después del símbolo “>” y debe haber por lo menos un salto de línea entre callouts diferentes.
+> Todo el contenido de un callout debe estar contenido después del símbolo “>” y debe haber por lo menos un salto de línea entre callouts diferentes. No pongas tablas dentro de callouts, siempre debes dejar un salto de línea (línea vacía) antes de una tabla.
 > > [!info] También puede haber callouts dentro de callouts y el nivel se define por el número de “>”.
 
 > [!warning] Punto importante

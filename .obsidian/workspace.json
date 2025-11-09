@@ -4,36 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "4d67affbbf17cc31",
+        "id": "3b9fb3367c5dbe99",
         "type": "tabs",
         "children": [
           {
-            "id": "ce68d49894d0f502",
+            "id": "9894636d54062378",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
+                "file": "03 - Homework/📊EST 🚀PRO G9.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "📦DSW 👥TGR 06 Patrones Creacionales"
+              "title": "📊EST 🚀PRO G9"
             }
           },
           {
-            "id": "72570569513508c3",
+            "id": "e17b2d40816fdbb1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "03 - Homework/📦DSW 👥TGR 06 G1 PatronCreacionalyUML.pdf"
+                "file": "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-file-text",
-              "title": "📦DSW 👥TGR 06 G1 PatronCreacionalyUML"
+              "icon": "lucide-file",
+              "title": "📊EST 📝NOT 03 Variables Aleatorias"
+            }
+          },
+          {
+            "id": "f4b2aaae379c9319",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - AI-Template.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "01 - AI-Template"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,13 +69,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
+                "file": "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 📦DSW 👥TGR 06 Patrones Creacionales"
+              "title": "Outline of 📊EST 📝NOT 03 Variables Aleatorias"
             }
           },
           {
@@ -245,9 +262,22 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "03 - Homework/📦DSW 👥TGR 06 G1 PatronCreacionalyUML.pdf",
-    "07 - Stuff/🔰MISC 📝TAR Formato de Tarea.pdf",
+    "01 - AI-Template.md",
+    "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
+    "03 - Homework/📊EST 🚀PRO G9.md",
+    "00 - Identifier.md",
+    "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
+    "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
+    "02 - Notes/📊EST 📝NOT 01 Estadística Descriptiva.md",
+    "05 - Resources/📦DSW 🏫MPR 05 Patrones de Diseño.pdf",
+    "02 - Notes/📦DSW 📝NOT 05 Web Patrones de Diseño Creacionales.md",
+    "03 - Homework/📦DSW 👥TGR 06 G1 PatronCreacionalyUML.md",
     "03 - Homework/📦DSW 👥TGR 06 Patrones Creacionales.md",
+    "03 - Homework/📦DSW 👥TGR 06 G1 PatronCreacionalyUML.pdf",
+    "03 - Homework/Sin confirmar 173793.crdownload",
+    "05 - Resources/Sin confirmar 700908.crdownload",
+    "03 - Homework/📦DSW 👥TGR 04 UML.md",
+    "07 - Stuff/🔰MISC 📝TAR Formato de Tarea.pdf",
     "03 - Homework/💾EDD 📝TAR 04.md",
     "03 - Homework/📦DSW 📝TGR 06 G1 PatronCreacionalyUML.pdf",
     "03 - Homework/TallerPatronCreacionalyUML.pdf",
@@ -267,16 +297,7 @@
     "01 - Daily/20251107.md",
     "01 - Daily/20251108.md",
     "01 - Daily/20251115.md",
-    "03 - Homework/📦DSW 👥TGR 02 AspectJ.md",
-    "03 - Homework/📦DSW 👥TGR 04 UML.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
-    "01 - Daily/20251111.md",
-    "01 - Daily/20251110.md",
-    "01 - Daily/20251116.md",
-    "01 - Daily/20251114.md",
-    "01 - Daily/20251113.md",
     "99 - Meta/attachments/Recording 20251105142343.m4a",
-    "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones de Diseño.pdf",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 02.png",
@@ -285,10 +306,6 @@
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 05.png",
     "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
     "99 - Meta/attachments/Evidencia_021.png",
-    "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
-    "05 - Resources/🎨IHC 📚LIB 00 Proyectos.pdf",
-    "05 - Resources/📦DSW 📚LIB 02 Design Patterns Explained.pdf",
-    "05 - Resources/03_Design patterns explained a new perspective on object-oriented design (Shalloway, AlanTrott, James).pdf",
     "07 - Stuff/🔰MISC Wallpaper GruvGreen.png",
     "07 - Stuff/GruvGreen.png"
   ]
