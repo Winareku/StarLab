@@ -37,15 +37,15 @@ cssclasses:
 
 ## 2. Cronograma del Proyecto
 
-| Etapa | Descripción | Semanas | Estado |
-|-------|-------------|---------|---------|
-| **Planteamiento del problema** | Formular pregunta predictiva, identificar variables X e Y | 1-2 | ✅ Completado |
-| **Recolección y construcción de datos** | Definir fuentes, asegurar calidad, documentar obtención | 2-4 | 🔄 En progreso |
-| **Análisis exploratorio y descriptivo** | Estadísticos básicos, gráficos, detección de valores atípicos | 4-5 | ⏳ Pendiente |
-| **Análisis bivariado e inferencial** | Relaciones entre variables, matriz de correlación | 6-7 | ⏳ Pendiente |
-| **Construcción del modelo predictivo** | Selección y ajuste del modelo, verificación de supuestos | 9-11 | ⏳ Pendiente |
-| **Evaluación y validación** | Medidas de ajuste, interpretación de coeficientes | 12-13 | ⏳ Pendiente |
-| **Presentación de resultados** | Informe escrito y presentación oral | 14-15 | ⏳ Pendiente |
+| Etapa                                   | Descripción                                                   | Semanas | Estado         |
+| --------------------------------------- | ------------------------------------------------------------- | ------- | -------------- |
+| **Planteamiento del problema**          | Formular pregunta predictiva, identificar variables X e Y     | 1-2     | ✅ Completado  |
+| **Recolección y construcción de datos** | Definir fuentes, asegurar calidad, documentar obtención       | 2-4     | 🔄 En progreso |
+| **Análisis exploratorio y descriptivo** | Estadísticos básicos, gráficos, detección de valores atípicos | 4-5     | ⏳ Pendiente   |
+| **Análisis bivariado e inferencial**    | Relaciones entre variables, matriz de correlación             | 6-7     | ⏳ Pendiente   |
+| **Construcción del modelo predictivo**  | Selección y ajuste del modelo, verificación de supuestos      | 9-11    | ⏳ Pendiente   |
+| **Evaluación y validación**             | Medidas de ajuste, interpretación de coeficientes             | 12-13   | ⏳ Pendiente   |
+| **Presentación de resultados**          | Informe escrito y presentación oral                           | 14-15   | ⏳ Pendiente   |
 
 > [!warning] Punto importante
 > Dividir datos en entrenamiento y prueba para validación del modelo predictivo.
@@ -80,7 +80,7 @@ cssclasses:
    - Fuentes de datos
    - Variables analizadas (tipo y soporte)
 
-5. **Metodología**
+1. **Metodología** (No escribir en detalle la teoría)
    - Técnicas y métodos utilizados
    - Recursos y modelos
 
@@ -145,13 +145,13 @@ cssclasses:
 
 ### 5.1 Componentes de Calificación
 
-| Componente | % Nota Práctica | % Nota Final Curso |
-|------------|-----------------|---------------------|
-| Talleres aplicados | 30% | 9% |
-| Avances del proyecto | 20% | 6% |
-| Informe técnico final | 30% | 9% |
-| Presentación oral grupal | 20% | 6% |
-| **TOTAL** | **100%** | **30%** |
+| Componente               | % Nota Práctica | % Nota Final Curso |
+| ------------------------ | --------------- | ------------------ |
+| Talleres aplicados       | 30%             | 9%                 |
+| Avances del proyecto     | 20%             | 6%                 |
+| Informe técnico final    | 30%             | 9%                 |
+| Presentación oral grupal | 20%             | 6%                 |
+| **TOTAL**                | **100%**        | **30%**            |
 
 ### 5.2 Presentación Oral
 - **Duración máxima**: 15 minutos

@@ -8,7 +8,7 @@ cssclasses:
 
 # Concepto de diseño y principios de diseño | Individual | 45 minutos
 > [!success] Información Necesaria
-![[🎨IHC 📝NOT 04 Concepto y Principios de Diseño]]
+![[🎨IHC 📝NOT 03 Concepto y Principios de Diseño]]
 ***
 
 > [!warning] Analice uno de los ejemplos de Conceptos de Diseño

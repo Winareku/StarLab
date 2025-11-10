@@ -9,7 +9,7 @@ cssclasses:
 # Ideas de diseño en base a principios de diseño | Individual | 45 minutos
 
 > [!success] Información Necesaria
-> [[🎨IHC 📝NOT 05 Generación de Ideas|Guía de Generación de Ideas]]
+> [[🎨IHC 📝NOT 04 Generación de Ideas|Guía de Generación de Ideas]]
 > [[🎨IHC 🚀PRO SalesBot|Tomar Principios de Diseño]]
 
 > [!warning] Completar
