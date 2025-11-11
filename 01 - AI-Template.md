@@ -9,17 +9,18 @@ cssclasses:
 
 # Título Principal del Documento
 
----
-
 ## 1. Primera Sección
 
 > [!info] Información clave
 > Descripción general del concepto principal.
 
-| Concepto A | Concepto B | Diferencia |
-|------------|------------|------------|
+Ejemplo de Tabla. Siempre que pongas una tabla, no la pongas dentro de un callout y deja siempre una línea vacía antes de ella.
+
+| Concepto A       | Concepto B       | Diferencia  |
+| ---------------- | ---------------- | ----------- |
 | Característica 1 | Característica 1 | Explicación |
 | Característica 2 | Característica 2 | Explicación |
+
 
 > [!example] Ejemplo práctico
 > Caso de uso concreto con aplicación real.
@@ -62,27 +63,27 @@ cssclasses:
 ### SISTEMA DE IDENTIFICACIÓN (INCLUIR EN TAGS)
 
 #### MATERIAS DISPONIBLES
-| **Materia** | **Tag** | **Para usar** |
-|-------------|---------|---------------|
-| Estadística | #📊EST | 📊EST |
-| Interacción H-C | #🎨IHC | 🎨IHC |
-| Bases de Datos | #🗃️SBD | 🗃️SBD |
-| Estructuras de Datos | #💾EDD | 💾EDD |
-| Diseño de Software | #📦DSW | 📦DSW |
-| Misceláneos | #🔰MISC | 🔰MISC |
+| **Materia**          | **Tag** | **Para usar** |
+| -------------------- | ------- | ------------- |
+| Estadística          | #📊EST  | 📊EST         |
+| Interacción H-C      | #🎨IHC  | 🎨IHC         |
+| Bases de Datos       | #🗃️SBD  | 🗃️SBD         |
+| Estructuras de Datos | #💾EDD  | 💾EDD         |
+| Diseño de Software   | #📦DSW  | 📦DSW         |
+| Misceláneos          | #🔰MISC | 🔰MISC        |
 
 #### TIPOS DE ARCHIVO
-| **Tipo** | **Tag** | **Para usar** |
-|----------|---------|---------------|
-| Apuntes | #📝NOT | 📝NOT |
-| Libros | #📚LIB | 📚LIB |
-| Taller Individual | #💻TIN | 💻TIN |
-| Taller Grupal | #👥TGR | 👥TGR |
-| Tarea | #📝TAR | 📝TAR |
-| Material | #🏫MPR | 🏫MPR |
-| Exámenes | #🧠EXA | 🧠EXA |
-| Proyectos | #🚀PRO | 🚀PRO |
-| Prácticas | #🔬LAB | 🔬LAB |
+| **Tipo**          | **Tag** | **Para usar** |
+| ----------------- | ------- | ------------- |
+| Apuntes           | #📝NOT  | 📝NOT         |
+| Libros            | #📚LIB  | 📚LIB         |
+| Taller Individual | #💻TIN  | 💻TIN         |
+| Taller Grupal     | #👥TGR  | 👥TGR         |
+| Tarea             | #📝TAR  | 📝TAR         |
+| Material          | #🏫MPR  | 🏫MPR         |
+| Exámenes          | #🧠EXA  | 🧠EXA         |
+| Proyectos         | #🚀PRO  | 🚀PRO         |
+| Prácticas         | #🔬LAB  | 🔬LAB         |
 
 ### TIPOS DE CALLOUTS DISPONIBLES
 - `> [!note]` - Notas generales
@@ -102,5 +103,6 @@ cssclasses:
 - Mantener tablas alineadas y claras
 - Incluir ejemplos de código cuando sea relevante
 - Separar secciones con `---`
+- No usar [cite_start]
 
 **NOTA PARA LA IA**: Esta plantilla debe usarse como guía para estructurar cualquier nuevo documento o resumen, manteniendo la coherencia visual y organizativa con los documentos existentes.

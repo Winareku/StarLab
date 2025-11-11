@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiVideo",
       "LiAtom",
       "LiNewspaper",
       "BoBxPaint",
-      "LiBookTemplate",
-      "LiArchiveX"
+      "LiBookTemplate"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -105,5 +105,6 @@
   "00 - Identifier.md": "LiIdCard",
   "01 - AI-Template.md": "LiBookTemplate",
   "08 - Presents/MPR": "LiNewspaper",
-  "08 - Presents/Projects": "LiAtom"
+  "08 - Presents/Projects": "LiAtom",
+  "10 - Videos": "LiVideo"
 }

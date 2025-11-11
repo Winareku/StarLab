@@ -11,5 +11,5 @@ cssclasses:
 - [x] Clases: U4. DDL #🗃️SBD 
 
 ## > 10 Nov - 14 Nov
-- [ ] Lección y Taller #🗃️SBD 
+- [x] Lección y Taller #🗃️SBD 
 
