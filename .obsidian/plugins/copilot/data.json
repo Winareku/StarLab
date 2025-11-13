@@ -394,5 +394,6 @@
   "enableSavedMemory": false,
   "enableInlineCitations": true,
   "quickCommandIncludeNoteContext": true,
-  "defaultSendShortcut": "enter"
+  "defaultSendShortcut": "enter",
+  "autoIncludeTextSelection": false
 }

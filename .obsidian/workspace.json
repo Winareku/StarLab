@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c134446c05e6ea6a",
+        "id": "dce0444db01c0ec3",
         "type": "tabs",
         "children": [
           {
-            "id": "04970aa65ac91774",
+            "id": "e502402d2e365667",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
+                "file": "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "🗃️SBD 📝NOT 02 Modelo Lógico y Normalización"
+            }
+          },
+          {
+            "id": "5385c43489dc36de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "📦DSW 📝NOT 05 Patrones de Diseño Creacionales"
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,13 +55,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 📦DSW 📝NOT 05 Patrones de Diseño Creacionales"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -81,7 +96,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           },
           {
@@ -98,7 +113,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Buscar"
+              "title": "Search"
             }
           },
           {
@@ -107,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Daily/20251107.md",
+                "file": "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 20251107"
+              "title": "Backlinks for 🗃️SBD 📝NOT 02 Modelo Lógico y Normalización"
             }
           },
           {
@@ -126,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Daily/20251107.md",
+                "file": "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 20251107"
+              "title": "Outgoing links from 🗃️SBD 📝NOT 02 Modelo Lógico y Normalización"
             }
           },
           {
@@ -233,31 +248,33 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "10 - Videos/Patrones de Diseño de Software/PATRÓN de DISEÑO BUILDER en JAVA - Tutorial Completo Fácil.mkv",
-    "10 - Videos/Patrones de Diseño de Software/PATRÓN de DISEÑO BUILDER en JAVA - Tutorial Completo Fácil.temp.mkv",
-    "10 - Videos/Patrones de Diseño de Software/PATRÓN de DISEÑO BUILDER en JAVA - Tutorial Completo Fácil.f251.webm",
-    "10 - Videos/Patrones de Diseño de Software/PATRÓN de DISEÑO BUILDER en JAVA - Tutorial Completo Fácil.f251.webm.part",
-    "10 - Videos/Patrones de Diseño de Software/PATRÓN de DISEÑO BUILDER en JAVA - Tutorial Completo Fácil.f299.mp4",
-    "10 - Videos/Patrones de Diseño de Software/PATRÓN de DISEÑO BUILDER en JAVA - Tutorial Completo Fácil.f299.mp4.part",
-    "02 - Notes/📦DSW 📝NOT 06 Patrones de Diseño Estructurales.md",
-    "02 - Notes/📦DSW 📝NOT 05 Web Patrones de Diseño Creacionales.md",
-    "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
-    "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
-    "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
-    "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md",
-    "Guía de Estudio.md",
-    "Examen Practico de Ejemplo.pdf",
-    "02 - Notes/📦DSW 📝NOT 01 Diseño de Software.md",
+    "Untitled.md",
+    "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
+    "10 - Videos/ABSTRACT FACTORY ｜ PATRONES de DISEÑO [CVlpjFJN17U].webm",
+    "10 - Videos/Convertir Modelo Conceptual a Modelo Logico.mkv",
+    "10 - Videos/Clase Virtual SBD.mkv",
+    "10 - Videos/Conceptos básicos - Unidad I.mkv",
+    "10 - Videos/Conceptos básicos del Modelo Entidad - Relación.mkv",
+    "10 - Videos/Elaboración del Diagrama Entidad - Relación.mkv",
+    "10 - Videos/Componentes del Modelo Relacional.mkv",
+    "10 - Videos/Restricciones de integridad en una base de datos.mkv",
+    "10 - Videos/Normalización de bases de datos.webm",
+    "10 - Videos/Lenguaje SQL en las bases de datos relacionales.mkv",
     "Entrevista.md",
+    "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
+    "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
+    "02 - Notes/📦DSW 📝NOT 06 Patrones de Diseño Estructurales.md",
+    "Guía de Estudio.md",
+    "02 - Notes/📦DSW 📝NOT 05 Web Patrones de Diseño Creacionales.md",
+    "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
+    "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md",
+    "02 - Notes/📦DSW 📝NOT 01 Diseño de Software.md",
     "02 - Notes/🎨IHC 📝NOT 04 Generación de Ideas.md",
     "02 - Notes/🎨IHC 📝NOT 03 Concepto y Principios de Diseño.md",
     "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
     "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
     "02 - Notes/Notas de SBD.md",
-    "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
-    "05 - Resources/🗃️SBD 🏫MPR 02 Modelo Conceptual a Modelo Lógico.pdf",
     "99 - Meta/attachments/Pasted image 20251111071618.png",
-    "05 - Resources/🗃️SBD 🏫MPR 03 Álgebra Relacional.pdf",
     "02 - Notes/🗃️SBD 📝NOT 03 Álgebra Relacional.md",
     "01 - AI-Template.md",
     "02 - Notes/🗃️SBD 📝NOT 103 Modelo Conceptual a Modelo Lógico.md",
@@ -266,8 +283,6 @@
     "02 - Notes/🗃️SBD 📝NOT 101 Modelo Conceptual de Datos.md",
     "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
     "02 - Notes/🗃️SBD 📝NOT 104 Lenguaje de Consulta Estructurada.md",
-    "10 - Videos/Estadística/Probabilidad ｜ La distribución hipergeométrica.webm",
-    "10 - Videos/Estadística/Probabilidad ｜ La distribución hipergeométrica.temp.webm",
     "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
     "01 - Daily/20251111.md",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",

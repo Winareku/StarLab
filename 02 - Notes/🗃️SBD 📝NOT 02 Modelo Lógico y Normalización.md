@@ -11,6 +11,9 @@ cssclasses:
 
 ## 1. Proceso de Diseño de Bases de Datos
 
+> [!example] Video
+> ![[Conversión a Modelo Lógico.mkv]]
+
 > [!info] Tres Etapas Principales
 > El diseño de una base de datos sigue un proceso estructurado en tres fases principales:
 
