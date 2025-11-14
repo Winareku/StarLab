@@ -1,24 +1,77 @@
-# 3. Conversión de Relaciones
 
-## 3.1 Relaciones 1:1 (Uno a Uno) - Expandido
+# Modelo Lógico y Normalización - Unidad 2
 
-### Consideraciones Generales sobre Claves Foráneas
+## 1. Proceso de Diseño de Bases de Datos
 
-> [!note] Notación de Propagación de Claves
-> Cuando una clave primaria se propaga como clave foránea a otra tabla, se utiliza la notación:
-> - `PK_Origen = FK_Destino` (mismo nombre)
-> - `PK_Origen = NuevoNombre_FK` (cuando hay conflicto de nombres)
+> [!example] Video
+> ![[Conversión a Modelo Lógico.mkv]]
 
-### Casos de Relaciones 1:1
+> [!info] Tres Etapas Principales
+> El diseño de una base de datos sigue un proceso estructurado en tres fases principales:
 
-#### Caso 1: Una Entidad Opcional y la otra Obligatoria
+| Etapa                 | Objetivo                                 | Resultado                      |
+| --------------------- | ---------------------------------------- | ------------------------------ |
+| **Diseño Conceptual** | Identificar datos y restricciones        | Modelo Entidad-Relación (ERD)  |
+| **Diseño Lógico**     | Crear tablas, relaciones y restricciones | Esquema relacional normalizado |
+| **Diseño Físico**     | Implementar procedimientos y triggers    | Base de datos operativa        |
 
-> [!info] Regla
-> La tabla **opcional** almacena como FK la PK de la tabla **obligatoria**
+> [!success] Flujo del Proceso
+```
+
+Especificación de Requisitos → Diseño Conceptual → Diseño Lógico → Diseño Físico
+
+```
+
+---
+
+2. Transformación del Modelo Conceptual al Lógico
+
+2.1 Conversión de Entidades
+
+[!info] Reglas Básicas
+
+· Cada entidad se transforma en una tabla
+· Los atributos se convierten en columnas
+· Las claves primarias se mantienen
+
+[!example] Ejemplo de Conversión
+
+Modelo Conceptual Modelo Lógico
+CLIENTE entidad CLIENTE tabla
+idCliente (PK) idCliente INT PRIMARY KEY
+Nombre, Dirección atributos Nombre VARCHAR(30), Dirección VARCHAR(50)
+
+2.2 Conversión de Atributos
+
+[!warning] Atributos Multivaluados
+Los atributos multivaluados requieren una tabla separada:
+
+```
+CLIENTE {idCliente, nombre}
+TELEFONO {idCliente, telefono}
+```
+
+[!info] Atributos Compuestos
+Los atributos compuestos se descomponen en atributos simples:
+
+```
+CLIENTE {idCliente, nombre, calle, ciudad, codigo_postal}
+```
+
+---
+
+3. Conversión de Relaciones
+
+3.1 Relaciones 1:1 (Uno a Uno) - Expandido
+
+Caso 1: Una Entidad Opcional y la otra Obligatoria
+
+[!info] Regla
+La tabla opcional almacena como FK la PK de la tabla obligatoria
 
 ```mermaid
 erDiagram
-    EMPLEADO ||--o| CARRO : tiene
+    EMPLEADO ||--o| CARRO : "tiene"
     EMPLEADO {
         int idEmpleado PK
         string nombre
@@ -26,25 +79,20 @@ erDiagram
     CARRO {
         string matricula PK
         string marca
-        int idEmpleado FK "idEmpleado = idEmpleado"
+        int idEmpleado FK
     }
 ```
 
-> [!example] Implementación SQL
-> ```sql
-> EMPLEADO (idEmpleado PK, nombre)
-> CARRO (matricula PK, marca, idEmpleado FK)
-> -- idEmpleado en CARRO referencia idEmpleado en EMPLEADO
-> ```
+Descripción: Un empleado puede tener un carro opcionalmente, pero un carro debe pertenecer a un empleado. La FK idEmpleado en CARRO referencia la PK de EMPLEADO.
 
-#### Caso 2: Ambas Entidades Opcionales
+Caso 2: Ambas Entidades Opcionales
 
-> [!info] Regla
-> Se decide cuál es la **clase padre** y cuál la **clase hijo**. La PK del padre se copia al hijo como FK.
+[!info] Regla
+Se decide cuál es la clase padre y cuál la clase hijo. La PK del padre se copia al hijo como FK.
 
 ```mermaid
 erDiagram
-    PROFESOR ||--o| DESPACHO : utiliza
+    PROFESOR ||--o| DESPACHO : "utiliza"
     PROFESOR {
         int idProfesor PK
         string nombre
@@ -52,22 +100,20 @@ erDiagram
     DESPACHO {
         int numero PK
         string ubicacion
-        int idProfesor FK "idProfesor = idProfesor"
+        int idProfesor FK
     }
 ```
 
-> [!tip] Criterio de Decisión
-> - Elegir como padre la entidad más importante o con mayor cardinalidad
-> - Si no hay criterio claro, se elige arbitrariamente
+Descripción: Tanto profesor como despacho son opcionales. Se elige PROFESOR como padre y se propaga su PK a DESPACHO como FK.
 
-#### Caso 3: Ambas Entidades Obligatorias
+Caso 3: Ambas Entidades Obligatorias
 
-> [!info] Regla
-> Se pueden **unificar en una sola tabla** y elegir como PK cualquiera de las entidades originales.
+[!info] Regla
+Se pueden unificar en una sola tabla y se puede elegir como PK a cualquiera de las entidades originales.
 
 ```mermaid
 erDiagram
-    PERSONA ||--|| DOCUMENTO : posee
+    PERSONA ||--|| DOCUMENTO : "posee"
     PERSONA {
         string dni PK
         string nombre
@@ -75,37 +121,16 @@ erDiagram
     }
 ```
 
-> [!example] Implementación SQL - Fusión
-> ```sql
-> PERSONA (dni PK, nombre, fecha_expedicion)
-> -- Se unifican PERSONA y DOCUMENTO en una sola tabla
-> ```
+Descripción: Persona y documento son ambos obligatorios. Se unifican en una tabla PERSONA que incluye todos los atributos.
 
-> [!example] Implementación SQL - Separadas
-> ```sql
-> PERSONA (idPersona PK, nombre)
-> DOCUMENTO (idPersona PK/FK, tipo, numero)
-> -- Relación 1:1 con ambas obligatorias
-> ```
+3.2 Relaciones 1:M (Uno a Muchos)
 
-### Resumen de Estrategias 1:1
-
-| Tipo de Relación | Estrategia | Ejemplo |
-|-----------------|------------|---------|
-| **Opcional - Obligatorio** | FK en la opcional | Empleado ← Carro |
-| **Opcional - Opcional** | FK en el hijo elegido | Profesor → Despacho |
-| **Obligatorio - Obligatorio** | Fusión de tablas | Persona + Documento |
-
----
-
-## 3.2 Relaciones 1:M (Uno a Muchos) - Mejorado
-
-> [!success] Regla General
-> La **PK del lado "1"** se propaga como **FK al lado "M"**, independientemente de la obligatoriedad.
+[!success] Regla General
+La PK del lado "1" se propaga como FK al lado "M", independientemente de la obligatoriedad.
 
 ```mermaid
 erDiagram
-    DEPARTAMENTO ||--o{ EMPLEADO : contiene
+    DEPARTAMENTO ||--o{ EMPLEADO : "contiene"
     DEPARTAMENTO {
         int idDepartamento PK
         string nombre
@@ -113,27 +138,20 @@ erDiagram
     EMPLEADO {
         int idEmpleado PK
         string nombre
-        int idDepartamento FK "idDepartamento = idDepartamento"
+        int idDepartamento FK
     }
 ```
 
-> [!example] Implementación SQL
-> ```sql
-> DEPARTAMENTO (idDepartamento PK, Nombre)
-> EMPLEADO (idEmpleado PK, Nombre, idDepartamento FK)
-> -- idDepartamento en EMPLEADO referencia idDepartamento en DEPARTAMENTO
-> ```
+Descripción: Un departamento puede tener muchos empleados. La PK idDepartamento se propaga como FK a la tabla EMPLEADO.
 
----
+3.3 Relaciones M:M (Muchos a Muchos)
 
-## 3.3 Relaciones M:M (Muchos a Muchos)
-
-> [!warning] Regla
-> Siempre se crea una **tabla intermedia** con las PKs de ambas entidades como FKs.
+[!warning] Regla
+Siempre se crea una tabla intermedia con las PKs de ambas entidades como FKs.
 
 ```mermaid
 erDiagram
-    ESTUDIANTE }o--o{ CURSO : matricula
+    ESTUDIANTE }o--o{ CURSO : "matricula"
     ESTUDIANTE {
         int idEstudiante PK
         string nombre
@@ -149,18 +167,18 @@ erDiagram
     }
 ```
 
----
+Descripción: Relación muchos a muchos entre ESTUDIANTE y CURSO. Se crea tabla intermedia MATRICULA con ambas FKs.
 
-## 3.4 Relaciones Ternarias
+3.4 Relaciones Ternarias
 
-> [!info] Regla General
-> Se crea una nueva tabla con las **PK de las tres tablas** como FKs, más los atributos de la relación.
+[!info] Regla General
+Se crea una nueva tabla con las PK de las tres tablas como FKs, más los atributos de la relación.
 
 ```mermaid
 erDiagram
-    PROFESOR ||--o{ REGISTRO : imparte
-    MATERIA ||--o{ REGISTRO : corresponde
-    ESTUDIANTE ||--o{ REGISTRO : recibe
+    PROFESOR ||--o{ REGISTRO : "imparte"
+    MATERIA ||--o{ REGISTRO : "corresponde"
+    ESTUDIANTE ||--o{ REGISTRO : "recibe"
     REGISTRO {
         int idProfesor PK,FK
         int idMateria PK,FK
@@ -169,47 +187,20 @@ erDiagram
     }
 ```
 
----
-
-## 3.5 Relaciones Recursivas - Expandido
-
-### Relación Recursiva 1:1
-
-> [!example] Empleado suplente de Empleado
-> ```sql
-> EMPLEADO (idEmpleado PK, nombre, idSuplente FK)
-> -- idSuplente referencia idEmpleado en la misma tabla
-> ```
-
-### Relación Recursiva 1:M
-
-> [!example] Empleado supervisa Empleados
-> ```sql
-> EMPLEADO (idEmpleado PK, nombre, idSupervisor FK)
-> -- idSupervisor referencia idEmpleado en la misma tabla
-> ```
-
-### Relación Recursiva M:M
-
-> [!warning] Requiere tabla intermedia
-> ```sql
-> EMPLEADO (idEmpleado PK, nombre)
-> SUPERVISION (idSupervisor FK, idSupervisado FK)
-> -- Ambos campos referencian idEmpleado en EMPLEADO
-> ```
+Descripción: Relación ternaria entre PROFESOR, MATERIA y ESTUDIANTE. Se crea tabla REGISTRO con las tres FKs como PK compuesta.
 
 ---
 
-## 4. Conversión de Relaciones Especiales
+4. Conversión de Relaciones Especiales
 
-### 4.1 Relaciones de Dependencia (Entidades Débiles)
+4.1 Relaciones de Dependencia (Entidades Débiles)
 
-> [!warning] Característica Clave
-> La entidad débil tiene **clave compuesta** que incluye la PK de la entidad fuerte.
+[!warning] Característica Clave
+La entidad débil tiene clave compuesta que incluye la PK de la entidad fuerte.
 
 ```mermaid
 erDiagram
-    EDIFICIO ||--o{ DEPARTAMENTO : contiene
+    EDIFICIO ||--o{ DEPARTAMENTO : "contiene"
     EDIFICIO {
         int idEdificio PK
         string nombre
@@ -221,16 +212,64 @@ erDiagram
     }
 ```
 
----
+Descripción: DEPARTAMENTO es entidad débil de EDIFICIO. Su PK es compuesta: (idEdificio, hab_num).
 
-## 4.2 Supertipo - Subtipo - Detallado
+4.2 Relaciones Recursivas
 
-### Caso (a): Obligatorio - Solapado
+Relación Recursiva 1:1
 
 ```mermaid
 erDiagram
-    EMPLEADO ||--o| VENDEDOR : puede_ser
-    EMPLEADO ||--o| TECNICO : puede_ser
+    EMPLEADO ||--o| EMPLEADO : "suplente"
+    EMPLEADO {
+        int idEmpleado PK
+        string nombre
+        int idSuplente FK
+    }
+```
+
+Descripción: Un empleado puede ser suplente de otro empleado. FK idSuplente referencia PK idEmpleado en la misma tabla.
+
+Relación Recursiva 1:M
+
+```mermaid
+erDiagram
+    EMPLEADO ||--o{ EMPLEADO : "supervisa"
+    EMPLEADO {
+        int idEmpleado PK
+        string nombre
+        int idSupervisor FK
+    }
+```
+
+Descripción: Un empleado puede supervisar a muchos empleados. FK idSupervisor referencia PK idEmpleado.
+
+Relación Recursiva M:M
+
+```mermaid
+erDiagram
+    EMPLEADO }o--o{ EMPLEADO : "colabora"
+    EMPLEADO {
+        int idEmpleado PK
+        string nombre
+    }
+    COLABORACION {
+        int idEmpleado1 FK
+        int idEmpleado2 FK
+        string proyecto
+    }
+```
+
+Descripción: Empleados pueden colaborar entre sí. Se crea tabla intermedia COLABORACION.
+
+4.3 Supertipo - Subtipo - Detallado
+
+Caso (a): Obligatorio - Solapado
+
+```mermaid
+erDiagram
+    EMPLEADO ||--o| VENDEDOR : "puede_ser"
+    EMPLEADO ||--o| TECNICO : "puede_ser"
     EMPLEADO {
         int idEmp PK
         string nombre
@@ -247,75 +286,118 @@ erDiagram
     }
 ```
 
-> [!important] Validación
-> - `esVendedor` y `esTecnico` no pueden ser ambos FALSE
-> - Pueden ser ambos TRUE (solapado)
+Descripción: Empleado debe ser al menos vendedor o técnico (puede ser ambos). Flags booleanos en tabla padre.
 
-### Caso (b): Obligatorio - Disjunto
+Caso (b): Obligatorio - Disjunto
 
-```sql
-EMPLEADO (idEmp PK, nombre, tipo ENUM('VENDEDOR','TECNICO') NOT NULL)
-VENDEDOR (idEmp PK/FK, numVentas)
-TECNICO (idEmp PK/FK, licencia)
--- tipo indica exclusivamente a qué subtipo pertenece
+```
+EMPLEADO {idEmp, nombre, tipo NOT NULL}
+VENDEDOR {idEmp, numVentas}
+TECNICO {idEmp, licencia}
 ```
 
-### Caso (c): Opcional - Disjunto
+Descripción: Empleado debe ser exclusivamente vendedor o técnico. Atributo tipo indica el subtipo.
 
-```sql
-EMPLEADO (idEmp PK, nombre, tipo ENUM('VENDEDOR','TECNICO', NULL))
-VENDEDOR (idEmp PK/FK, numVentas)
-TECNICO (idEmp PK/FK, licencia)
--- tipo puede ser NULL (solo empleado base)
+Caso (c): Opcional - Disjunto
+
+```
+EMPLEADO {idEmp, nombre, tipo NULL}
+VENDEDOR {idEmp, numVentas}
+TECNICO {idEmp, licencia}
 ```
 
-### Caso (d): Opcional - Solapado
+Descripción: Empleado puede ser vendedor, técnico o solo empleado base. tipo puede ser NULL.
 
-```sql
-EMPLEADO (idEmp PK, nombre, esVendedor BOOLEAN, esTecnico BOOLEAN)
-VENDEDOR (idEmp PK/FK, numVentas)
-TECNICO (idEmp PK/FK, licencia)
--- Ambos flags pueden ser FALSE (solo empleado base)
--- Ambos pueden ser TRUE (solapado)
+Caso (d): Opcional - Solapado
+
+```mermaid
+erDiagram
+    EMPLEADO ||--o| VENDEDOR : "puede_ser"
+    EMPLEADO ||--o| TECNICO : "puede_ser"
+    EMPLEADO {
+        int idEmp PK
+        string nombre
+        boolean esVendedor
+        boolean esTecnico
+    }
+    VENDEDOR {
+        int idEmp PK,FK
+        int numVentas
+    }
+    TECNICO {
+        int idEmp PK,FK
+        string licencia
+    }
 ```
+
+Descripción: Empleado puede ser vendedor, técnico, ambos, o ninguno. Flags booleanos permiten todas las combinaciones.
 
 ---
 
-## 7. Tratamiento de Atributos
+5. Normalización de Bases de Datos
 
-### 7.1 Atributos Compuestos
+5.1 Introducción a la Normalización
 
-> [!info] Estrategia
-> Los atributos compuestos se **descomponen** en atributos simples dentro de la misma tabla.
+[!quote] Propósito
+"La normalización evita la redundancia de datos, problemas de actualización y protege la integridad de los datos."
 
-> [!example] Dirección Compuesta
-> ```sql
-> CLIENTE (idCliente PK, calle, ciudad, codigo_postal, pais)
-> -- En lugar de un solo campo "dirección"
-> ```
+5.2 Formas Normales
 
-### 7.2 Atributos Multivaluados
+Forma Normal Descripción Base
+1FN Atributos atómicos, clave primaria Estructura básica
+2FN Dependencia completa de la clave Claves compuestas
+3FN Eliminar dependencias transitivas Dependencias funcionales
+FNBC Versión reforzada de 3FN Dependencias funcionales
 
-> [!warning] Requieren Tabla Separada
-> Siempre generan una **nueva tabla** relacionada.
+5.3 Primera Forma Normal (1FN)
 
-> [!example] Teléfonos Múltiples
-> ```sql
-> CLIENTE (idCliente PK, nombre)
-> TELEFONO (idCliente FK, telefono PK)
-> -- Clave compuesta para permitir múltiples teléfonos
-> ```
+[!success] Requisitos
+
+· Atributos atómicos
+· Clave primaria única
+· Sin grupos repetitivos
+
+❌ Antes (No 1FN) ✅ Después (1FN)
+Cliente {ID, Nombre, Teléfonos} Cliente {ID, Nombre}
+ Telefono {ID_Cliente, Telefono}
+
+5.4 Segunda Forma Normal (2FN)
+
+[!warning] Solo para claves compuestas
+Atributos no clave deben depender de toda la clave
+
+❌ No 2FN ✅ 2FN
+EmpleadoHabilidad {Empleado, Habilidad, LugarTrabajo} Empleado {Empleado, LugarTrabajo}
+ Habilidad {Empleado, Habilidad}
+
+5.5 Tercera Forma Normal (3FN)
+
+[!danger] Eliminar dependencias transitivas
+Atributos no clave no deben depender de otros atributos no clave
+
+❌ No 3FN ✅ 3FN
+Torneo {Torneo, Año, Ganador, FechaNacimiento} Torneo {Torneo, Año, Ganador}
+ Ganador {Ganador, FechaNacimiento}
 
 ---
 
-> [!success] Resumen de Conversiones
-> | Tipo Relación | Estrategia | Observaciones |
-> |---------------|------------|---------------|
-> | **1:1 Opcional-Obligatorio** | FK en opcional | - |
-> | **1:1 Opcional-Opcional** | FK en hijo elegido | Decisión arbitraria |
-> | **1:1 Obligatorio-Obligatorio** | Fusión o FK mutua | Preferible fusión |
-> | **1:M** | FK en lado M | Independiente de opcionalidad |
-> | **M:M** | Tabla intermedia | Siempre necesario |
-> | **Ternaria** | Tabla con 3 FKs | Para 3 entidades |
-> | **Recursiva** | FK autoreferencial | M:M requiere tabla |
-> | **Dependencia** | Clave compuesta | Entidad débil |
+6. Ejercicios y Casos Prácticos
+
+6.1 Ejercicio de Conversión MC a ML
+
+[!example] Conversión Completa
+Dado un modelo ER con:
+
+· Entidades: CLIENTE, PRODUCTO, VENTA
+· Relaciones: CLIENTE realiza VENTA (1:N), VENTA contiene PRODUCTO (M:N)
+· Atributos multivaluados: múltiples teléfonos por cliente
+
+6.2 Ejercicio de Normalización
+
+[!example] Normalización Paso a Paso
+
+```
+PEDIDO {NumPedido, Fecha, Cliente, Direccion, ProductoID, DescProducto, Categoria, Precio, Cantidad}
+```
+
+Aplicar 1FN, 2FN y 3FN sucesivamente.

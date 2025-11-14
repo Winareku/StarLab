@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c4bbb47f80ed44f0",
+        "id": "8bab67d424c8eb37",
         "type": "tabs",
         "children": [
           {
-            "id": "a23142c01ff0e170",
+            "id": "e008e09584ce4550",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
+                "file": "02 - Notes/💾EDD 📝NOT 05 ArrayList vs LinkedList en Java.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "🎨IHC 🚀PRO SalesBot"
+              "title": "💾EDD 📝NOT 05 ArrayList vs LinkedList en Java"
             }
           }
         ]
@@ -203,48 +203,47 @@
       "zk-prefixer:Create new unique note": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "a23142c01ff0e170",
+  "active": "e008e09584ce4550",
   "lastOpenFiles": [
-    "01 - Daily/20251029.md",
-    "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
-    "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.pdf",
-    "03 - Homework/🎨IHC 🚀PRO Entrevistas Alt.md",
-    "03 - Homework/🎨IHC 🚀PRO Entrevistas.md",
-    "01 - Daily/20251028.md",
-    "01 - Daily/20251027.md",
-    "08 - Presents/MPR/📦DSW 🏫MPR 02 UML Clases y Secuencia.pdf",
+    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
+    "Untitled.md",
+    "02 - Notes/📦DSW 📝NOT 06 Patrones de Diseño Estructurales.md",
+    "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
+    "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md",
+    "02 - Notes/📦DSW 📝NOT 01 Diseño de Software.md",
+    "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
+    "Guía de Estudio.md",
+    "Examen Practico de Ejemplo.pdf",
+    "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
+    "05 - Resources/🗃️SBD 🏫MPR 02 Normalización.pdf",
+    "Sbdd.md",
+    "08 - Presents/MPR/📦DSW 🏫MPR 04 Patrones Estructurales.pdf",
+    "10 - Videos/Patrones de Diseño de Software",
+    "10 - Videos",
+    "01 - Daily/20251106.md",
+    "01 - Daily/20251107.md",
+    "01 - Daily/20251108.md",
+    "01 - Daily/20251109.md",
+    "01 - Daily/20251110.md",
+    "01 - Daily/20251111.md",
+    "01 - Daily/20251112.md",
+    "01 - Daily/20251113.md",
+    "01 - Daily/20251114.md",
+    "01 - Daily/20251115.md",
+    "01 - Daily/20251116.md",
+    "01 - Daily/20251012.md",
+    "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
+    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
+    "03 - Homework/💾EDD 📝TAR 04.md",
     "03 - Homework/🎨IHC 🚀PRO SalesBot.md",
+    "03 - Homework/🗃️SBD 📝TAR 01 Propuesta de Proyecto Individual.pdf",
+    "08 - Presents/MPR/📦DSW 🏫MPR 02 UML Clases y Secuencia.pdf",
     "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf",
     "05 - Resources/📦DSW 📚LIB 01 Software Engineering.pdf",
-    "01 - Daily/20251026.md",
-    "01 - Daily/20251025.md",
-    "04 - Course/💾 Estructuras de Datos.md",
     "05 - Resources/🗃️SBD 🏫MPR 01 Supertipo.pdf",
-    "03 - Homework/📦DSW 👥TGR 02 UML.md",
-    "01 - Daily/20251023.md",
-    "05 - Resources/📊EST 🏫MPR 02 Probabilidad.pdf",
-    "05 - Resources/🗃️SBD 🏫MPR 01 Sistemas de Bases de Datos.pdf",
-    "01 - Daily/20251022.md",
-    "08 - Presents/01 - MPR/📦DSW 🏫MPR 02 UML Clases y Secuencia.pdf",
-    "01 - Daily/20251021.md",
-    "01 - Daily/20251020.md",
-    "03 - Homework/🎨IHC 📝TAR 03 Apuntes de la Entrevista.md",
-    "03 - Homework/🎨IHC 📝TAR 02 Métodos de Investigación de Usuario.md",
-    "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
-    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
-    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
-    "02 - Notes/🗃️SBD 📝NOT 03 Modelo Conceptual a Modelo Lógico.md",
-    "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
-    "99 - Meta/attachments/Recording 20251021094219.m4a",
-    "01 - Daily/20251024.md",
-    "99 - Meta/attachments/Recording 20251020143354.m4a",
-    "01 - Daily/20251019.md",
-    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
-    "03 - Homework/🎨IHC 📝TAR 03 Customer Journey Map.md",
-    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.md"
+    "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png"
   ]
 }
