@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "29d8510e37d23d20",
+        "id": "61d7d6b2853ba535",
         "type": "tabs",
         "children": [
           {
-            "id": "37185970d4fbc10e",
+            "id": "6e0919461aef74bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "01 - Daily/20251118.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled 2"
+              "title": "20251118"
             }
           }
         ]
@@ -40,13 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "01 - Daily/20251118.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled 2"
+              "title": "Outline of 20251118"
             }
           },
           {
@@ -233,6 +233,7 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
+    "Untitled 2.md",
     "Untitled 1.md",
     "Sbdd.md",
     "Guía de Estudio.md",
@@ -258,7 +259,6 @@
     "02 - Notes/🗃️SBD 📝NOT 102 Diseño Lógico y Normalización.md",
     "02 - Notes/🗃️SBD 📝NOT 101 Modelo Conceptual de Datos.md",
     "05 - Resources/🗃️SBD 🏫MPR 01 Modelamiento de Datos.pdf",
-    "Untitled 2.md",
     "01 - Daily/20251124.md",
     "01 - Daily/20251119.md",
     "01 - Daily/20251120.md",
