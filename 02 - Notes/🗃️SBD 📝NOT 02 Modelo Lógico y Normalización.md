@@ -4,10 +4,9 @@ tags:
   - 📝NOT
 cssclasses:
   - center-titles
-  - embed-auto
 ---
 
-# [[🗃️SBD 🏫MPR 02 Modelo Conceptual a Modelo Lógico.pdf|Modelo Lógico y Normalización - Unidad 2]]
+# [[🗃️SBD 🏫MPR 02 Modelo Conceptual a Modelo Lógico.pdf|Modelo Lógico]] y Normalización - Unidad 2
 
 ## 1. Proceso de Diseño de Bases de Datos
 
@@ -40,8 +39,7 @@ cssclasses:
 > - Las **claves primarias** se mantienen
 
 > [!example] Ejemplo de Conversión
-
-![[Pasted image 20251111071618.png]]
+> ![[🗃️SBD 📝NOT Ejemplo 01.excalidraw|100%]]
 
 | Modelo Conceptual               | Modelo Lógico                                 |
 | ------------------------------- | --------------------------------------------- |
@@ -54,67 +52,187 @@ cssclasses:
 > [!warning] Atributos Multivaluados
 > Los atributos multivaluados requieren una tabla separada:
 > 
-> ```sql
-> -- Ejemplo: Múltiples teléfonos por cliente
-> CLIENTE (idCliente, Nombre, ...)
-> TELEFONO (idCliente, Telefono)
+> ```
+> CLIENTE {idCliente, nombre, ...}
+> TELEFONO {idCliente, telefono}
+> ```
+
+> [!info] Atributos Compuestos
+> Los atributos compuestos se descomponen en atributos simples:
+> ```
+> CLIENTE {idCliente, nombre, calle, ciudad, codigo_postal}
 > ```
 
 ---
 
 ## 3. Conversión de Relaciones
 
-### 3.1 Relaciones 1:1 (Uno a Uno)
+### 3.1 Relaciones 1:1 (Uno a Uno) - Expandido
 
-> [!info] Estrategias
-> - **Fusión de tablas**: Unir ambas entidades en una sola tabla
-> - **Propagación de clave**: Copiar PK de una tabla a otra como FK
+#### Caso 1: Una Entidad Opcional y la otra Obligatoria
 
-> [!example] Caso: Empleado - Vehículo
+> [!info] Regla
+> La tabla **opcional** almacena como FK la PK de la tabla **obligatoria**
 
-| CARRO          | EMPLEADO       |
-| -------------- | -------------- |
-| `matricula PK` | `cedula PK`    |
-| `marca`        | `nombre`       |
-|                | `matricula FK` |
+> [!example] Caso: Empleado - Carro
+> ```mermaid
+> erDiagram
+>     EMPLEADO ||--o| CARRO : "idEmpleado = idEmpleado"
+>     EMPLEADO {
+>         int idEmpleado PK
+>         string nombre
+>     }
+>     CARRO {
+>         string matricula PK
+>         string marca
+>         int idEmpleado FK
+>     }
+> ```
+> **Descripción:** Un empleado puede tener un carro opcionalmente, pero un carro debe pertenecer a un empleado. La FK `idEmpleado` en CARRO referencia la PK de EMPLEADO.
+
+#### Caso 2: Ambas Entidades Opcionales
+
+> [!info] Regla
+> Se decide cuál es la **clase padre** y cuál la **clase hijo**. La PK del padre se copia al hijo como FK.
+
+> [!example] Caso: Profesor - Despacho
+> ```mermaid
+> erDiagram
+>     PROFESOR |o--o| DESPACHO : "idProfesor = idProfesor"
+>     PROFESOR {
+>         int idProfesor PK
+>         string nombre
+>     }
+>     DESPACHO {
+>         int numero PK
+>         string ubicacion
+>         int idProfesor FK
+>     }
+> ```
+> 
+> **Descripción:** Tanto profesor como despacho son opcionales. Se elige PROFESOR como padre y se propaga su PK a DESPACHO como FK.
+
+#### Caso 3: Ambas Entidades Obligatorias
+
+> [!info] Regla  
+> Se pueden **unificar en una sola tabla** y se puede elegir como PK a cualquiera de las entidades originales.
+
+> [!example] Caso: Usuario - Credencial
+> ```mermaid
+> erDiagram
+>     USUARIO     ||--|| CREDENCIAL : "tiene"
+> 
+>     USUARIO {
+>         int idUsuario PK
+>         string nombre
+>         string apellido
+>     }
+> 
+>     CREDENCIAL {
+>         int idCredencial PK
+>         string username
+>         string passwordHash
+>     }
+> 
+>     USUARIO_CREDENCIAL {
+>         int idUsuario PK
+>         int idCredencial
+>         string nombre
+>         string apellido
+>         string username
+>         string passwordHash
+>     }
+> ```
+> 
+> **Descripción:** USUARIO y CREDENCIAL forman una relación 1:1 obligatoria. Ambos deben existir y corresponderse.  
+> Se unifican en la tabla **USUARIO_CREDENCIAL**, que incluye todos los atributos.  
+> En este caso se eligió **idUsuario** como PK de la tabla unificada (pero podría elegirse idCredencial si se desea).
+
 
 ### 3.2 Relaciones 1:M (Uno a Muchos)
 
-> [!success] Patrón Estándar
-> - La entidad del lado "1" es el **padre**
-> - La entidad del lado "M" es el **hijo**
-> - Se copia la **PK del padre** como **FK en el hijo**
+> [!success] Regla General
+> La **PK del lado "1"** se propaga como **FK al lado "M"**, independientemente de la obligatoriedad.
 
-> [!example] Empleado - Departamento
-> 
-> ```sql
-> DEPARTAMENTO (idDepartamento PK, Nombre)
-> EMPLEADO (idEmpleado PK, Nombre, idDepartamento FK)
+> [!example] Caso: Departamento - Empleado
+> ```mermaid
+> erDiagram
+>     DEPARTAMENTO ||--o{ EMPLEADO : "idDepartamento = idDepartamento"
+>     DEPARTAMENTO {
+>         int idDepartamento PK
+>         string nombre
+>     }
+>     EMPLEADO {
+>         int idEmpleado PK
+>         string nombre
+>         int idDepartamento FK
+>     }
 > ```
+> 
+> **Descripción:** Un departamento puede tener muchos empleados. La PK `idDepartamento` se propaga como FK a la tabla EMPLEADO.
 
 ### 3.3 Relaciones M:M (Muchos a Muchos)
 
-> [!warning] Creación de Tabla Intermedia
-> Las relaciones M:N siempre generan una nueva tabla con las PKs de ambas entidades.
+> [!warning] Regla
+> Siempre se crea una **tabla intermedia** con las PKs de ambas entidades como FKs.
 
-> [!example] Producto - Venta
+> [!example] Caso: Estudiante - Curso
+> ```mermaid
+> erDiagram
+>     ESTUDIANTE ||--o{ MATRICULA : "idEstudiante = idEstudiante"
+>     CURSO      ||--o{ MATRICULA : "idCurso = idCurso"
 > 
-> ```sql
-> PRODUCTO (idProducto PK, Nombre, Precio)
-> VENTA (codigo PK, fecha)
-> DETALLE (idProducto PK/FK, codigo PK/FK, cantidad)
+>     ESTUDIANTE {
+>         int idEstudiante PK
+>         string nombre
+>     }
+> 
+>     CURSO {
+>         int idCurso PK
+>         string nombre
+>     }
+> 
+>     MATRICULA {
+>         int idEstudiante FK
+>         int idCurso FK
+>         date fecha
+>     }
 > ```
+> 
+> **Descripción:** Relación muchos a muchos entre ESTUDIANTE y CURSO. Se crea tabla intermedia MATRICULA con ambas FKs.
 
 ### 3.4 Relaciones Ternarias
 
-> [!info] Tres Entidades Participantes
-> Se crea una tabla que incluye las tres claves primarias más los atributos de la relación.
+> [!info] Regla General
+> Se crea una nueva tabla con las **PK de las tres tablas** como FKs, más los atributos de la relación.
 
-> [!example] Profesor - Materia - Estudiante
-> 
-> ```sql
-> REGISTRO (idProf PK/FK, idMateria PK/FK, Matricula PK/FK, calificación, Hora)
+> [!example] Caso: Empleado - Carro
+> ```mermaid
+> erDiagram
+>     PROFESOR ||--o{ REGISTRO : "idProfesor = idProfesor"
+>     MATERIA ||--o{ REGISTRO : "idMateria = idMateria"
+>     ESTUDIANTE ||--o{ REGISTRO : "matricula = matricula"
+>     REGISTRO {
+>         int idProfesor PK,FK
+>         int idMateria PK,FK
+>         int matricula PK,FK
+>         int calificacion
+>     }
+>     PROFESOR {
+> 	    int idProfesor PK
+> 	    string nombre
+>     }
+>     MATERIA {
+> 	    int idMateria PK
+> 	    string nombre
+>     }
+>     ESTUDIANTE {
+> 	    int matricula PK
+> 	    string nombre
+>     }
 > ```
+> 
+> **Descripción:** Relación ternaria entre PROFESOR, MATERIA y ESTUDIANTE. Se crea tabla REGISTRO con las tres FKs como PK compuesta.
 
 ---
 
@@ -122,49 +240,149 @@ cssclasses:
 
 ### 4.1 Relaciones de Dependencia (Entidades Débiles)
 
-> [!warning] Características
-> - La entidad débil no puede existir sin la entidad fuerte
-> - La PK de la entidad débil incluye la PK de la entidad fuerte
+> [!warning] Característica Clave
+> La entidad débil tiene **clave compuesta** que incluye la PK de la entidad fuerte.
 
-> [!example] Edificio - Departamento
-> 
-> ```sql
-> EDIFICIO (idEdificio PK, Nombre, Direccion)
-> DEPARTAMENTO (idEdificio PK/FK, hab_num PK, Piso)
+> [!example] Caso: Departamento - Edificio
+> ```mermaid
+> erDiagram
+>     EDIFICIO ||--o{ DEPARTAMENTO : "idEdificio = idEdificio"
+>     EDIFICIO {
+>         int idEdificio PK
+>         string nombre
+>     }
+>     DEPARTAMENTO {
+>         int idEdificio PK,FK
+>         int hab_num PK
+>         string piso
+>     }
 > ```
+> 
+> **Descripción:** DEPARTAMENTO es entidad débil de EDIFICIO. Su PK es compuesta: `(idEdificio, hab_num)`.
 
 ### 4.2 Relaciones Recursivas
 
-> [!info] Autoreferencia
-> La misma entidad participa en diferentes roles, usando una FK que referencia su propia PK.
+#### Relación Recursiva 1:1
 
-> [!example] Empleado supervisa Empleado
-> 
-> ```sql
-> EMPLEADO (idEmpleado PK, Nombre, idSupervisor FK)
-> -- idSupervisor referencia idEmpleado en la misma tabla
+> [!example] Caso: Empleado - Empleado
+> ```mermaid
+> erDiagram
+>     EMPLEADO ||--o| EMPLEADO : "suplente"
+>     EMPLEADO {
+>         int idEmpleado PK
+>         string nombre
+>         int idSuplente FK
+>     }
 > ```
-
-### 4.3 Supertipo - Subtipo
-
-> [!success] Patrones de Herencia
-> Diferentes estrategias según la obligatoriedad y exclusividad:
-
-| Tipo | Obligatorio | Exclusivo | Implementación                                          |
-| ---- | ----------- | --------- | ------------------------------------------------------- |
-| (a)  | Sí          | Solapado  | Tabla principal + flags + tablas específicas            |
-| (b)  | Sí          | Disjunto  | Tabla única con tipo y atributos opcionales             |
-| (c)  | No          | Disjunto  | Tabla principal + tablas específicas opcionales         |
-| (d)  | No          | Solapado  | Tabla principal + flags + tablas específicas opcionales |
-
-> [!example] Empleado - Vendedor/Técnico
 > 
-> ```sql
-> -- Opción (a): {obligatorio, solapado}
-> EMPLEADO (idEmp PK, Nombre, esVendedor, esTecnico)
-> VENDEDOR (idEmp PK/FK, numVentas)
-> TECNICO (idEmp PK/FK, licencia)
+> **Descripción:** Un empleado puede ser suplente de otro empleado. FK `idSuplente` referencia PK `idEmpleado` en la misma tabla.
+
+#### Relación Recursiva 1:M
+
+> [!example] Caso: Empleado - Empleado
+> ```mermaid
+> erDiagram
+>     EMPLEADO ||--o{ EMPLEADO : "supervisa"
+>     EMPLEADO {
+>         int idEmpleado PK
+>         string nombre
+>         int idSupervisor FK
+>     }
 > ```
+> 
+> **Descripción:** Un empleado puede supervisar a muchos empleados. FK `idSupervisor` referencia PK `idEmpleado`.
+
+#### Relación Recursiva M:M
+
+> [!example] Caso: Empleado - Empleado
+> ```mermaid
+> erDiagram
+>     EMPLEADO }o--o{ COLABORACION : "idEmpleado = idEmpleado1, idEmpleado = idEmpleado2"
+>     EMPLEADO {
+>         int idEmpleado PK
+>         string nombre
+>     }
+>     COLABORACION {
+>         int idEmpleado1 PK,FK
+>         int idEmpleado2 PK,FK
+>     }
+> ```
+> 
+> **Descripción:** Empleados pueden colaborar entre sí. Se crea tabla intermedia COLABORACION.
+
+### 4.3 Supertipo - Subtipo - Detallado
+
+#### Caso (a): Obligatorio - Solapado
+
+> [!example] Caso: 
+> ```mermaid
+> erDiagram
+>     EMPLEADO ||--o| VENDEDOR : "puede_ser"
+>     EMPLEADO ||--o| TECNICO : "puede_ser"
+>     EMPLEADO {
+>         int idEmp PK
+>         string nombre
+>         boolean esVendedor
+>         boolean esTecnico
+>     }
+>     VENDEDOR {
+>         int idEmp PK,FK
+>         int numVentas
+>     }
+>     TECNICO {
+>         int idEmp PK,FK
+>         string licencia
+>     }
+> ```
+> 
+> **Descripción:** Empleado debe ser al menos vendedor o técnico (puede ser ambos). Flags booleanos en tabla padre.
+
+#### Caso (b): Obligatorio - Disjunto
+
+> [!example] Caso: 
+> ```
+> EMPLEADO {idEmp, nombre, tipo NOT NULL}
+> VENDEDOR {idEmp, numVentas}
+> TECNICO {idEmp, licencia}
+> ```
+> 
+> **Descripción:** Empleado debe ser exclusivamente vendedor o técnico. Atributo `tipo` indica el subtipo.
+
+#### Caso (c): Opcional - Disjunto
+
+> [!example] Caso: 
+> ```
+> EMPLEADO {idEmp, nombre, tipo NULL}
+> VENDEDOR {idEmp, numVentas}
+> TECNICO {idEmp, licencia}
+> ```
+> 
+> **Descripción:** Empleado puede ser vendedor, técnico o solo empleado base. `tipo` puede ser NULL.
+
+#### Caso (d): Opcional - Solapado
+
+> [!example] Caso: 
+> ```mermaid
+> erDiagram
+>     EMPLEADO ||--o| VENDEDOR : "puede_ser"
+>     EMPLEADO ||--o| TECNICO : "puede_ser"
+>     EMPLEADO {
+>         int idEmp PK
+>         string nombre
+>         boolean esVendedor
+>         boolean esTecnico
+>     }
+>     VENDEDOR {
+>         int idEmp PK,FK
+>         int numVentas
+>     }
+>     TECNICO {
+>         int idEmp PK,FK
+>         string licencia
+>     }
+> ```
+> 
+> **Descripción:** Empleado puede ser vendedor, técnico, ambos, o ninguno. Flags booleanos permiten todas las combinaciones.
 
 ---
 
@@ -175,86 +393,45 @@ cssclasses:
 > [!quote] Propósito
 > "La normalización evita la redundancia de datos, problemas de actualización y protege la integridad de los datos."
 
-> [!info] Formas Normales
+### 5.2 Formas Normales
 
 | Forma Normal | Descripción                         | Base                       |
 | ------------ | ----------------------------------- | -------------------------- |
 | 1FN          | Atributos atómicos, clave primaria  | Estructura básica          |
 | 2FN          | Dependencia completa de la clave    | Claves compuestas          |
 | 3FN          | Eliminar dependencias transitivas   | Dependencias funcionales   |
-| FNBC         | Versión reforzada de 3FN            | Dependencias funcionales   |
-| 4FN          | Eliminar dependencias multivaluadas | Dependencias multivaluadas |
-| 5FN          | Eliminar dependencias de reunión    | Dependencias de reunión    |
-
-### 5.2 Dependencias Funcionales
-
-> [!info] Concepto Fundamental
-> - **Notación**: A → B (A determina B)
-> - **Determinante**: Atributo(s) en el lado izquierdo
-> - **Dependiente**: Atributo(s) en el lado derecho
-
-> [!example] Ejemplo: CLIENTE
-> 
-> ```
-> Número_cliente → Nombre
-> Número_cliente → Teléfono
-> Número_cliente → Fecha_Nacimiento
-> Fecha_Nacimiento → Edad  (dependencia transitiva)
-> ```
 
 ### 5.3 Primera Forma Normal (1FN)
 
 > [!success] Requisitos
-> 1. Todos los atributos son **atómicos**
-> 2. Existe una **clave primaria única**
-> 3. No hay atributos nulos en la PK
-> 4. Número constante de columnas
-> 5. Campos no clave dependen funcionalmente de la clave
-> 6. Independencia del orden de filas y columnas
-
-> [!example] Corrección de Multivalores
+> - Atributos atómicos
+> - Clave primaria única
+> - Sin grupos repetitivos
 
 | ❌ Antes (No 1FN)                 | ✅ Después (1FN)                  |
 | --------------------------------- | --------------------------------- |
-| `Cliente (ID, Nombre, Teléfonos)` | `Cliente (ID, Nombre)`            |
-| `123, Juan, 555-111, 555-222`     | `Telefono (ID_Cliente, Telefono)` |
+| `Cliente {ID, Nombre, Teléfonos}` | `Cliente {ID, Nombre}`            |
+|                                   | `Telefono {ID_Cliente, Telefono}` |
 
 ### 5.4 Segunda Forma Normal (2FN)
 
-> [!warning] Aplicación
-> Solo para tablas con **claves compuestas**. Todos los atributos no clave deben depender de **toda la clave**.
-
-> [!example] Ejemplo: Habilidades de Empleados
+> [!warning] Solo para claves compuestas
+> Atributos no clave deben depender de **toda la clave**
 
 | ❌ No 2FN                               | ✅ 2FN                                       |
 | --------------------------------------- | -------------------------------------------- |
-| `(Empleado, Habilidad) → LugarTrabajo`  | `Empleado → LugarTrabajo`                    |
-| `LugarTrabajo depende solo de Empleado` | `(Empleado, Habilidad) → [sin LugarTrabajo]` |
+| `EmpleadoHabilidad {Empleado, Habilidad, LugarTrabajo}` | `Empleado {Empleado, LugarTrabajo}` |
+|                                         | `Habilidad {Empleado, Habilidad}`            |
 
 ### 5.5 Tercera Forma Normal (3FN)
 
-> [!danger] Dependencias Transitivas
-> Eliminar dependencias donde un atributo no clave depende de otro atributo no clave.
-
-> [!example] Ejemplo: Ganadores de Torneo
+> [!danger] Eliminar dependencias transitivas
+> Atributos no clave no deben depender de otros atributos no clave
 
 | ❌ No 3FN                                   | ✅ 3FN                      |
 | ------------------------------------------- | --------------------------- |
-| `(Torneo, Año) → Ganador → FechaNacimiento` | `(Torneo, Año) → Ganador`   |
-| `FechaNacimiento transitiva`                | `Ganador → FechaNacimiento` |
-
-> [!bug] Fórmula de Dependencia Transitiva
-> $$
-> X \rightarrow Y \land Y \rightarrow Z \Rightarrow X \rightarrow Z
-> $$
-
-### 5.6 Consideraciones Prácticas
-
-> [!tip] ¿Hasta dónde normalizar?
-> - La normalización es una **ciencia subjetiva**
-> - Considerar el **propósito** y **escala** de la base de datos
-> - Balancear entre **normalización** y **rendimiento**
-> - Las formas superiores (4FN, 5FN) son para casos muy específicos
+| `Torneo {Torneo, Año, Ganador, FechaNacimiento}` | `Torneo {Torneo, Año, Ganador}` |
+|                                             | `Ganador {Ganador, FechaNacimiento}` |
 
 ---
 
@@ -272,10 +449,9 @@ cssclasses:
 
 > [!example] Normalización Paso a Paso
 > 
-> ```sql
-> -- Tabla inicial no normalizada
-> PEDIDO (NumPedido, Fecha, Cliente, Direccion, 
->         ProductoID, DescProducto, Categoria, Precio, Cantidad)
+> ```
+> PEDIDO {NumPedido, Fecha, Cliente, Direccion, ProductoID, DescProducto, Categoria, Precio, Cantidad}
 > ```
 > 
 > Aplicar 1FN, 2FN y 3FN sucesivamente.
+

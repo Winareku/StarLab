@@ -8,185 +8,142 @@ cssclasses:
   - embed-auto
 ---
 
-# Proyecto Final: Predicción de Uso de CPU/RAM en Función de Aplicaciones Activas
+# Proyecto de Estadística: Estimación del Tiempo de Ejecución de un Algoritmo según el Tamaño de Datos
 
-> Grupo 09
+## Avance del Proyecto - Hasta Análisis Bivariado e Inferencial
 
----
-
-## 1. Planteamiento del Problema
-
-> [!info] Información clave
-> Proyecto predictivo que relaciona aplicaciones activas (variables independientes X) con el consumo de CPU/RAM (variable dependiente Y).
-
-### Descripción del Problema
-- **Tema**: Predicción de uso de recursos del sistema (CPU/RAM)
-- **Población objetivo**: Sistemas computacionales con múltiples aplicaciones ejecutándose
-- **Variable dependiente (Y)**: Uso de CPU (%) y RAM (%)
-- **Variables independientes (X)**: Aplicaciones activas, tiempo de ejecución, tipo de aplicación
-
-### Objetivos
-- Predecir el consumo de recursos del sistema basado en aplicaciones activas
-- Identificar qué aplicaciones tienen mayor impacto en el rendimiento
-- Optimizar la asignación de recursos del sistema
-
-> [!example] Ejemplo práctico
-> Un sistema con Chrome (10 pestañas), Photoshop y VS Code abiertos simultáneamente - predecir el consumo total de CPU y RAM.
+> [!info] Estado Actual
+> Este documento contiene el avance del proyecto hasta la etapa de análisis bivariado e inferencial, correspondiente a las semanas 1-7 del cronograma.
 
 ---
 
-## 2. Cronograma del Proyecto
+## CONTENIDO DEL REPORTE ESCRITO
 
-| Etapa                                   | Descripción                                                   | Semanas | Estado         |
-| --------------------------------------- | ------------------------------------------------------------- | ------- | -------------- |
-| **Planteamiento del problema**          | Formular pregunta predictiva, identificar variables X e Y     | 1-2     | ✅ Completado  |
-| **Recolección y construcción de datos** | Definir fuentes, asegurar calidad, documentar obtención       | 2-4     | 🔄 En progreso |
-| **Análisis exploratorio y descriptivo** | Estadísticos básicos, gráficos, detección de valores atípicos | 4-5     | ⏳ Pendiente   |
-| **Análisis bivariado e inferencial**    | Relaciones entre variables, matriz de correlación             | 6-7     | ⏳ Pendiente   |
-| **Construcción del modelo predictivo**  | Selección y ajuste del modelo, verificación de supuestos      | 9-11    | ⏳ Pendiente   |
-| **Evaluación y validación**             | Medidas de ajuste, interpretación de coeficientes             | 12-13   | ⏳ Pendiente   |
-| **Presentación de resultados**          | Informe escrito y presentación oral                           | 14-15   | ⏳ Pendiente   |
+### 1. Resumen
 
-> [!warning] Punto importante
-> Dividir datos en entrenamiento y prueba para validación del modelo predictivo.
+> [!info] Límite: 800 caracteres
+> *Por completar en la siguiente iteración - Se llenará cuando tengamos los resultados finales*
 
----
+### 2. Introducción
 
-## 3. Metodología y Estructura del Reporte
+**Objetivo General:**  
+Predecir el tiempo de ejecución de un algoritmo de ordenación en función del tamaño de los datos de entrada.
 
-### 3.1 Estructura del Documento Escrito
+**Justificación:**  
+En ingeniería de software, predecir tiempos de ejecución es crucial para:
+- Seleccionar algoritmos eficientes según el volumen de datos
+- Planificar capacidad de sistemas y recursos computacionales
+- Optimizar el rendimiento de aplicaciones que procesan grandes volúmenes de información
 
-> [!info] Instrucciones para el reporte
-> Extensión máxima: 8 páginas | Formato: Word | Decimales: máximo 2
+**Pregunta de investigación:**  
+¿Cómo se relaciona el tamaño de los datos de entrada (número de elementos) con el tiempo de ejecución de un algoritmo de ordenación?
 
-#### Secciones Requeridas:
+### 3. Descripción del Problema
 
-1. **Portada**
-   - Título del trabajo
-   - Institución (ESPOL, FCNM)
-   - Nombres de autores (Grupo 09)
-   - Correos electrónicos
-   - Profesor: Fernando Sandoya, PhD.
-   - Ciudad, país, mes y año
+**Población objetivo:**  
+Arrays de diferentes tamaños (desde 1,000 hasta 4,000,000 elementos) con datos de punto flotante.
 
-2. **Resumen** (máximo 800 caracteres)
-3. **Introducción**
-   - Descripción del proyecto
-   - Objetivos generales
-   - Justificación
+**Fuentes de datos:**  
+Benchmark Dataset for Sorting Algorithms (Sahin Emrah AMRAHOV et al., Future Generation Computer Systems)
 
-4. **Descripción del Problema**
-   - Población objetivo
-   - Fuentes de datos
-   - Variables analizadas (tipo y soporte)
+**Variables analizadas:**
 
-1. **Metodología** (No escribir en detalle la teoría)
-   - Técnicas y métodos utilizados
-   - Recursos y modelos
+| Variable              | Tipo                  | Soporte                      | Descripción                           |
+| --------------------- | --------------------- | ---------------------------- | ------------------------------------- |
+| Tamaño del array      | Cuantitativa discreta | 1,000 - 4,000,000 elementos  | Número de elementos en el array       |
+| Tiempo de ejecución   | Cuantitativa continua | Segundos o milisegundos      | Tiempo que toma ordenar el array      |
+| Algoritmo             | Cualitativa           | {QuickSort, MergeSort, etc.} | Algoritmo de ordenación utilizado     |
+| Distribución de datos | Cualitativa           | {Uniforme, Normal}           | Distribución estadística de los datos |
 
-6. **Estadística Descriptiva**
-   ```python
-   # Ejemplo de análisis esperado
-   - Tablas de frecuencia (variables cualitativas)
-   - Histogramas, diagramas de caja (variables cuantitativas)
-   - Medidas de tendencia central y dispersión
-   ```
+### 4. Metodología
 
-7. **Estadística Inferencial**
-   - Intervalos de confianza
-   - Pruebas de hipótesis
-   - Regresión lineal
+**Técnicas y métodos utilizados:**
 
-8. **Conclusiones**
-9. **Referencias** (formato APA 7)
-10. **Anexos**
+| Técnica                     | Propósito                                                         |
+| --------------------------- | ----------------------------------------------------------------- |
+| **Estadística descriptiva** | Caracterizar el comportamiento de las variables individualmente   |
+| **Análisis exploratorio**   | Identificar patrones, valores atípicos y relaciones preliminares  |
+| **Correlación de Pearson**  | Medir la relación lineal entre tamaño y tiempo de ejecución       |
+| **Pruebas de hipótesis**    | Verificar significancia estadística de las relaciones encontradas |
 
-> [!success] Buenas prácticas
-> Incluir llamado explícito a tablas y gráficos: "En la Tabla 2.10 se aprecia..."
+**Recursos:**
+- Lenguaje de programación: Python 3.x
+- Librerías: pandas, matplotlib, scipy, numpy
+- Dataset: Benchmark de algoritmos de ordenación
 
----
+### 5. Estadística Descriptiva de Datos
 
-## 4. Consideraciones Técnicas
+> [!info] Por completar
+> *Esta sección se llenará con los resultados específicos una vez recopilados los datos*
 
-### 4.1 Recolección de Datos
+**Análisis planificado para cada variable:**
 
-> [!bug] Código de ejemplo
-> ```python
-> # Simulación de recolección de datos
-> import psutil
-> import time
-> 
-> def monitor_resources():
->     cpu_percent = psutil.cpu_percent(interval=1)
->     memory_info = psutil.virtual_memory()
->     active_apps = get_active_applications()
->     return {
->         'timestamp': time.time(),
->         'cpu_usage': cpu_percent,
->         'ram_usage': memory_info.percent,
->         'active_apps': active_apps
->     }
-> ```
+**Variable: Tamaño del array**
+- Medidas de tendencia central: media, mediana
+- Medidas de dispersión: desviación estándar, rango
+- Gráficos: histograma, diagrama de caja
 
-### 4.2 Análisis Estadístico
+**Variable: Tiempo de ejecución**
+- Medidas de tendencia central: media, mediana
+- Medidas de dispersión: desviación estándar, rango intercuartílico
+- Gráficos: histograma, diagrama de caja
 
-> [!info] Enfoque analítico
-> - **Variables cualitativas**: Aplicaciones activas (categóricas)
-> - **Variables cuantitativas**: Uso de CPU (%), Uso de RAM (%)
-> - **Análisis bivariado**: Correlación entre aplicaciones y consumo
-> - **Modelo predictivo**: Regresión lineal múltiple
+**Gráficos bivariados planificados:**
+- Diagrama de dispersión: Tiempo vs. Tamaño
+- Línea de tendencia para visualizar relación
 
-> [!quote] Definición estadística
-> "La regresión lineal múltiple permite modelar la relación entre varias variables independientes y una variable dependiente continua."
+### 6. Estadística Inferencial
 
----
+**Análisis de correlación planificado:**
 
-## 5. Evaluación y Rúbrica
+**Hipótesis:**
+- **H₀:** ρ = 0 (No existe correlación lineal entre tamaño y tiempo)
+- **H₁:** ρ ≠ 0 (Existe correlación lineal entre tamaño y tiempo)
+- **Nivel de significancia:** α = 0.05
 
-### 5.1 Componentes de Calificación
+**Método:** Correlación de Pearson
 
-| Componente               | % Nota Práctica | % Nota Final Curso |
-| ------------------------ | --------------- | ------------------ |
-| Talleres aplicados       | 30%             | 9%                 |
-| Avances del proyecto     | 20%             | 6%                 |
-| Informe técnico final    | 30%             | 9%                 |
-| Presentación oral grupal | 20%             | 6%                 |
-| **TOTAL**                | **100%**        | **30%**            |
+**Matriz de correlación a obtener:**
 
-### 5.2 Presentación Oral
-- **Duración máxima**: 15 minutos
-- **Fecha**: Última semana de clases
-- **Enfoque**: Simular presentación a "cliente" o "jefe de ingeniería"
+| Variable | Tamaño | Tiempo |
+| -------- | ------ | ------ |
+| Tamaño   | 1.00   | [r]    |
+| Tiempo   | [r]    | 1.00   |
 
-> [!warning] Aspectos críticos
-> - El proyecto debe estar completamente terminado para ser calificado
-> - Propiedad y claridad en expresiones matemáticas y conceptos estadísticos
-> - Validez de resultados y coherencia de conclusiones
+> [!info] Interpretación esperada
+> Se espera encontrar una correlación positiva fuerte (r > 0.7) y estadísticamente significativa (p < 0.05) entre el tamaño del array y el tiempo de ejecución.
+
+### 7. Plan de Recolección de Datos
+
+**Bitácora de experimentación:**
+```
+Fecha: [Fecha de ejecución]
+Algoritmo: [QuickSort/MergeSort/Etc.]
+Lenguaje: Python 3.x
+Hardware: [Especificaciones del equipo]
+Condiciones: [Carga del sistema, etc.]
+
+Ejemplo de registro:
+- Tamaño: 1000 elementos
+  • Ejecución 1: 0.045s
+  • Ejecución 2: 0.043s
+  • Ejecución 3: 0.047s
+  • Promedio: 0.045s
+```
+
+### 8. Próximos Pasos
+
+**Para completar en siguientes iteraciones:**
+- [ ] Ejecutar experimentos y recopilar datos
+- [ ] Realizar análisis descriptivo completo
+- [ ] Calcular matriz de correlación
+- [ ] Realizar pruebas de hipótesis
+- [ ] Interpretar resultados y redactar conclusiones
+
+> [!success] Cronograma en progreso
+> Actualmente nos encontramos en la etapa de análisis bivariado e inferencial (semanas 6-7). Las etapas completadas incluyen planteamiento del problema y planificación de recolección de datos.
 
 ---
 
-## 6. Bitácora del Proyecto
-
-> [!note] Diario de recolección (Requerimiento)
-> Justificar decisiones tomadas durante la recolección y procesamiento de datos.
-
-**Entradas de bitácora:**
-- Fuentes de datos seleccionadas y justificación
-- Decisiones sobre limpieza y transformación de datos
-- Criterios para manejo de valores atípicos
-- Selección de variables para el modelo final
-
----
-
-## 7. Formatos y Convenciones
-
-### 7.1 Encabezado y Pie de Página
-- **Encabezado**: Nombres de autores + Título del trabajo
-- **Pie de página**: "Proyecto de estadística" + Número de página
-
-### 7.2 Precisión Numérica
-- Todos los resultados con máximo 2 decimales
-- Coherencia en unidades de medida
-
-> [!success] Recomendación final
-> Mantener enfoque práctico y orientado a decisiones de ingeniería, simulando escenarios reales de optimización de recursos.
+> [!note] Nota sobre formato final
+> Este documento servirá como base para el reporte final en Word, manteniendo la estructura requerida pero adaptándose a las especificaciones de formato de la guía.

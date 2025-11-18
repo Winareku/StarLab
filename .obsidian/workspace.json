@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dce0444db01c0ec3",
+        "id": "29d8510e37d23d20",
         "type": "tabs",
         "children": [
           {
-            "id": "e502402d2e365667",
+            "id": "37185970d4fbc10e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "🗃️SBD 📝NOT 02 Modelo Lógico y Normalización"
-            }
-          },
-          {
-            "id": "5385c43489dc36de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "Untitled 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Untitled 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,13 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md",
+                "file": "Untitled 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Untitled 2"
             }
           },
           {
@@ -248,43 +233,43 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "Untitled.md",
-    "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
-    "10 - Videos/ABSTRACT FACTORY ｜ PATRONES de DISEÑO [CVlpjFJN17U].webm",
-    "10 - Videos/Convertir Modelo Conceptual a Modelo Logico.mkv",
-    "10 - Videos/Clase Virtual SBD.mkv",
-    "10 - Videos/Conceptos básicos - Unidad I.mkv",
-    "10 - Videos/Conceptos básicos del Modelo Entidad - Relación.mkv",
-    "10 - Videos/Elaboración del Diagrama Entidad - Relación.mkv",
-    "10 - Videos/Componentes del Modelo Relacional.mkv",
-    "10 - Videos/Restricciones de integridad en una base de datos.mkv",
-    "10 - Videos/Normalización de bases de datos.webm",
-    "10 - Videos/Lenguaje SQL en las bases de datos relacionales.mkv",
-    "Entrevista.md",
-    "02 - Notes/📦DSW 📝NOT 05 Patrones de Diseño Creacionales.md",
-    "02 - Notes/📦DSW 📝NOT 03 Principios SOLID.md",
-    "02 - Notes/📦DSW 📝NOT 06 Patrones de Diseño Estructurales.md",
+    "Untitled 1.md",
+    "Sbdd.md",
     "Guía de Estudio.md",
-    "02 - Notes/📦DSW 📝NOT 05 Web Patrones de Diseño Creacionales.md",
-    "02 - Notes/📦DSW 📝NOT 04 Lenguaje Unificado de Modelado.md",
-    "02 - Notes/📦DSW 📝NOT 02 Paradigmas de Diseño.md",
-    "02 - Notes/📦DSW 📝NOT 01 Diseño de Software.md",
-    "02 - Notes/🎨IHC 📝NOT 04 Generación de Ideas.md",
-    "02 - Notes/🎨IHC 📝NOT 03 Concepto y Principios de Diseño.md",
-    "02 - Notes/🎨IHC 📝NOT 02 Diseño Centrado en las Personas.md",
-    "02 - Notes/🎨IHC 📝NOT 01 Usabilidad, UX, UI, IxD.md",
-    "02 - Notes/Notas de SBD.md",
-    "99 - Meta/attachments/Pasted image 20251111071618.png",
+    "Entrevista.md",
+    "Examen Practico de Ejemplo.pdf",
+    "02 - Notes/🗃️SBD 📝NOT 05 Repaso.md",
+    "99 - Meta/attachments/Pasted image 20251118022740.png",
+    "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
     "02 - Notes/🗃️SBD 📝NOT 03 Álgebra Relacional.md",
-    "01 - AI-Template.md",
-    "02 - Notes/🗃️SBD 📝NOT 103 Modelo Conceptual a Modelo Lógico.md",
-    "02 - Notes/🗃️SBD 📝NOT 102 Diseño Lógico y Normalización.md",
+    "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
     "02 - Notes/🗃️SBD 📝NOT 01 Modelo Conceptual de Datos.md",
+    "05 - Resources/🗃️SBD 🏫MPR 02 Normalización.pdf",
+    "05 - Resources/🗃️SBD 🏫MPR 03 Álgebra Relacional.pdf",
+    "05 - Resources/🗃️SBD 🏫MPR 04 SQL.pdf",
+    "05 - Resources/💾EDD 🧠EXA Solución Lección 01.md",
+    "05 - Resources/🗃️SBD 🏫MPR 07 Data Warehouse.pdf",
+    "05 - Resources/💾EDD 🏫MPR 04 Notación BigO.pdf",
+    "01 - Daily/20251118.md",
+    "05 - Resources/🗃️SBD 🏫MPR 02 Modelo Conceptual a Modelo Lógico.pdf",
+    "02 - Notes/🎨IHC 📝NOT 05 Repaso Primer Parcial.md",
+    "02 - Notes/🗃️SBD 📝NOT 103 Modelo Conceptual a Modelo Lógico.md",
+    "02 - Notes/🗃️SBD 📝NOT 102 Modelo Lógico y Normalización.md",
+    "02 - Notes/🗃️SBD 📝NOT 102 Diseño Lógico y Normalización.md",
     "02 - Notes/🗃️SBD 📝NOT 101 Modelo Conceptual de Datos.md",
-    "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
-    "02 - Notes/🗃️SBD 📝NOT 104 Lenguaje de Consulta Estructurada.md",
-    "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
-    "01 - Daily/20251111.md",
+    "05 - Resources/🗃️SBD 🏫MPR 01 Modelamiento de Datos.pdf",
+    "Untitled 2.md",
+    "01 - Daily/20251124.md",
+    "01 - Daily/20251119.md",
+    "01 - Daily/20251120.md",
+    "02 - Notes/🎨IHC 📝NOT 04 Generación de Ideas.md",
+    "03 - Homework/📊EST 🚀PRO G9.md",
+    "01 - Daily/20251117.md",
+    "01 - Daily/20251121.md",
+    "01 - Daily/20251130.md",
+    "05 - Resources/📊EST 🏫MPR 03 Variables Aleatorias.pdf",
+    "03 - Homework/📊EST 🚀PRO G9 Guia.pdf",
+    "99 - Meta/attachments/Pasted image 20251111071618.png",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 02.png",
@@ -292,7 +277,6 @@
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 04.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 05.png",
     "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
-    "99 - Meta/attachments/Evidencia_021.png",
-    "07 - Stuff/🔰MISC Wallpaper GruvGreen.png"
+    "99 - Meta/attachments/Evidencia_021.png"
   ]
 }
