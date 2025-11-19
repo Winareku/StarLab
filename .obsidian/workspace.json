@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "61d7d6b2853ba535",
+        "id": "367f36465d05a081",
         "type": "tabs",
         "children": [
           {
-            "id": "6e0919461aef74bb",
+            "id": "f6a4dac0ae4e5ca1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251118.md",
+                "file": "02 - Notes/💾EDD 📝NOT 12 Repaso Primer Parcial.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "20251118"
+              "title": "💾EDD 📝NOT 12 Repaso Primer Parcial"
             }
           }
         ]
@@ -40,13 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Daily/20251118.md",
+                "file": "02 - Notes/💾EDD 📝NOT 12 Repaso Primer Parcial.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20251118"
+              "title": "Outline of 💾EDD 📝NOT 12 Repaso Primer Parcial"
             }
           },
           {
@@ -233,50 +233,51 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Sbdd.md",
-    "Guía de Estudio.md",
-    "Entrevista.md",
+    "02 - Notes/💾EDD 📝NOT 05 ArrayList vs LinkedList en Java.md",
+    "02 - Notes/💾EDD 📝NOT 12 Repaso Primer Parcial.md",
+    "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
+    "02 - Notes/💾EDD 📝NOT 03 Recursividad.md",
+    "02 - Notes/💾EDD 📝NOT 02 Java Generics.md",
+    "02 - Notes/💾EDD 📝NOT 01 Tipos de Datos.md",
+    "02 - Notes/💾EDD 📝NOT 10 TDA Cola.md",
+    "02 - Notes/💾EDD 📝NOT 11 TDA Diccionario.md",
+    "02 - Notes/💾EDD 📝NOT 08 Comparadores.md",
+    "02 - Notes/💾EDD 📝NOT 09 TDA Pila.md",
+    "08 - Presents/MPR/💾EDD 🏫MPR 13 Conjuntos Y Mapas.pdf",
+    "08 - Presents/MPR/Conjuntos Y Mapas.pdf",
+    "08 - Presents/MPR/input.pdf",
+    "03 - Homework/📊EST 🚀PRO G9 Resultados.csv",
+    "03 - Homework/📊EST 🚀PRO G9.xlsx",
+    "07 - Stuff/🎨IHC 🚀PRO PoliSales-NoBG.png",
+    "07 - Stuff/🎨IHC 🚀PRO PoliSales.png",
+    "03 - Homework/🎨IHC 🚀PRO PoliSales.html",
+    "02 - Notes/💾EDD 📝NOT 07 Iteradores.md",
+    "02 - Notes/📊EST 📝NOT 01 Estadística Descriptiva.md",
+    "02 - Notes/💾EDD 📝NOT 06 Listas en Java.md",
+    "05 - Resources/💾EDD 🏫MPR 05 Resumen Listas.pdf",
+    "05 - Resources/07_ResumenListas.pdf",
+    "03 - Homework/💾EDD 📝TAR 04.md",
+    "03 - Homework/💾EDD 📝TAR 01.md",
+    "03 - Homework/📊EST 🚀PRO G9 Cronograma.pdf",
+    "03 - Homework/🎨IHC 🚀PRO Entrevista 3.md",
+    "03 - Homework/🎨IHC 🚀PRO Entrevista 2.md",
+    "03 - Homework/🎨IHC 📝TAR 08 Replantear el Concepto de Diseño.md",
     "Examen Practico de Ejemplo.pdf",
+    "Guía de Estudio.md",
+    "Untitled 2.md",
+    "Sbdd.md",
+    "02 - Notes/Notas de SBD.md",
+    "01 - Daily/20251118.md",
+    "Untitled 1.md",
     "02 - Notes/🗃️SBD 📝NOT 05 Repaso.md",
     "99 - Meta/attachments/Pasted image 20251118022740.png",
     "02 - Notes/🗃️SBD 📝NOT 02 Modelo Lógico y Normalización.md",
-    "02 - Notes/🗃️SBD 📝NOT 03 Álgebra Relacional.md",
-    "02 - Notes/🗃️SBD 📝NOT 04 Lenguaje de Consulta Estructurada.md",
-    "02 - Notes/🗃️SBD 📝NOT 01 Modelo Conceptual de Datos.md",
-    "05 - Resources/🗃️SBD 🏫MPR 02 Normalización.pdf",
-    "05 - Resources/🗃️SBD 🏫MPR 03 Álgebra Relacional.pdf",
-    "05 - Resources/🗃️SBD 🏫MPR 04 SQL.pdf",
-    "05 - Resources/💾EDD 🧠EXA Solución Lección 01.md",
-    "05 - Resources/🗃️SBD 🏫MPR 07 Data Warehouse.pdf",
-    "05 - Resources/💾EDD 🏫MPR 04 Notación BigO.pdf",
-    "01 - Daily/20251118.md",
-    "05 - Resources/🗃️SBD 🏫MPR 02 Modelo Conceptual a Modelo Lógico.pdf",
-    "02 - Notes/🎨IHC 📝NOT 05 Repaso Primer Parcial.md",
-    "02 - Notes/🗃️SBD 📝NOT 103 Modelo Conceptual a Modelo Lógico.md",
-    "02 - Notes/🗃️SBD 📝NOT 102 Modelo Lógico y Normalización.md",
-    "02 - Notes/🗃️SBD 📝NOT 102 Diseño Lógico y Normalización.md",
-    "02 - Notes/🗃️SBD 📝NOT 101 Modelo Conceptual de Datos.md",
-    "05 - Resources/🗃️SBD 🏫MPR 01 Modelamiento de Datos.pdf",
-    "01 - Daily/20251124.md",
-    "01 - Daily/20251119.md",
-    "01 - Daily/20251120.md",
-    "02 - Notes/🎨IHC 📝NOT 04 Generación de Ideas.md",
-    "03 - Homework/📊EST 🚀PRO G9.md",
-    "01 - Daily/20251117.md",
-    "01 - Daily/20251121.md",
-    "01 - Daily/20251130.md",
-    "05 - Resources/📊EST 🏫MPR 03 Variables Aleatorias.pdf",
-    "03 - Homework/📊EST 🚀PRO G9 Guia.pdf",
     "99 - Meta/attachments/Pasted image 20251111071618.png",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 01.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 02.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 03.png",
     "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 04.png",
-    "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 05.png",
-    "99 - Meta/attachments/📦DSW 📝NOT 04 UML - Image 01.png",
-    "99 - Meta/attachments/Evidencia_021.png"
+    "99 - Meta/attachments/📊EST 📝NOT 01 Estadística Descriptiva - Image 05.png"
   ]
 }
