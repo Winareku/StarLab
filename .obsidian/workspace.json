@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1c09dadf61d4ce42",
+        "id": "9a056066a857b922",
         "type": "tabs",
         "children": [
           {
-            "id": "2e69ba8a7c82b45d",
+            "id": "1b0dc251fac17e25",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 - Resources/📊EST 🏫MPR Examen Ejemplo 01.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "📊EST 🏫MPR Examen Ejemplo 01"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -38,13 +36,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 - Resources/📊EST 🏫MPR Examen Ejemplo 01.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 📊EST 🏫MPR Examen Ejemplo 01"
+              "title": "Outline"
             }
           },
           {
@@ -150,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "0810d8a464ec16c5",
@@ -231,19 +229,23 @@
   },
   "active": "7891667b6e390b6d",
   "lastOpenFiles": [
-    "05 - Resources/📊EST 🏫MPR 04 Distribuciones Muestrales.pdf",
-    "05 - Resources/📊EST 🏫MPR Examen Ejemplo 02.pdf",
-    "05 - Resources/📊EST 🏫MPR Examen Ejemplo 01.pdf",
+    "05 - Resources/📦DSW 🏫MPR 04 Lenguaje Unificado de Modelado.pdf",
+    "05 - Resources/📦DSW 🏫MPR 04 Lenguaje Unificado de Modelado 02.pdf",
+    "05 - Resources/📦DSW 🏫MPR 04 Lenguaje Unificado de Modelado 01.pdf",
+    "05 - Resources/📦DSW 🏫MPR 03 Principios SOLID.pdf",
+    "05 - Resources/📦DSW 🏫MPR 02 Paradigmas de Diseño.pdf",
+    "05 - Resources/📦DSW 🏫MPR 01 Diseño de Software.pdf",
+    "05 - Resources/📦DSW 🏫MPR 05 Patrones de Diseño.pdf",
+    "05 - Resources/📦DSW 🏫MPR 06 Implementación Desde Diseno 02.pdf",
+    "05 - Resources/📦DSW 🏫MPR 06 Implementación Desde Diseno 01.pdf",
+    "05 - Resources/📦DSW 📚LIB 02 Using UML Software Engineering with Objects and Components.pdf",
     "05 - Resources/📦DSW 🏫MPR 00 Políticas de Curso.pdf",
+    "Notas Proyecto EDD.md",
     "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias ALT 2.md",
-    "05 - Resources/📊EST 🏫MPR 03 Variables Aleatorias.pdf",
     "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias ALT 1.md",
     "02 - Notes/📊EST 📝NOT 03 Variables Aleatorias.md",
     "02 - Notes/📊EST 📝NOT 02 Probabilidad.md",
     "02 - Notes/📊EST 📝NOT 01 Estadística Descriptiva.md",
-    "05 - Resources/📊EST 🏫MPR 01 Estadística Descriptiva.pdf",
-    "05 - Resources/UNIDAD 4 Distribuciones Muestrales.pdf",
-    "05 - Resources/📊EST 🏫MPR 00 Formulario.pdf",
     "02 - Notes/💾EDD 📝NOT 12 Repaso Primer Parcial.md",
     "02 - Notes/💾EDD 📝NOT 05 ArrayList vs LinkedList en Java.md",
     "02 - Notes/💾EDD 📝NOT 04 Complejidades.md",
@@ -254,9 +256,6 @@
     "02 - Notes/💾EDD 📝NOT 11 TDA Diccionario.md",
     "02 - Notes/💾EDD 📝NOT 08 Comparadores.md",
     "02 - Notes/💾EDD 📝NOT 09 TDA Pila.md",
-    "08 - Presents/MPR/💾EDD 🏫MPR 13 Conjuntos Y Mapas.pdf",
-    "08 - Presents/MPR/Conjuntos Y Mapas.pdf",
-    "08 - Presents/MPR/input.pdf",
     "07 - Stuff/🎨IHC 🚀PRO PoliSales-NoBG.png",
     "07 - Stuff/🎨IHC 🚀PRO PoliSales.png",
     "02 - Notes/💾EDD 📝NOT 07 Iteradores.md",
@@ -268,7 +267,6 @@
     "03 - Homework/🎨IHC 📝TAR 08 Replantear el Concepto de Diseño.md",
     "Guía de Estudio.md",
     "Untitled 2.md",
-    "Sbdd.md",
     "99 - Meta/attachments/Pasted image 20251118022740.png",
     "99 - Meta/attachments/Pasted image 20251111071618.png",
     "09 - Drawings/🎨IHC 📝TAR 03 CustomerJourneyMap.excalidraw.png",
