@@ -18,10 +18,13 @@ Estrategias para diseño y evaluación de soluciones tecnológicas centradas en 
 ---
 
 > [!question] Metodología
-> | **Antes de Clase** | - Ver Videos/Lecturas antes de clase (máx. 20 mins)<br>- Responder preguntas sobre Videos/Lecturas (máx. 30 mins) |
-> | ------------------ | ----------------------------------------------------------------------------------------------------------------- |
-> | **Durante Clase**  | Afianzar y aplicar conocimiento en clase avanzando en el proyecto (máx 1.5 horas)                                 |
-> | **Luego de Clase** | Trabajo fuera de clase en el proyecto (máx. 1.5 horas)                                                            |
+
+
+| **Antes de Clase** | - Ver Videos/Lecturas antes de clase (máx. 20 mins)<br>- Responder preguntas sobre Videos/Lecturas (máx. 30 mins) |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| **Durante Clase**  | Afianzar y aplicar conocimiento en clase avanzando en el proyecto (máx 1.5 horas)                                 |
+| **Luego de Clase** | Trabajo fuera de clase en el proyecto (máx. 1.5 horas)                                                            |
+
 ---
 ## Calificación
 > [!success] Primer Parcial
